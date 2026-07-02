@@ -1,11 +1,37 @@
 """Step 2: translate.csv + Game.locres -> VEIN_HUN.pak
 Builds the Hungarian locres (overwriting the game's 'en' slot) and wraps it in a
 small v3 mod pak. Any (ns,key) missing from translate.csv keeps its English text."""
-import os, sys
-import tmem
+import os, sys, shutil
+import tmem, steam
 from locres import parse_locres, build_locres
 from pak import build_pak
 w=tmem.w
+
+def install_pak():
+    """Offer to copy the freshly built pak into the game's Paks folder.
+    The target is derived from the auto-detected game pak (real folder, not a guess)."""
+    game_pak=steam.find_pak(tmem.CONFIG_PATH)
+    if not game_pak:
+        w("\nCould not auto-locate the game's Paks folder.\n")
+        w("Copy VEIN_HUN.pak manually into ...\\Vein\\Content\\Paks\\ (see README).\n")
+        return
+    paks_dir=os.path.normpath(os.path.dirname(game_pak))
+    dst=os.path.join(paks_dir,"VEIN_HUN.pak")
+    w("\nGame Paks folder detected:\n  %s\n"%paks_dir)
+    sys.stdout.buffer.flush()
+    try:
+        ans=input("Copy VEIN_HUN.pak there now? [y/N] ").strip().lower()
+    except EOFError:
+        ans=""
+    if ans in ("y","yes","i","igen"):
+        try:
+            shutil.copyfile(tmem.PAK_OUT,dst)
+            w("Copied to:\n  %s\n"%dst)
+            w("Start the game in English. If it doesn't apply, rename that copy to VEIN_HUN_P.pak.\n")
+        except OSError as e:
+            w("Copy FAILED: %s\n"%e)
+    else:
+        w("Skipped. VEIN_HUN.pak stays in the toolkit folder.\n")
 
 def main():
     if not os.path.exists(tmem.LOCRES_PATH):
@@ -34,7 +60,7 @@ def main():
     total=sum(len(k[2]) for k in namespaces)
     w("OK. entries=%d, not-in-csv (kept English)=%d\n"%(total,missing))
     w("wrote VEIN_HUN.pak (%d bytes locres)\n"%len(loc))
-    w("Copy VEIN_HUN.pak into: ...\\Vein\\Content\\Paks\\  (rename to VEIN_HUN_P.pak if it doesn't apply)\n")
+    install_pak()
     return 0
 
 if __name__=="__main__":

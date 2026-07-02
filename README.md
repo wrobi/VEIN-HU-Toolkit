@@ -37,11 +37,14 @@ is used. Windows only (uses Steam auto-detection).
    - Line breaks are written as the literal text `\r\n` – keep them that way.
    - Tip: `to_translate.csv` lists exactly the rows that need work.
    - To find a specific string: `find.bat "Turn On"`
-3. **Build the pak** – double-click **`build.bat`** → produces `VEIN_HUN.pak`.
+3. **Build the pak** – double-click **`build.bat`** → produces `VEIN_HUN.pak`, then
+   asks whether to copy it straight into the game's `Paks` folder (auto-detected).
+   Press **`y`** and you are done; press Enter to skip.
 
 ## Install the translation into the game
 
-Copy **`VEIN_HUN.pak`** into:
+`build.bat` offers to copy the pak into the game's `Paks` folder for you. If you
+skip that (or it can't find the game), copy **`VEIN_HUN.pak`** manually into:
 ```
 ...\steamapps\common\Vein\Vein\Content\Paks\
 ```

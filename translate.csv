@@ -14,7 +14,7 @@
 ,5108184E4254CD248481E49EA287C5FE,1 Month,1 hónap
 ,A84FF45C452A7B3749CD96B5EAC1CF57,1 Week,1 hét
 ,17090BA24A8F1AC7EDCCDB8B724E87DD,1 Year,1 év
-,64CC96F14C97057088FDB7A5E2882F98,1-Ingredient Recipes (Well Fed),Egyhozzávalós receptek (laktató)
+,64CC96F14C97057088FDB7A5E2882F98,1-Ingredient Recipes (Well Fed),1 Receptek hozzávalói (Jóllakott)
 ,0BE5974641BF4F3550C49FAF336A103B,1.5 Months,"1,5 hónap"
 ,77A222E941C6D9991A94EDB88B5706E6,1.5 Years,"1,5 év"
 ,C2F159504CF8367CE1B265A2C91505F3,10-in-1 Shampoo Review (Dirty),10 az 1-ben sampon teszt (Koszos)
@@ -26,8 +26,8 @@
 ,AFFFB2974C8B094FBE9AE19614908727,5 Days,5 nap
 ,45B5A316401B8CB342DE0C999648E355,6 Months,6 hónap
 ,34DB129A4777C0A70EFAF5B2912AAF09,9 Months,9 hónap
-,B0BBFFD04A6DA25009BE5AB635828C4B,A Diver's Guide to Holding Your Breath (Drowning),Búvárkalauz a légvisszatartáshoz (Fulladás)
-,D194A8104A1B2E3DDED657B3620F01B5,A Sunny Day in the Sahara (Overheating),Egy napsütéses nap a Szaharában (Túlhevülés)
+,B0BBFFD04A6DA25009BE5AB635828C4B,A Diver's Guide to Holding Your Breath (Drowning),Búvárkalauz a lélegzet visszatartáshoz (Fulladás)
+,D194A8104A1B2E3DDED657B3620F01B5,A Sunny Day in the Sahara (Overheating),Egy szép nap a Szaharában (Túlhevülés)
 ,C7FC179B41BD813C7D60DC95ABBA561B,"A bottle of pet perfume, usually has perfume in it.","Egy üveg kutyaparfüm, általában parfüm van benne."
 ,45010C3949B146FFF9946B8F3E4B8C6A,A bowl of soup created by foraged king boletus mushrooms.\r\n\r\nA soup with an unknown medicinal effect.,Egy tál leves gyűjtögetett vargányából.\r\n\r\nIsmeretlen gyógyhatású leves.
 ,A08D43114A7CF1C7769922975B8A38FA,A bowl of soup created by foraged witch's hat mushrooms.\r\n\r\nA soup with an unknown medicinal effect.,Egy tál leves gyűjtögetett boszorkánykalap gombából.\r\n\r\nIsmeretlen gyógyhatású leves.
@@ -49,9 +49,9 @@
 ,38D174064D98B983113353B1631C4F18,A bundle of yarrow.\r\n\r\nSatisfies a tiny amount of hunger and may have an effect when consumed; can be refined further.,"Egy csokor cickafark.\r\n\r\nApró mértékben csillapítja az éhséget, és fogyasztva lehet valami hatása; tovább finomítható."
 ,4B76445947D74B3BE1CF1E91974D531D,A cheap plastic trophy.,Egy olcsó műanyag trófea.
 ,53A0366249655DC44DADA3BDC4A141A4,A container of fish guts used for fishing bait.,"Egy doboz halbelsőség, horgászcsalinak."
-,241319C341EB77A09F08AF88FE1742A7,A container of nightcrawlers used for fishing bait.,"Egy doboz gilizta, horgászcsalinak."
-,C2170FBD4EE23341CCFCEC9DC2884E21,A handful of red elderberry.\r\n\r\nSatisfies a small amount of hunger and may have an effect when consumed; can be refined further.,"Egy maréknyi fürtös bodza.\r\n\r\nKis mértékben csillapítja az éhséget, és fogyasztva lehet valami hatása; tovább finomítható."
-,E294409241B9D51902B45F8A0E8DEC8C,A handful of wild blackberries.\r\n\r\nSatisfies a small amount of hunger and may have an effect when consumed; can be refined further.,"Egy maréknyi vadszeder.\r\n\r\nKis mértékben csillapítja az éhséget, és fogyasztva lehet valami hatása; tovább finomítható."
+,241319C341EB77A09F08AF88FE1742A7,A container of nightcrawlers used for fishing bait.,"Egy doboz giliszta, horgászcsalinak."
+,C2170FBD4EE23341CCFCEC9DC2884E21,A handful of red elderberry.\r\n\r\nSatisfies a small amount of hunger and may have an effect when consumed; can be refined further.,"Egy maréknyi fürtös bodza.\r\n\r\nKis mértékben csillapítja az éhséget, és elfogyasztva lehet valami hatása; tovább finomítható."
+,E294409241B9D51902B45F8A0E8DEC8C,A handful of wild blackberries.\r\n\r\nSatisfies a small amount of hunger and may have an effect when consumed; can be refined further.,"Egy maréknyi vadszeder.\r\n\r\nKis mértékben csillapítja az éhséget, és elfogyasztva lehet valami hatása; tovább finomítható."
 ,BA3742514876076F7422EA99FB42CE27,A handheld hydraulic cutter. Can be used underwater. The best cutting tool you'll find.\r\n\r\nUseful in crafting. Requires a heavy duty tool battery to function.,"Egy kézi hidraulikus vágó. Víz alatt is használható. A legjobb vágószerszám, amit találhatsz.\r\n\r\nHasznos barkácsoláshoz. Nehéz igénybevételű szerszámakkumulátor szükséges a működéséhez."
 ,ABF406024B0013CC74E3B591DCE4B3A5,A heart.,Egy szív.
 ,E7C03A6B4C9A46C6F2AF1D896B301EAE,A heavy bone that happens to be the perfect weight to be used as a hammer.\r\n\r\nCan be used in crafting.,"Egy nehéz csont, amely épp tökéletes súlyú ahhoz, hogy kalapácsként használd.\r\n\r\nBarkácsoláshoz használható."
@@ -78,7 +78,7 @@
 ,C90709A34E6135562D03AEBB65A8DF65,"A pot, pan, or oven dish is required to cook. Make sure to check the recipe and add one to the tool slot!","A főzéshez fazék, serpenyő vagy sütőtál szükséges. Nézd meg a receptet, és tegyél egyet a szerszámhelyre!"
 ,83C102C54771A162B3AC208EEC385E9F,A sealable plastic bag. Waterproof.\r\n\r\nDrag items onto this to store them.,Egy visszazárható műanyag tasak. Vízálló.\r\n\r\nHúzz rá tárgyakat a tároláshoz.
 ,5245E1D94CAA4D4265A233899A163247,"A small ball with a bell inside of it. Some cats love these, some don't.\r\n\r\nThe bell inside makes a loud ringing noise when it hits a surface.","Egy kis labda, benne egy csengővel. Egyes macskák imádják, mások nem.\r\n\r\nA benne lévő csengő hangosan csilingel, amikor felülethez ér."
-,4844ED9E4814F4A6C831AF8FEF0F9DFC,A small golf tee.,Egy kis golftee.
+,4844ED9E4814F4A6C831AF8FEF0F9DFC,A small golf tee.,Egy kis golf-tee (letűző).
 ,26FD430440B84A060599D388D911D51F,"A small percentage of individuals may experience seizures or blackouts when exposed to certain light patterns or flashing images, even if they have no history of epilepsy or seizures.\r\n\r\nThis game may contain flashing lights.\r\n\r\nIf you may be susceptible to photosensitive epilepsy please consult a physician before playing.\r\n\r\nStop playing immediately and seek medical attention of you experience dizziness, altered vision, eye or muscle twitches, loss of awareness, disorientation, or convulsions.\r\n\r\nBy continuing, you acknowledge you have read and understood this warning.","Az emberek kis hányada rohamot vagy eszméletvesztést tapasztalhat bizonyos fényhatások vagy villódzó képek hatására, még akkor is, ha korábban soha nem volt epilepsziája vagy rohama.\r\n\r\nEz a játék villódzó fényeket tartalmazhat.\r\n\r\nHa hajlamos lehetsz fényérzékeny epilepsziára, játék előtt fordulj orvoshoz.\r\n\r\nAzonnal hagyd abba a játékot, és fordulj orvoshoz, ha szédülést, látászavart, szem- vagy izomrángást, tudatvesztést, tájékozódási zavart vagy görcsöket tapasztalsz.\r\n\r\nA folytatással elismered, hogy elolvastad és megértetted ezt a figyelmeztetést."
 ,B154EBAB4F648FF02580F5864E8F1F47,A soup made from a foraged plant that has an unknown medicinal effect.,"Egy leves gyűjtögetett növényből, ismeretlen gyógyhatással."
 ,E468FC8E4116013B96357EAD341E8DAA,A soup made from a foraged plant that has an unknown medicinal effect.,"Egy leves gyűjtögetett növényből, ismeretlen gyógyhatással."
@@ -102,7 +102,7 @@
 ,981193054D1ABD4A10ABD3AEF4BB49CE,ARMORY,FEGYVERTÁR
 ,3647714D4F6823FA65282BA46FC25720,"AS I SEE IT, YES","AHOGY ÉN LÁTOM, IGEN"
 ,E691DF7640A28A6E1F8EF6A4A4B27A6B,ASK AGAIN LATER,KÉRDEZD MEG KÉSŐBB
-,D08CF9F241A8F018BCE859B8391DBE54,Abominations,Förtelmek
+,D08CF9F241A8F018BCE859B8391DBE54,Abominations,Szörnyűségek
 ,DF1B568A4494FEA47DC69A9F8402CE2F,About to Drown,Vízbefulladás küszöbén
 ,01F288584ACC43423411318AABD1ED4C,Add an ingredient here.,Tegyél ide egy hozzávalót.
 ,76E219A6438E6E39828F22B7AF48C014,Add fuel here.,Tegyél ide üzemanyagot.

@@ -2733,9 +2733,9 @@ Conditions,C_Drunk_Name_90.000000,Alcohol Poisoning,Alkoholmérgezés
 Conditions,C_AnaphylacticShock_Name,Anaphylactic Shock,Anafilaxiás sokk
 Conditions,C_AnaphylacticShock_Name_0.000000,Anaphylactic Shock,Anafilaxiás sokk
 Conditions,C_Antibiotic_Name,Antibiotic,Antibiotikum
-Conditions,C_Antidepressed_Name,Antidepressed,Antidepresszánson
+Conditions,C_Antidepressed_Name,Antidepressed,Antidepresszáns
 Conditions,C_Asphyxiating_Name_100.000000,Asphyxiating,Fulladozás
-Conditions,C_WellFed_Name,Ate Tasty Meal,Finom étel evése
+Conditions,C_WellFed_Name,Ate Tasty Meal,Finom ételt ettél
 Conditions,C_BloodPoisoned_Name,Blood Poisoned,Vérmérgezett
 Conditions,C_BrokenArm_Name,Broken Arm,Törött kar
 Conditions,C_BrokenLeg_Name,Broken Leg,Törött láb
@@ -5617,8 +5617,8 @@ Items,BP_CL_VarsityJacket_Description,"A simple varsity jacket, usually worn in 
 Items,BP_CL_TShirt_Description,"A simple, cool shirt.","Egy egyszerű, menő ing."
 Items,BP_HairRoll_Description,A single hair roller.,Egyetlen hajcsavaró.
 Items,BP_Melee_BarClamp_Description,A sizeable bar clamp.,Egy tekintélyes méretű asztalos satu.
-Items,BP_Melee_SledgehammerMini_Description,"A sledgehammer, but mini!\r\n\r\nCan be used in crafting.","Egy pöröly, csak mini!\r\n\r\nBarkácsoláshoz használható."
-Items,BP_Melee_SledgeHammer_Description,A sledgehammer.\r\n\r\nCan be used in crafting.,Egy pöröly.\r\n\r\nBarkácsoláshoz használható.
+Items,BP_Melee_SledgehammerMini_Description,"A sledgehammer, but mini!\r\n\r\nCan be used in crafting.","Egy bontókalapács, csak mini!\r\n\r\nBarkácsoláshoz használható."
+Items,BP_Melee_SledgeHammer_Description,A sledgehammer.\r\n\r\nCan be used in crafting.,Egy bontókalapács.\r\n\r\nBarkácsoláshoz használható.
 Items,BP_BreadSlice_Description,A slice of bread.,Egy szelet kenyér.
 Items,BP_AgedCheese_Description,"A slice of fancy, aged cheese that claims it was stored in a shed in Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson for 200 years.","Egy szelet előkelő, érlelt sajt, amely állítása szerint 200 évig egy fészerben érlelődött a franciaországi Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson településen."
 Items,BP_ExampleNote_Description,A small amount of text on a notepad.,Egy kevés szöveg egy jegyzettömbön.
@@ -6654,7 +6654,7 @@ Items,BP_CL_MilitaryPants_Name,Military Pants,Katonai nadrág
 Items,BP_CL_MilitaryTop_Name,Military Shirt,Katonai ing
 Items,BP_MilkCarton_Name,Milk Carton,Dobozos tej
 Items,BP_MimicShiner_Name,Mimic Shiner,Mimic Shiner
-Items,BP_Melee_SledgehammerMini_Name,Mini-Sledge,Mini pöröly
+Items,BP_Melee_SledgehammerMini_Name,Mini-Sledge,Mini bontókalapács
 Items,BP_Firearm_Minigun_Name,Minigun,Minigun
 Items,BP_ModelSun_Name,Model Sun,Nap-modell
 Items,BP_Mooneyes_Name,Mooneyes,Mooneyes
@@ -6992,7 +6992,7 @@ Items,BP_SC_Lighter_Name,Schematic - Lighter,Tervrajz – Öngyújtó
 Items,BP_SC_Lockpick_Name,Schematic - Lockpick,Tervrajz – Zárfeszítő
 Items,BP_SC_SplintMakeshift_Name,Schematic - Makeshift Splint,Tervrajz – Rögtönzött sín
 Items,BP_SC_MedicalSplint_Name,Schematic - Medical Splint,Tervrajz – Orvosi sín
-Items,BP_SC_HeavyHammer_Name,Schematic - Mini-Sledge,Tervrajz – Mini pöröly
+Items,BP_SC_HeavyHammer_Name,Schematic - Mini-Sledge,Tervrajz – Mini bontókalapács
 Items,BP_SC_Nails_Name,Schematic - Nails,Tervrajz - Szögek
 Items,BP_SC_CookingDish_Name,Schematic - Oven Dish,Tervrajz – Sütőtál
 Items,BP_SC_RadioReceiver_Name,Schematic - Radio Receiver,Tervrajz – Rádióvevő
@@ -7052,9 +7052,9 @@ Items,BP_LockSimple_Name,Simple Lock,Egyszerű zár
 Items,BP_CL_Face_SkiGoggles_Name,Ski Goggles,Síszemüveg
 Items,BP_CL_SkinnyJeans_Name,Skinny Jeans,Csőfarmer
 Items,BP_CL_Skirt_Name,Skirt,Szoknya
-Items,BP_Melee_SledgeHammer_ShortName,Sledge,Pöröly
-Items,BP_Melee_SledgehammerMini_ShortName,Sledge,Pöröly
-Items,BP_Melee_SledgeHammer_Name,Sledgehammer,Pöröly
+Items,BP_Melee_SledgeHammer_ShortName,Sledge,Bontókalapács
+Items,BP_Melee_SledgehammerMini_ShortName,Sledge,Bontókalapács
+Items,BP_Melee_SledgeHammer_Name,Sledgehammer,Bontókalapács
 Items,BP_SleepingBag01_Name,Sleeping Bag,Hálózsák
 Items,BP_SleepingBag02_Name,Sleeping Bag,Hálózsák
 Items,BP_CL_Face_SleepingMask_Name,Sleeping Mask,Alvómaszk
@@ -8515,7 +8515,7 @@ Recipes,CR_ScrapMetalSheetSmall_FlavorText,A scrap metal sheet that's been split
 Recipes,RP_ClassicEscargot_FlavorText,"A serving of escargot, a popular appetizer in France. ","Egy adag escargot, népszerű francia előétel. "
 Recipes,CR_FishingHook_FlavorText,A sharp fishing hook fashioned from metal scrap.,"Egy éles horgászhorog, fémhulladékból kialakítva."
 Recipes,CR_BandageMakeshift_FlavorText,"A simple, makeshift bandage. \r\n\r\nWill patch any wounds, but not as good as standard medical bandages.","Egy egyszerű, rögtönzött kötszer. \r\n\r\nBármilyen sebet befoltoz, de nem olyan jó, mint a hagyományos orvosi kötszerek."
-Recipes,CR_HeavyHammer_FlavorText,"A sledgehammer, but mini!","Egy pöröly, csak mini!"
+Recipes,CR_HeavyHammer_FlavorText,"A sledgehammer, but mini!","Egy bontókalapács, csak mini!"
 Recipes,CR_Lighter_FlavorText,A small lighter.,Egy kis öngyújtó.
 Recipes,CR_Syringe_FlavorText,"A small vial with a needle.\r\n\r\nCan be filled with any fluid item, preferably needed medication.","Egy kis fiola tűvel.\r\n\r\nBármilyen folyékony tárggyal megtölthető, lehetőleg a szükséges gyógyszerrel."
 Recipes,RP_MichiganSauce_FlavorText,"A specialty in Plattsburgh, NY. This smooth meat sauce is typically served on top a hotdog in a steamed bun.",Plattsburgh (NY) specialitása. Ezt a sima húsos szószt jellemzően párolt zsemlébe tett hot dogra teszik.
@@ -8549,7 +8549,7 @@ Recipes,RP_BakedPotato_Name,Baked Potato,Sült krumpli
 Recipes,ItemPrefix_Baked {Food},Baked {Food},Sült {Food}
 Recipes,CR_BarbedWire_Name,Barbed Wire,Szögesdrót
 Recipes,CR_BasicDriverBits_Name,Basic Driver Bit,Alap csavarozófej
-Recipes,CR_BasicStaples_Name,Basic Staples,Irodai tűzőkapcsok
+Recipes,CR_BasicStaples_Name,Basic Staples,Alap tűzőkapcsok
 Recipes,CR_BasicWeldingWire_Name,Basic Welding Wire,Egyszerű hegesztőhuzal
 Recipes,CR_BauxitePowder_Name,Bauxite Powder,Bauxitpor
 Recipes,RP_BoxedEnchilada_Name,Beef Enchilada,Marhás enchilada
@@ -8722,7 +8722,7 @@ Recipes,CR_MetalPipe_Name,Metal Pipe,Fémcső
 Recipes,CR_MetalSheet_Name,Metal Sheet,Fémlemez
 Recipes,RP_Michigan_Name,Michigan,Michigan
 Recipes,RP_MichiganSauce_Name,Michigan Sauce,Michigan szósz
-Recipes,CR_HeavyHammer_Name,Mini-Sledge,Mini pöröly
+Recipes,CR_HeavyHammer_Name,Mini-Sledge,Mini bontókalapács
 Recipes,CR_MorningStar_Name,Morning Star,Szöges buzogány
 Recipes,RP_Muffin_Name,Muffin,Muffin
 Recipes,RP_VanillaManukaMeringue_Name,Mānuka Meringue Pastry,Manuka mézes habcsók-sütemény
@@ -9825,7 +9825,7 @@ Toilet,LiftSeat,Seat Up,Ülőke fel
 Toilet,Toilet,Toilet,WC
 Tool,T_BasicCutting_Name,Basic Cutting,Alap vágás
 Tool,T_BasicPliers_Name,Basic Pliers,Egyszerű fogó
-Tool,T_BasicStapler_Name,Basic Stapler,Irodai tűzőgép
+Tool,T_BasicStapler_Name,Basic Stapler,Alap tűzőgép
 Tool,T_BasicWelder_Name,Basic Welder,Egyszerű hegesztő
 Tool,T_CanOpener_Name,Can Opener,Konzervnyitó
 Tool,T_Digging_Name,Digging,Ásás

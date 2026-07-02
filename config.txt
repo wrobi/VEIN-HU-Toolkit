@@ -1,0 +1,10 @@
+# Where is VEIN installed?
+# Leave this file empty (only comments) to auto-detect via Steam.
+#
+# If auto-detect fails, uncomment ONE line below and set the correct path:
+#
+# Either the pak file:
+#   C:\Program Files (x86)\Steam\steamapps\common\Vein\Vein\Content\Paks\pakchunk0-Windows.pak
+#
+# Or just the game root folder:
+#   C:\Program Files (x86)\Steam\steamapps\common\Vein

@@ -154,7 +154,7 @@
 ,AB410B9E4D052C82608A3B8A8BF9A694,BRIDGE ST,BRIDGE ST
 ,B220B69E44730EDC23D896BC77D27E29,BRIDGE ST,BRIDGE ST
 ,EA1F56494A28711D243FD0B53B791371,BRIDGE ST,BRIDGE ST
-,1D4DC121494553FC25011CA80E79380A,Back,Hát
+,1D4DC121494553FC25011CA80E79380A,Back,Raktér
 ,74A5061B41B66EBB61A171A9D3343C8A,Back,Hát
 ,5D9BDBBB4E9BDAD608F75EB3DAC02E94,Bag,Táska
 ,A0C3DE87461884D53E012FA7039A7712,Bag,Táska
@@ -517,7 +517,7 @@
 ,C4990B7E4FB63753704C91A86AADE5EB,Emote,Emote
 ,715D06EB40079B4D776676AF160D339B,Enemy,Ellenség
 ,87416D3E492DEF00399A9AADBF87C329,Enter,Beszáll
-,046CB231409792B640D897A0869BD853,"Enter an amount to pour. There's {Amount} {AmountUnit} in the {ItemName}, and room for {ReceivingAmount} {AmountUnit} in the target.","Add meg a kitöltendő mennyiséget. A(z) {ItemName} {Amount} {AmountUnit}-t tartalmaz, a célban pedig {ReceivingAmount} {AmountUnit} fér el."
+,046CB231409792B640D897A0869BD853,"Enter an amount to pour. There's {Amount} {AmountUnit} in the {ItemName}, and room for {ReceivingAmount} {AmountUnit} in the target.","Add meg a kitöltendő mennyiséget. {ItemName} {Amount} {AmountUnit}-t tartalmaz, a célban pedig {ReceivingAmount} {AmountUnit} fér el."
 ,B908F04D4BEB7F9D953703B74863DF4F,Enter the new name.,Add meg az új nevet.
 ,448399D14171CD8E29366D8AA51C2164,Escape,Menekülés
 ,AC7D65314EB5AE628A1B8795854A2B35,Escape,Menekülés
@@ -3619,10 +3619,10 @@ FishFoodItem,FishCatchLocation_Underground,Underground,Föld alatt
 FishFoodItem,FishCatchLocation_Underwater,Underwater,Víz alatt
 FishFoodItem,Fish_Weight,Weight,Súly
 FishingRodControlPanel,BaitSlotTooltip,Drag bait onto this to equip it on the fishing rod.,"Húzz rá csalit, hogy felakaszd a horogra."
-FishingRodEquippedItem,Fishing_EmptyBait,You have no {ItemName} to fish with. Get some or change the bait type on the fishing rod.,"Nincs {ItemName}-d a horgászáshoz. Szerezz, vagy változtasd meg a csalitípust a horgászboton."
+FishingRodEquippedItem,Fishing_EmptyBait,You have no {ItemName} to fish with. Get some or change the bait type on the fishing rod.,"Nincs {ItemName} a horgászáshoz. Szerezz, vagy változtasd meg a csalitípust a horgászboton."
 FishingRodEquippedItem,Fishing_NoBaitEquipped,You need bait selected on the fishing rod item to fish.,A horgászáshoz csalit kell kiválasztani a horgászboton.
 FishingRodEquippedItem,Fishing_Failed,You retrieved the line. A fish has eaten the bait already.,Behúztad a zsinórt. Egy hal már megette a csalit.
-FishingRodEquippedItem,Fishing_BaitRetrieved,You retrieved the {ItemName}.,Behúztad a(z) {ItemName}-t.
+FishingRodEquippedItem,Fishing_BaitRetrieved,You retrieved the {ItemName}.,Behúztad ezt: {ItemName}
 FishingRodItemPanel,BaitLabel,Bait Type To Use,Használandó csalitípus
 FishingRodItemPanel,BaitInfo_Title,Fishing Bait,Horgászcsali
 FishingRodItemPanel,BaitInfo_Body,"Specify a type of bait to use here. This isn't an actual item, just an item type.\r\n\r\nThe rod will pull this type of bait from your inventory when used.","Adj meg itt egy használandó csalitípust. Ez nem egy tényleges tárgy, csak egy tárgytípus.\r\n\r\nA bot használatkor ilyen típusú csalit húz elő a készletedből."
@@ -3680,10 +3680,10 @@ FluidContainerItem,CantDrink_Frozen,You can't drink this - it is frozen.,Ezt nem
 FluidContainerItem,FluidContainer_Refill_WrongFluid,You can't mix fluids.,Nem keverhetsz folyadékokat.
 FluidContainerItem,PourBetweenContainers_CantMix,You can't mix fluids.,Nem keverhetsz folyadékokat.
 FluidContainerItem,PourContainer_Full,You can't pour anything into this.,Ebbe nem tölthetsz semmit.
-FluidContainerItem,WaterSource_WashSelf,You wash yourself in the {FluidType}.,Megmosakszol a(z) {FluidType}-ban.
+FluidContainerItem,WaterSource_WashSelf,You wash yourself in the {FluidType}.,Megmosakszol ezzel: {FluidType}.
 FluidContainerItem,WettedTowel,You wet the {TowelName}.,Megnedvesíted a(z) {TowelName}-t.
-FluidItemPromptWindowWidget,FluidItemPrompt_PourText,"Enter an amount to pour in {AmountUnit}. There's {Amount} in the {ItemName}, and room for {ReceivingAmount} in the target.","Add meg a kitöltendő mennyiséget ({AmountUnit}). A(z) {ItemName} {Amount}-t tartalmaz, a célban pedig {ReceivingAmount} fér el."
-FluidItemPromptWindowWidget,FluidItemPrompt_PourText_NoLimit,Enter an amount to pour in {AmountUnit}. There's {Amount} in the {ItemName}.,Add meg a kitöltendő mennyiséget ({AmountUnit}). A(z) {ItemName} {Amount}-t tartalmaz.
+FluidItemPromptWindowWidget,FluidItemPrompt_PourText,"Enter an amount to pour in {AmountUnit}. There's {Amount} in the {ItemName}, and room for {ReceivingAmount} in the target.","Add meg a kitöltendő mennyiséget ({AmountUnit}). {ItemName} {Amount}-t tartalmaz, a célban pedig {ReceivingAmount} fér el."
+FluidItemPromptWindowWidget,FluidItemPrompt_PourText_NoLimit,Enter an amount to pour in {AmountUnit}. There's {Amount} in the {ItemName}.,Add meg a kitöltendő mennyiséget ({AmountUnit}). {ItemName} {Amount}-t tartalmaz.
 FluidItemPromptWindowWidget,FluidItemPrompt_TakeText,"Enter an amount to take in {AmountUnit}. There's {FreeSpace} of space in the {ItemName}, and {ReceivingAmount} in the target.","Add meg az áttölteni kívánt mennyiséget ({AmountUnit}). A(z) {ItemName}-ben {FreeSpace} hely van, a célban pedig {ReceivingAmount}."
 FluidItemPromptWindowWidget,FluidItemPrompt_TakeText_NoLimit,Enter an amount to take in {AmountUnit}. There's {FreeSpace} {AmountUnit} of space in the {ItemName}.,Add meg az áttölteni kívánt mennyiséget ({AmountUnit}). A(z) {ItemName}-ben {FreeSpace} {AmountUnit} hely van.
 FluidPort,Description,An extension plug. Used to extend the range of wiring for fluids. You can wire things to and from this.,Egy hosszabbító. A folyadékvezetékek hatótávjának meghosszabbítására. Innen és ide is vezetékezhetsz.
@@ -3785,10 +3785,10 @@ Fluids,FL_Syrup_DecayLabel,Spoilage,Romlás
 Fluids,FL_ZombieHoney_DecayLabel,Spoilage,Romlás
 Fluids,FL_Syrup_Name,Syrup,Szirup
 Fluids,FL_Tea_Name,Tea,Tea
-Fluids,FL_Water_SmellText,This doesn't smell like anything.,Ennek nincs szaga.
-Fluids,FL_Water_SmellRottenText,This smells like human waste.,Ennek emberi ürülék szaga van.
-Fluids,FL_EngineOil_SmellText,This smells like motor oil.,Ennek motorolaj szaga van.
-Fluids,FL_CookingOil_SmellText,This smells like oil.,Ennek olaj szaga van.
+Fluids,FL_Water_SmellText,This doesn't smell like anything.,Nincs szaga.
+Fluids,FL_Water_SmellRottenText,This smells like human waste.,Emberi ürülék szaga van.
+Fluids,FL_EngineOil_SmellText,This smells like motor oil.,Motorolaj szaga van.
+Fluids,FL_CookingOil_SmellText,This smells like oil.,Olaj szaga van.
 Fluids,FL_Water_Name,Water,Víz
 Fluids,FL_Wine_Name,Wine,Bor
 Fluids,FL_ZombieHoney_Name,Zombie Honey,Zombiméz
@@ -3810,8 +3810,8 @@ FluidTank,FluidTank_FillFromContainer_AlreadyFull,This is already full.,Ez már 
 FluidTank,FluidTank_Empty,This is empty.,Ez üres.
 FluidTank,Vehicle_FillFromPump_ParentLoop,This is supplying to {FluidSourceName} and can't be filled by it.,"Ez ellátja a(z) {FluidSourceName}-t, ezért nem tölthető fel belőle."
 FluidTank,FillFluidTankOutwards_Title,Withdraw,Kivétel
-FluidTank,FillFluidTank_CantMix,You can't mix the fluid in this with the current contents.,Az ebben lévő folyadékot nem keverheted a jelenlegi tartalommal.
-FluidTank,FluidTank_FillTank_Result,You fill up the container. The container is around {Percent} full now.,Feltöltöd a tárolót. A tároló most kb. {Percent}-ig tele van.
+FluidTank,FillFluidTank_CantMix,You can't mix the fluid in this with the current contents.,A benne lévő folyadékot nem keverheted a jelenlegi tartalommal.
+FluidTank,FluidTank_FillTank_Result,You fill up the container. The container is around {Percent} full now.,Feltöltöd a tárolót. Most kb. {Percent}-ig van tele.
 FluidTank,FillFluidTank_NoContainer,You have nothing to fill from.,Nincs miből töltened.
 FluidTank,FillFluidTankOutgoing_NoContainer,You have nothing to fill.,Nincs mit töltened.
 FluidTooltipUserWidget,FluidTooltip_PutInfo,Drag a fluid container with some contents onto this to pour.,Húzz rá egy folyadékkal töltött tárolót a töltéshez.
@@ -3822,7 +3822,7 @@ FluidUtilitySubsystem,GasTank,Gas Tank,Üzemanyagtank
 FluidUtilitySubsystem,Nothing is coming out.,Nothing is coming out.,Semmi sem jön ki.
 FluidUtilitySubsystem,Snow,Snow,Hó
 FluidUtilitySubsystem,Water,Water,Víz
-FoodConditionSet,FoodItem_OnEat_HeatEffect_Tooltip,This has effects when consumed at certain temperatures.,Ennek bizonyos hőmérsékleteken fogyasztva hatásai vannak.
+FoodConditionSet,FoodItem_OnEat_HeatEffect_Tooltip,This has effects when consumed at certain temperatures.,Bizonyos hőmérsékleteken fogyasztva vannak hatásai.
 FoodConditionSet,FoodItem_OnEatCold,When Cold,Ha hideg
 FoodConditionSet,FoodItem_OnEatFrozen,When Frozen,Ha fagyott
 FoodConditionSet,FoodItem_OnEatHot,When Hot,Ha forró
@@ -4087,7 +4087,7 @@ Furniture,LargeAmmoBox,Large Ammo Box,Nagy lőszeresláda
 Furniture,LargeCardboardDisplay,Large Cardboard Display,Nagy kartonállvány
 Furniture,LargeCordRoll,Large Cord Roll,Nagy kábeltekercs
 Furniture,LargePantry,Large Pantry,Nagy éléskamra
-Furniture,LargePylon,Large Pylon,Nagy villanyoszlop
+Furniture,LargePylon,Large Pylon,Nagy terelőbója
 Furniture,LargeShoppingBasket,Large Shopping Basket,Nagy bevásárlókosár
 Furniture,LargeSofa,Large Sofa,Nagy kanapé
 Furniture,LargeToolChest,Large Tool Chest,Nagy szerszámosláda
@@ -4222,7 +4222,7 @@ Furniture,ProjectorScreen,Projector Screen,Vetítővászon
 Furniture,PropaneLocker,Propane Locker,PB palack szekrény
 Furniture,PublicPhone(WorkinProgress),Public Phone (Work in Progress),Nyilvános telefon (Fejlesztés alatt)
 Furniture,PullUpBar,Pull Up Bar,Húzódzkodó rúd
-Furniture,Pylon,Pylon,Villanyoszlop
+Furniture,Pylon,Pylon,Terelőbőja
 Furniture,QueueBarrier,Queue Barrier,Sorterelő korlát
 Furniture,QueueBarrierPole,Queue Barrier Pole,Sorterelő oszlop
 Furniture,RealtySign,Realty Sign,Ingatlanos tábla
@@ -4362,7 +4362,7 @@ Furniture,WideClassTable,Wide Class Table,Széles iskolapad
 Furniture,WindowBlinds,Window Blinds,Ablakreluxa
 Furniture,WindowedCabinets,Windowed Cabinets,Üvegajtós szekrények
 Furniture,WoodLogStorage,Wood Log Storage,Farönk-raktár
-Furniture,WoodPile,Wood Pile,Fahalom
+Furniture,WoodPile,Wood Pile,Fakupac
 Furniture,WoodenBench,Wooden Bench,Fapad
 Furniture,WoodenBookshelf,Wooden Bookshelf,Fa könyvespolc
 Furniture,WoodenBox,Wooden Box,Faláda
@@ -9787,7 +9787,7 @@ TemperatureIndicatorWidget,Temperature_Warm,Warm,Meleg
 TemperatureManipulatorActor,Radiator_Check,Check,Ellenőrzés
 TemperatureManipulatorActor,Radiator_NoFuel,"It's not running, but the switch is turned on.","Nem jár, de a kapcsoló be van kapcsolva."
 TemperatureManipulatorActor,Radiator_NoPower,It's turned off.,Ki van kapcsolva.
-TemperatureManipulatorActor,Radiator_Name,Radiator,Hűtő
+TemperatureManipulatorActor,Radiator_Name,Radiator,Radiátor
 TemperatureManipulatorActor,Radiator_Working,Seems to be working.,"Úgy tűnik, működik."
 ThermometerItem,Thermometer_Check,Check Temperature,Hőmérséklet mérése
 ThermometerItem,Temperature_CheckResult,The temperature is {Temperature}.,A hőmérséklet {Temperature}.
@@ -9888,7 +9888,7 @@ Tool,T_IndustrialStapler_ImproperName,an industrial stapler,egy ipari tűzőgép
 Tool,T_IndustrialWelder_ImproperName,an industrial welder,egy ipari hegesztő
 Tool,T_OvenDish_ImproperName,an oven dish,egy sütőtál
 ToolType,NeedTool,You need {ToolName} to do this.,{ToolName} kell ehhez.
-ToolType,NeedTool_Unpowered,You need {ToolName} to do this. Your {ItemName} is unpowered.,{ToolName} kell ehhez. A(z) {ItemName}-d nincs áram alatt.
+ToolType,NeedTool_Unpowered,You need {ToolName} to do this. Your {ItemName} is unpowered.,{ToolName} kell ehhez. {ItemName} nincs áram alatt.
 ToolType,NeedTool_NoAmmo,Your {ItemName} is missing parts to do this.,A(z) {ItemName}-dből hiányoznak alkatrészek ehhez.
 ToolType,NeedTool_Broken,Your {ItemName} needs replacement parts to do this.,A(z) {ItemName}-dnek cserealkatrészek kellenek ehhez.
 TowelEquippedItem,Towel_CleanDebris_Notification,You wipe away the debris.,Letörlöd a törmeléket.
@@ -9986,8 +9986,8 @@ Tutorial,Turn Fusebox On_StageName,Turn On the Fusebox,Kapcsold be a biztosíté
 Tutorial,Turn on Light_StageName,Turn On the Light,Kapcsold fel a villanyt
 Tutorial,Turn on Radiator_StageName,Turn on Radiator,Kapcsold be a radiátort
 Tutorial,Find Flashlight_StageInstructions,Uh oh! Looks like the power just went out.\r\n\r\nGrab a flashlight from the nearby shelves.,"Ajjaj! Úgy tűnik, épp most ment el az áram.\r\n\r\nFogj egy zseblámpát a közeli polcokról."
-Tutorial,Defend Yourself from Zombies_StageInstructions,Uh oh... Sounds like you've been noticed.\r\n\r\nKill all the zombies to proceed.\r\n\r\nUse {PrimaryKey} to strike. Hold and release it to do a power attack. Press {SecondaryKey} or {QuickMeleeKey} to shove.,"Ajjaj... Úgy tűnik, kiszúrtak.\r\n\r\nÖlj meg minden zombit a folytatáshoz.\r\n\r\nA(z) {PrimaryKey} gombbal üthetsz. Tartsd nyomva, majd engedd el az erős támadáshoz. Nyomd meg a(z) {SecondaryKey} vagy {QuickMeleeKey} gombot a lökéshez."
-Tutorial,Defend Yourself from Zombies_StageInstructionsGamepad,Uh oh... Sounds like you've been noticed.\r\n\r\nKill all the zombies to proceed.\r\n\r\nUse {PrimaryKey} to strike. Hold and release it to do a power attack. Press {SecondaryKey} to shove.,"Ajjaj... Úgy tűnik, kiszúrtak.\r\n\r\nÖlj meg minden zombit a folytatáshoz.\r\n\r\nA(z) {PrimaryKey} gombbal üthetsz. Tartsd nyomva, majd engedd el az erős támadáshoz. Nyomd meg a(z) {SecondaryKey} gombot a lökéshez."
+Tutorial,Defend Yourself from Zombies_StageInstructions,Uh oh... Sounds like you've been noticed.\r\n\r\nKill all the zombies to proceed.\r\n\r\nUse {PrimaryKey} to strike. Hold and release it to do a power attack. Press {SecondaryKey} or {QuickMeleeKey} to shove.,"Ajjaj... Úgy tűnik, kiszúrtak.\r\n\r\nÖlj meg minden zombit a folytatáshoz.\r\n\r\n {PrimaryKey} gombbal üthetsz. Tartsd nyomva, majd engedd el az erős támadáshoz. Nyomd meg a(z) {SecondaryKey} vagy {QuickMeleeKey} gombot a lökéshez."
+Tutorial,Defend Yourself from Zombies_StageInstructionsGamepad,Uh oh... Sounds like you've been noticed.\r\n\r\nKill all the zombies to proceed.\r\n\r\nUse {PrimaryKey} to strike. Hold and release it to do a power attack. Press {SecondaryKey} to shove.,"Ajjaj... Úgy tűnik, kiszúrtak.\r\n\r\nÖlj meg minden zombit a folytatáshoz.\r\n\r\n {PrimaryKey} gombbal üthetsz. Tartsd nyomva, majd engedd el az erős támadáshoz. Nyomd meg a(z) {SecondaryKey} gombot a lökéshez."
 Tutorial,Pin and Equip Nail Baseball Bat_StageInstructions,"We'll pin the baseball bat now.\r\n\r\n<B>Close</> the workbench UI.\r\n\r\nSelect the bat in your inventory and click <B>Add to Quick Use</>. This lets you use number keys to quickly equip the baseball bat.\r\n\r\nFinally, close your inventory and hit {Slot1Key} to equip the bat.","Most rögzítjük a baseballütőt.\r\n\r\n<B>Zárd be</> a munkapad felületét.\r\n\r\nVálaszd ki az ütőt a készletedben, és kattints a <B>Hozzáadás a gyorshasználathoz</> gombra. Így számbillentyűkkel gyorsan kézbe veheted a baseballütőt.\r\n\r\nVégül zárd be a készletedet, és nyomd meg a(z) {Slot1Key} gombot az ütő felszereléséhez."
 Tutorial,Pin and Equip Nail Baseball Bat_StageInstructionsGamepad,"We'll pin the baseball bat now.\r\n\r\n<B>Close</> the workbench UI.\r\n\r\nSelect the bat in your inventory and click <B>Add to Quick Use</>. This lets you use {CycleQuickUseKey} to quickly equip the baseball bat.\r\n\r\nFinally, close your inventory and hit {CycleQuickUseKey} to equip the bat.","Most rögzítjük a baseballütőt.\r\n\r\n<B>Zárd be</> a munkapad felületét.\r\n\r\nVálaszd ki az ütőt a készletedben, és kattints a <B>Hozzáadás a gyorshasználathoz</> gombra. Így a(z) {CycleQuickUseKey} gombbal gyorsan kézbe veheted a baseballütőt.\r\n\r\nVégül zárd be a készletedet, és nyomd meg a(z) {CycleQuickUseKey} gombot az ütő felszereléséhez."
 Tutorial,Enter House_StageName,Welcome to Champlain Valley,Üdvözlünk a Champlain-völgyben
@@ -10191,7 +10191,7 @@ VehicleIgnitionComponent,Vehicle_Ignition_NoKey,There's no key in the ignition.,
 VehicleIgnitionComponent,Vehicle_CantHotwire_NoEngine,There's no sound from the engine.,A motor nem ad hangot.
 VehicleIgnitionComponent,Vehicle_Ignition_TurnOff,Turn Off,Kikapcsol
 VehicleIgnitionComponent,Vehicle_Ignition_TurnOn,Turn On,Bekapcsol
-VehicleIgnitionComponent,Hotwire_Failure_Protected,"You fail to hotwire the ignition, damaging the vehicle but protected by your {ClothingName}.","Nem sikerül összedrótoznod a gyújtást, megkárosítod a járművet, de a(z) {ClothingName} megvéd."
+VehicleIgnitionComponent,Hotwire_Failure_Protected,"You fail to hotwire the ignition, damaging the vehicle but protected by your {ClothingName}.","Nem sikerül összedrótoznod a gyújtást. A jármű károsult, de a(z) {ClothingName} megvéd."
 VehicleIgnitionComponent,Hotwire_Failure,"You fail to hotwire the ignition, shocking yourself and damaging the vehicle.","Nem sikerül összedrótoznod a gyújtást, megrázod magad, és megkárosítod a járművet."
 VehicleIgnitionComponent,Hotwire_Success,You hotwire the ignition successfully.,Sikeresen összedrótozod a gyújtást.
 VehicleIgnitionComponent,Hotwire_Failure_NoBattery,"You try to hotwire the ignition, but there is no power.","Megpróbálod összedrótozni a gyújtást, de nincs áram."
@@ -10281,29 +10281,29 @@ VeinCharacter,HuntingResult_SyringeIsFullAlready,That has fluid in it already.,V
 VeinCharacter,FistsKeyNotification,Toggle Fists,Öklök váltása
 VeinCharacter,CutHair_YouHaveScissors,Use your scissors to cut their hair.,Használd az ollót a haj levágásához.
 VeinCharacter,UseKeyNotification,Use/Interact,Használat/Interakció
-VeinCharacter,HuntingResult_Dismember_Failure,"You accidentally mutilate their {LimbName}, destroying it.","Véletlenül megcsonkítod a(z) {LimbName}ét, tönkretéve azt."
-VeinCharacter,HuntingResult_Gutting_Failure,"You accidentally mutilate their {OrganName}, destroying it.","Véletlenül megcsonkítod a(z) {OrganName}ét, tönkretéve azt."
+VeinCharacter,HuntingResult_Dismember_Failure,"You accidentally mutilate their {LimbName}, destroying it.","Véletlenül megcsonkítod, tönkretéve ezt: {LimbName}"
+VeinCharacter,HuntingResult_Gutting_Failure,"You accidentally mutilate their {OrganName}, destroying it.","Véletlenül megcsonkítod, tönkretéve ezt: {OrganName}"
 VeinCharacter,NoFlashlightToChange,You don't have any utility item equipped to use as a flashlight.,"Nem tartasz eszközt, amit zseblámpaként használhatnál."
 VeinCharacter,Map_Disabled_NoMap,You don't have any utility item equipped to use as a map.,"Nem tartasz eszközt, amit térképként használhatnál."
 VeinCharacter,HuntingResult_Blood_Received,You extract {Quantity} of blood.,Kiveszel {Quantity} vért.
 VeinCharacter,HuntingResult_Blood_None,You fail to extract any blood.,Nem sikerül vért kivenned.
-VeinCharacter,HuntingResult_Item_NotReceived,You fail to harvest anything.,Nem sikerül semmit leszüretelned.
+VeinCharacter,HuntingResult_Item_NotReceived,You fail to harvest anything.,Nem sikerül semmit begyűjteni.
 VeinCharacter,ExitChairDamage,You jump out at high speed and injure yourself.,"Nagy sebességnél kiugrasz, és megsérülsz."
 VeinCharacter,ExitVehicleDamage,You jump out of the vehicle at high speed and injure yourself.,"Nagy sebességnél kiugrasz a járműből, és megsérülsz."
 VeinCharacter,CharacterSearchDisabled,You need to be crouching.,Guggolnod kell.
 VeinCharacter,LockPickSuccess,You picked the lock.,Feltörted a zárat.
 VeinCharacter,StartExercising,You start exercising. Move to stop.,Elkezdesz edzeni. Mozogj a megállításhoz.
 VeinCharacter,StopExercising,You stopped exercising.,Abbahagytad az edzést.
-VeinCharacter,HuntingResult_Dismember_Success,You successfully amputate their {LimbName}.,Sikeresen amputálod a(z) {LimbName}ét.
-VeinCharacter,HuntingResult_Gutting_Success,You successfully extract their {OrganName}.,Sikeresen eltávolítod a(z) {OrganName}ét.
-VeinCharacter,ItemBreakUnderwaterNotif,Your {ItemName} broke because it got wet.,"A(z) {ItemName}-d eltört, mert megázott."
-VeinCharacter,CantUseFlashlight_Broken,"Your {ItemName} is broken, so you can't use it.","A(z) {ItemName}-d elromlott, ezért nem tudod használni."
-VeinCharacter,Map_Disabled_Broken,"Your {ItemName} is broken, so you can't use it.","A(z) {ItemName}-d elromlott, ezért nem tudod használni."
-VeinCharacter,CantUseFlashlight_OutOfBattery,"Your {ItemName} is out of power, so you can't use it. Replace the battery in your inventory.","A(z) {ItemName}-d lemerült, ezért nem tudod használni. Cseréld ki az akkumulátort a készletedben."
-VeinCharacter,Map_Disabled_OutOfBattery,"Your {ItemName} is out of power, so you can't use it. Replace the battery in your inventory.","A(z) {ItemName}-d lemerült, ezért nem tudod használni. Cseréld ki az akkumulátort a készletedben."
-VeinCharacter,CantUseFlashlight_TurnedOff,Your {ItemName} is turned off. Turn it on in your inventory.,A(z) {ItemName}-d ki van kapcsolva. Kapcsold be a készletedben.
-VeinCharacter,Map_Disabled_Off,Your {ItemName} is turned off. Turn it on in your inventory.,A(z) {ItemName}-d ki van kapcsolva. Kapcsold be a készletedben.
-VeinCharacter,ItemDischargeUnderwaterNotif,Your {ItemName}'s battery was drained because it got wet.,"A(z) {ItemName}-d akkumulátora lemerült, mert megázott."
+VeinCharacter,HuntingResult_Dismember_Success,You successfully amputate their {LimbName}.,Sikeresen amputáltad: {LimbName}.
+VeinCharacter,HuntingResult_Gutting_Success,You successfully extract their {OrganName}.,Sikeresen eltávolítottad: {OrganName}.
+VeinCharacter,ItemBreakUnderwaterNotif,Your {ItemName} broke because it got wet.,"{ItemName} tönkrement, mert megázott."
+VeinCharacter,CantUseFlashlight_Broken,"Your {ItemName} is broken, so you can't use it.","{ItemName} elromlott, ezért nem tudod használni."
+VeinCharacter,Map_Disabled_Broken,"Your {ItemName} is broken, so you can't use it.","{ItemName} elromlott, ezért nem tudod használni."
+VeinCharacter,CantUseFlashlight_OutOfBattery,"Your {ItemName} is out of power, so you can't use it. Replace the battery in your inventory.","{ItemName} lemerült, ezért nem tudod használni. Cseréld ki az akkumulátort a készletedben."
+VeinCharacter,Map_Disabled_OutOfBattery,"Your {ItemName} is out of power, so you can't use it. Replace the battery in your inventory.","{ItemName} lemerült, ezért nem tudod használni. Cseréld ki az akkumulátort a készletedben."
+VeinCharacter,CantUseFlashlight_TurnedOff,Your {ItemName} is turned off. Turn it on in your inventory.,{ItemName} ki van kapcsolva. Kapcsold be a készletedben.
+VeinCharacter,Map_Disabled_Off,Your {ItemName} is turned off. Turn it on in your inventory.,{ItemName} ki van kapcsolva. Kapcsold be a készletedben.
+VeinCharacter,ItemDischargeUnderwaterNotif,Your {ItemName}'s battery was drained because it got wet.,"{ItemName} akkumulátora lemerült, mert megázott."
 VeinCheatManager,FistsKeyNotification,Toggle Fists,Öklök váltása
 VeinCheatManager,Admin_SetAdmin,You gave {PlayerName} admin abilities.,Admin jogokat adtál neki: {PlayerName}.
 VeinCheatManager,Admin_RemoveAdmin_Notification,You removed {PlayerName}'s admin abilities.,Elvetted {PlayerName} admin jogait.
@@ -10520,7 +10520,7 @@ WaterSourceComponent,WaterSource_WashSelf_UseOption,Wash Self,Mosakodás
 WaterSourceComponent,WaterSource_DrainWater,You drain the container.,Kiüríted a tárolót.
 WaterSourceComponent,WaterSource_DrinkStored,You drink some of the contents.,Iszol egy keveset a belőle.
 WaterSourceComponent,WaterSource_StoreWater,You fill the container.,Megtöltöd a tárolót.
-WaterSourceComponent,WaterSource_WashSelf,You wash yourself in the {FluidType}.,Megmosakszol a(z) {FluidType}-ban.
+WaterSourceComponent,WaterSource_WashSelf,You wash yourself in the {FluidType}.,Megmosakszol ezzel: {FluidType}.
 WeatherGaugeBuiltActor,WeatherGauge_Check_UseOption,Check,Ellenőrzés
 WeatherGaugeBuiltActor,WeatherGauge_Name,Weather Gauge,Időjárásmérő
 WeatherReadout,CloudinessLabel,Cloudiness,Felhősség
@@ -10716,16 +10716,16 @@ Wiring,Consumption_Desc,Active resources required by this.,Működő energiaforr
 Wiring,AddConnectionButton_Label,Add Connection,Kapcsolat hozzáadása
 Wiring,Consumption_Title,Consumption,Fogyasztás
 Wiring,DisconnectAllButton_Label,Disconnect All,Összes leválasztása
-Wiring,Generation_Title,Generation,Generálás
+Wiring,Generation_Title,Generation,Termelés
 Wiring,NoReceivingConnectionsDesc,No receiving connections.,Nincs fogadó kapcsolat.
 Wiring,NoRequirementsLabel,No requirements.,Nincs követelmény.
 Wiring,NotGeneratingLabel,Not generating.,Nem termel.
-Wiring,NoProvidingConnectionsLabel,Nothing plugged into this.,Semmi sem csatlakozik hozzá.
+Wiring,NoProvidingConnectionsLabel,Nothing plugged into this.,Nem csatlakozik hozzá semmi.
 Wiring,ProvidingConnections_Title,Providing Connections,Kimenő kapcsolatok
 Wiring,ReceivingConnections_Title,Receiving Connections,Bejövő kapcsolatok
 Wiring,ReceivingConnections_Desc,This gets resources from these.,Ebből kap energiát.
 Wiring,UnwireButton_Label,Unwire,Vezeték eltávolítása
-Wiring,Generation_Desc,What this is creating.,Amit ez létrehoz.
+Wiring,Generation_Desc,What this is creating.,Amit az eszköz létrehoz.
 Wiring,ProvidingConnections_Desc,What this is giving out.,Ezeket látja el.
 WiringOutputUserWidget,Any,Any,Bármi
 WiringOutputUserWidget,SystemNodeType_Electricity,Electricity,Áram

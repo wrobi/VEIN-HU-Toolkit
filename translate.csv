@@ -583,11 +583,11 @@
 ,4A06BDA54136654B844DCF9A4FC0AF26,Floodlight,Reflektor
 ,3F493EFB47CED27AF498999D29C83B43,Floor 1,1. emelet
 ,6738D40946839C1BF0EAC099400BB66B,Floor 2,2. emelet
-,4FC85E254AE7A8ED7BF3B4A64773B5E6,Flowing,Áramlik
-,8ADF4E13467F037B22865E99D1ED8971,Fluid Barrel,Hordó
-,9B7FBECA499271BE3836F4ABB388CCB7,Fluid Barrel,Hordó
-,A8A230924311C05D4FF056BDEB079EEC,Fluid Barrel,Hordó
-,B0C3E2BA4F362C87159E568318C8E3BF,Fluid Barrel,Hordó
+,4FC85E254AE7A8ED7BF3B4A64773B5E6,Flowing,Folyik
+,8ADF4E13467F037B22865E99D1ED8971,Fluid Barrel,Műanyag hordó
+,9B7FBECA499271BE3836F4ABB388CCB7,Fluid Barrel,Műanyag hordó
+,A8A230924311C05D4FF056BDEB079EEC,Fluid Barrel,Műanyag hordó
+,B0C3E2BA4F362C87159E568318C8E3BF,Fluid Barrel,Műanyag hordó
 ,176E450A4E60373D70B8CD9D5C9ADB28,Fluid Hookup,Folyadékcsatlakozás
 ,2B015B2E457E769C2DCD07B3A2C87F20,Fluid Hookup,Folyadékcsatlakozás
 ,61E1096545D10BF41164A4BB3384B620,Fluid Hookup,Folyadékcsatlakozás
@@ -1073,12 +1073,12 @@
 ,104E29FA4EF51A2A8C17F6912FF58994,Oak Ln,Oak Ln
 ,91BD25E049E1185113C05FAD806BC9F2,Oak Ln,Oak Ln
 ,D055A62848D9B9928A43D4A36AC70282,Oki Doki,Oki Doki
-,2FF472E04161E72C8732EBA5B91EAC04,Old Fluid Barrel,Régi folyadékhordó
-,363F98554606FD75CB01049D7E6E95FB,Old Fluid Barrel,Régi folyadékhordó
-,789CB7E7423160A03259DDBA46450FC4,Old Fluid Barrel,Régi folyadékhordó
-,871B6C0E4A0227FD771A6E87D8EEBE56,Old Fluid Barrel,Régi folyadékhordó
-,B91F1E7846D8A881197DAA98F005932F,Old Fluid Barrel,Régi folyadékhordó
-,DE12B4294A357BC5F7926EA350E89A60,Old Fluid Barrel,Régi folyadékhordó
+,2FF472E04161E72C8732EBA5B91EAC04,Old Fluid Barrel,Régi lemezhordó
+,363F98554606FD75CB01049D7E6E95FB,Old Fluid Barrel,Régi lemezhordó
+,789CB7E7423160A03259DDBA46450FC4,Old Fluid Barrel,Régi lemezhordó
+,871B6C0E4A0227FD771A6E87D8EEBE56,Old Fluid Barrel,Régi lemezhordó
+,B91F1E7846D8A881197DAA98F005932F,Old Fluid Barrel,Régi lemezhordó
+,DE12B4294A357BC5F7926EA350E89A60,Old Fluid Barrel,Régi lemezhordó
 ,2F661853482CC2C0BA11C0B78B18CA9C,Old Generator,Régi generátor
 ,AA924BFB47448F449ED1668EC0749A9F,Old Generator,Régi generátor
 ,678A3C5141D704CBA3FAAD9B4F903B26,Old Rail Rd Bed,Old Rail Rd Bed
@@ -1140,7 +1140,7 @@
 ,BBE0C27C4558FDE0C34166BF4199813C,Peasleeville Rd,Peasleeville Rd
 ,00BAB89147F37F1591B0079D491B5138,Perk available!,Elérhető képesség!
 ,D0B17ACA43C0923EA8ECACB82C812788,Pet Perfume,Állatparfüm
-,0A9C00304985D231E493559D4968738D,Photosensitivity/Seizure Warning,Fényérzékenységi/Epilepsziás roham figyelmeztetés
+,0A9C00304985D231E493559D4968738D,Photosensitivity/Seizure Warning,Fényérzékenységre és Rohamokra vonatkozó figyelmeztetés
 ,54934DAB47A475A78B2E7FA38C8848E2,Piano,Zongora
 ,1CF517344DE9E9216DCE8E873E3DA9AF,Picketts Corner Rd,Picketts Corner Rd
 ,4EBD2BAB46572FF0DB2CE9B7E13B0F0B,Picketts Corner Rd,Picketts Corner Rd
@@ -3743,8 +3743,8 @@ Fluids,FL_Coffee_SmellText,Smells like coffee.,Kávé szaga van.
 Fluids,FL_ChemicalCleaner_SmellText,Smells like flowers.,Virágillat van.
 Fluids,FL_Soap_SmellText,Smells like flowers.,Virágillat van.
 Fluids,FL_Juice_SmellText,Smells like fruit.,Gyümölcs szaga van.
-Fluids,FL_Diesel_SmellRottenText,Smells like fuel.,Üzemanyag szaga van.
-Fluids,FL_Diesel_SmellText,Smells like fuel.,Üzemanyag szaga van.
+Fluids,FL_Diesel_SmellRottenText,Smells like fuel.,Gázolaj szaga van. (b)
+Fluids,FL_Diesel_SmellText,Smells like fuel.,Gázolaj szaga van.
 Fluids,FL_Gasoline_SmellText,Smells like gasoline.,Benzin szaga van.
 Fluids,FL_Glue_SmellText,Smells like glue.,Ragasztó szaga van.
 Fluids,FL_Kerosene_SmellText,Smells like kerosene.,Petróleum szaga van.
@@ -3840,8 +3840,8 @@ FoodItem,Eat,Eat,Evés
 FoodItem,Food_DecayLevel_Fresh,Fresh,Friss
 FoodItem,Frozen,Frozen,Fagyott
 FoodItem,FoodPrefix_Frozen,Frozen {FoodName},Fagyasztott {FoodName}
-FoodItem,Fish_Gut,Gut,Kibelezés
-FoodItem,FoodItem_Gutted,Gutted,Kibelezve
+FoodItem,Fish_Gut,Gut,Kizsigerelés
+FoodItem,FoodItem_Gutted,Gutted,Kizsigerelve
 FoodItem,Heat,Heat,Hőmérséklet
 FoodItem,Hot,Hot,Forró
 FoodItem,Burnt_Tooltip,How burnt the food is. This will reduce quality and make you uncomfortable.,Mennyire odaégett az étel. Ez csökkenti a minőséget és kellemetlen érzést okoz.
@@ -4399,10 +4399,10 @@ FurnitureComponent,Furniture_CantBeMoved_BadUC,This is protected by a nearby Uti
 FurnitureComponent,Furniture_CantDestroy_UCCheck,This is protected by a nearby Utility Cabinet.,Ezt egy közeli karbantartó szekrény védi.
 FurnitureComponent,Furniture_CantBeMoved_ContainerNotSearched,This might have items in it. Search it first.,"Lehet, hogy tárgyak vannak benne. Előbb kutasd át."
 FurnitureComponent,Furniture_CantDestroy_InChair,You can't destroy your own seat.,Nem semmisítheted meg a saját ülésedet.
-FurnitureComponent,FurnitureDismantleResultNotificationNothing,You destroyed this but salvaged nothing.,"Megsemmisítetted ezt, de semmit sem sikerült megmenteni."
-FurnitureComponent,FurnitureDismantleResultNotification_User,You destroyed this.\nYou received:\n\n{Items},Megsemmisítetted ezt.\nEzt kaptad:\n\n{Items}
+FurnitureComponent,FurnitureDismantleResultNotificationNothing,You destroyed this but salvaged nothing.,"Megsemmisítetted, de semmit nem sikerült megmenteni."
+FurnitureComponent,FurnitureDismantleResultNotification_User,You destroyed this.\nYou received:\n\n{Items},Megsemmisítetted.\nEzt kaptad:\n\n{Items}
 FurnitureComponent,Furniture_CantBeMoved_NoMovementBased,You have to be standing on the ground.,A földön kell állnod.
-FurnitureComponent,Furniture_Learned,You learn how to build this yourself. Find it in the Construction Menu as {Name}.,"Megtanulod, hogyan építsd meg ezt magad. Az Építési menüben találod {Name} néven."
+FurnitureComponent,Furniture_Learned,You learn how to build this yourself. Find it in the Construction Menu as {Name}.,"Megtanulod, hogyan építsd meg. Az Építési menüben találod {Name} néven."
 FurnitureComponent,Furniture_Learn_NotEnoughStat,You need level {Level} {Stat} to investigate this.,{Level}. szintű {Stat} kell ennek megvizsgálásához.
 FurnitureComponent,Furniture_CantBeMoved_YouInChair,You're sitting here.,Itt ülsz.
 GameplaySetting,GS_TimeWithNoPlayers_Label,Advance Time With No Players,Idő múlása játékosok nélkül
@@ -4513,11 +4513,11 @@ GameplaySetting,GS_StunLockDuration_Description,The time zombies get stun locked
 GameplaySetting,GS_ThirstMultiplier_Label,Thirst Speed Multiplier,Szomjazási sebesség szorzó
 GameplaySetting,GS_TimeMultiplier_Label,Time Multiplier,Időszorzó
 GameplaySetting,GS_TimeWithNoPlayers_Description,"Time continues moving forward, even when there are no players on the server.","Az idő tovább halad, még akkor is, ha nincsenek játékosok a szerveren."
-GameplaySetting,GS_TiredMultiplier_Label,Tired Speed Multiplier,Fáradt sebesség szorzó
+GameplaySetting,GS_TiredMultiplier_Label,Tired Speed Multiplier,Fáradtság sebesség szorzó
 GameplaySetting,GS_UtilityCabinetRadiusMultiplier_Label,Utility Cabinet Radius Multiplier,Karbantartó szekrény hatósugár-szorzó
 GameplaySetting,GS_VehicleOutgoingPlayerDamage_Label,Vehicle Outgoing Player Damage,Jármű kimenő játékos-sebzés
 GameplaySetting,GS_WalkSpeed_Label,Walk Speed,Sétasebesség
-GameplaySetting,GS_WaterShutoffTime_Label,Water Failure Time,Vízkimaradás ideje
+GameplaySetting,GS_WaterShutoffTime_Label,Water Failure Time,Vízszolgáltatás vége
 GameplaySetting,GS_PowerShutoffTime_Description,"When the power shuts off, relative to April 2033. If you start the game later, make sure to take that into account!","Mikor kapcsol le az áram, 2033 áprilisához viszonyítva. Ha később kezded a játékot, ezt vedd figyelembe!"
 GameplaySetting,GS_WaterShutoffTime_Description,"When the water shuts off, relative to April 2033. If you start the game later, make sure to take that into account!","Mikor zár el a víz, 2033 áprilisához viszonyítva. Ha később kezded a játékot, ezt vedd figyelembe!"
 GameplaySetting,GS_NoSaves_Description,You are not allowed to manually save your game. Autosaves function as normal. Prevents save scumming.,Nem menthetsz kézzel a játékban. Az automatikus mentés a szokásos módon működik. Megakadályozza a mentésmanipulálást.
@@ -4678,13 +4678,13 @@ HUD_ConstructionCost,MaterialsLabel,Materials,Alapanyagok
 HUD_Watermark,LoadingText,Loading...,Betöltés...
 HuntingWindow,AttemptsRemaining_Label,Attempts Remaining,Hátralévő próbálkozások
 HuntingWindow,BloodRemainingLabel,Blood Remaining,Hátralévő vér
-HuntingWindow,Bloodletting_Title,Bloodletting,Érvágás
-HuntingWindow,ButcherButtonLabel,Butcher with {ItemName},Feldolgozás ezzel: {ItemName}
-HuntingWindow,Butchering_Title,Butchering,Feldolgozás
-HuntingWindow,DismemberButtonLabel,Dismember with {ItemName},Feldarabolás ezzel: {ItemName}
-HuntingWindow,Dismembering_Title,Dismembering,Feldarabolás
-HuntingWindow,GutButtonLabel,Gut with {ItemName},Kibelezés ezzel: {ItemName}
-HuntingWindow,Gutting_Title,Gutting,Kibelezés
+HuntingWindow,Bloodletting_Title,Bloodletting,Kivéreztetés
+HuntingWindow,ButcherButtonLabel,Butcher with {ItemName},Húsfeldolgozás ezzel: {ItemName}
+HuntingWindow,Butchering_Title,Butchering,Húsfeldolgozás
+HuntingWindow,DismemberButtonLabel,Dismember with {ItemName},Csonkolás ezzel: {ItemName}
+HuntingWindow,Dismembering_Title,Dismembering,Csonkolás
+HuntingWindow,GutButtonLabel,Gut with {ItemName},Zsigerelés ezzel: {ItemName}
+HuntingWindow,Gutting_Title,Gutting,Kizsigerelés
 HuntingWindow,LetBloodButtonLabel,Let Blood with {ItemName},Érvágás ezzel: {ItemName}
 HuntingWindow,LimbsRemaining_Label,Limbs Remaining,Hátralévő végtagok
 HuntingWindow,OrgansRemainingLabel,Organs Remaining,Hátralévő szervek
@@ -4696,7 +4696,7 @@ HuntingWindow,Gutting_NoTools,You have nothing to gut with.,Nincs mivel kibelezn
 HuntingWindow,Bloodletting_NoTools,You have nothing to let blood with.,Nincs mivel érvágást végezned.
 HuntingWindow,Skinning_NoTools,You have nothing to skin this with.,Nincs mivel megnyúznod ezt.
 HuntingWindowWidget,AttemptButtonLabel,Attempt,Próbálkozás
-HuntingWindowWidget,BloodlettingHelpTitle,Bloodletting,Érvágás
+HuntingWindowWidget,BloodlettingHelpTitle,Bloodletting,Kivéreztetés
 HuntingWindowWidget,SelectToolTooltip,Please select a valid tool to use.,"Kérlek, válassz egy megfelelő szerszámot."
 HuntingWindowWidget,BloodlettingHelpBody,"Select a pump item (like a peristaltic pump), followed by a fluid container to drain blood to.\r\n\r\nYou can also use a syringe directly.","Válassz egy pumpát (például perisztaltikus pumpát), majd egy folyadéktárolót, ahová a vért leengeded.\r\n\r\nKözvetlenül fecskendőt is használhatsz."
 HuntingWindowWidget,NoBodyPartsLeft,There's nothing left to process here.,Itt nem maradt mit feldolgozni.
@@ -5669,17 +5669,17 @@ Items,BP_Matches_Description,A strike match.,Egy gyufaszál.
 Items,BP_StringTrimmer_Description,A string trimmer.,Egy damilos fűkasza.
 Items,BP_CL_Head_CombatHelmet_Description,A strong combat helmet.,Egy erős harci sisak.
 Items,BP_Painkillers_Veterinary_Description,"A strong painkiller for animals. Will work on humans, but won't be as effective.\r\n\r\nUsed to reduce pain. Addictive.","Egy erős fájdalomcsillapító állatoknak. Embereknél is hat, de nem olyan hatékonyan.\r\n\r\nFájdalom csökkentésére. Függőséget okoz."
-Items,BP_CL_Head_RiotHelmet_Description,"A strong riot helmet, usually worn with a set of riot gear.","Egy erős sorfalsisak, amit jellemzően a sorfalfelszereléssel együtt viselnek."
+Items,BP_CL_Head_RiotHelmet_Description,"A strong riot helmet, usually worn with a set of riot gear.","Egy erős sisak, amit jellemzően a rohamosztagos felszereléssel együtt viselnek."
 Items,BP_Cocaine_Description,A strong stimulant.,Egy erős stimuláns.
 Items,BP_CL_Head_FirefighterHelmet_Description,A sturdy firefighter helmet.,Egy strapabíró tűzoltósisak.
 Items,BP_CL_HuntingVest_Description,A sturdy hunting vest. Provides slight torso protection.,Egy strapabíró vadászmellény. Enyhe védelmet nyújt a felsőtestnek.
-Items,BP_CL_BulletproofVestCiv_Description,"A sturdy, civilian-grade bulletproof vest. Will slightly help protect your torso from incoming projectiles.","Egy strapabíró, civil besorolású golyóálló mellény. Enyhén segít megvédeni a felsőtested a becsapódó lövedékektől."
+Items,BP_CL_BulletproofVestCiv_Description,"A sturdy, civilian-grade bulletproof vest. Will slightly help protect your torso from incoming projectiles.","Egy strapabíró, civil golyóálló mellény. Enyhén segít megvédeni a felsőtested a becsapódó lövedékektől."
 Items,BP_CL_BulletproofVestMilitary_Description,"A sturdy, military-grade bulletproof vest. Will significantly help protect your torso from incoming projectiles.","Egy strapabíró, katonai besorolású golyóálló mellény. Jelentősen segít megvédeni a felsőtested a becsapódó lövedékektől."
-Items,BP_CL_BulletproofVestDeputy_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi besorolású golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
-Items,BP_CL_BulletproofVestPolice_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi besorolású golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
-Items,BP_CL_BulletproofVestSheriff_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi besorolású golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
-Items,BP_CL_BulletproofVestStateTrooper_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi besorolású golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
-Items,BP_CL_BulletproofVestRiot_Description,"A sturdy, riot-grade bulletproof vest. Will greatly help protect your torso from incoming projectiles.","Egy strapabíró, sorfal-besorolású golyóálló mellény. Nagymértékben segít megvédeni a felsőtested a becsapódó lövedékektől."
+Items,BP_CL_BulletproofVestDeputy_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
+Items,BP_CL_BulletproofVestPolice_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
+Items,BP_CL_BulletproofVestSheriff_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
+Items,BP_CL_BulletproofVestStateTrooper_Description,"A sturdy, police-grade bulletproof vest. Will help protect your torso from incoming projectiles.","Egy strapabíró, rendőrségi golyóálló mellény. Segít megvédeni a felsőtested a becsapódó lövedékektől."
+Items,BP_CL_BulletproofVestRiot_Description,"A sturdy, riot-grade bulletproof vest. Will greatly help protect your torso from incoming projectiles.","Egy strapabíró, rohamosztagos golyóálló mellény. Nagymértékben segít megvédeni a felsőtested a becsapódó lövedékektől."
 Items,BP_PotRoast_Description,A succulent pot roast.,Egy szaftos serpenyős sült.
 Items,BP_Suppressor_Pistol_Description,A suppressor for pistols.\r\n\r\nDrag onto a pistol to attach.,Egy hangtompító pisztolyokhoz.\r\n\r\nHúzd egy pisztolyra a felszereléshez.
 Items,BP_Suppressor_Rifle_Description,A suppressor for rifles.\r\n\r\nDrag onto a rifle to attach.,Egy hangtompító puskákhoz.\r\n\r\nHúzd egy puskára a felszereléshez.
@@ -5690,11 +5690,11 @@ Items,BP_SurgicalTray02_Description,A surgical tray.,Egy sebészi tálca.
 Items,BP_Candy02_Variant1_Description,A swirl candy bar.,Egy örvénymintás csokiszelet.
 Items,BP_CL_MaplemartTShirt_Description,A t-shirt typically worn by Maplemart employees.,"Egy póló, amilyet jellemzően a Maplemart alkalmazottai viselnek."
 Items,BP_CL_RamjetStudiosTShirt_Description,A t-shirt with a familiar logo.,Egy póló ismerős logóval.
-Items,BP_CL_Shoes_GothBoots_Description,A tall pair of goth boots.,Egy magas szárú gótikus csizma.
+Items,BP_CL_Shoes_GothBoots_Description,A tall pair of goth boots.,Egy magas szárú gót csizma.
 Items,BP_TapeDispenser_Description,A tape dispenser.,Egy ragasztószalag-adagoló.
 Items,BP_BeefWellington_Description,A tenderloin wrapped in a puff pastry.,"Egy bélszín, leveles tésztába göngyölve."
 Items,BP_CL_Hoodie_Description,A thick hoodie.,Egy vastag kapucnis pulóver.
-Items,BP_Dart_Description,A throwing dart.,Egy dobódárda.
+Items,BP_Dart_Description,A throwing dart.,Egy darts dobónyíl.
 Items,BP_CL_LeatherJacket_Description,"A timeless classic, but cooler.","Egy időtlen klasszikus, csak menőbb."
 Items,BP_CL_JeanJacket_Description,A timeless classic.,Egy időtlen klasszikus.
 Items,BP_Firearm_AK_Description,A timeless classic.,Egy időtlen klasszikus.
@@ -5705,7 +5705,7 @@ Items,BP_Melee_Tomahawk_Description,A tomahawk.,Egy tomahawk.
 Items,BP_TomatoSlice_Description,A tomato slice.,Egy szelet paradicsom.
 Items,BP_Tomato_Description,A tomato.,Egy paradicsom.
 Items,BP_ToolBattery_HeavyDuty_Description,"A tool battery specifically used for hydraulic tools.\r\n\r\nBattery will deplete energy as it's being used, but can be recharged.","Egy szerszámakkumulátor, kifejezetten hidraulikus szerszámokhoz.\r\n\r\nAz akkumulátor használat közben lemerül, de újratölthető."
-Items,BP_CL_MilitaryTop_Description,A top issued by the military.,Egy katonai kiadású felső.
+Items,BP_CL_MilitaryTop_Description,A top issued by the military.,Egy katonai felső.
 Items,BP_Towel_Description,"A towel, can be used to dry yourself.\r\n\r\nCan be used to clean blood and dirt off the floor.","Egy törölköző, megszárítkozhatsz vele.\r\n\r\nFelitathatod vele a vért és koszt a padlóról."
 Items,BP_Eggs_Description,A tray full of eggs.,Egy tálca tele tojással.
 Items,BP_BunsenTripod01_Description,A tripod typically used in chemistry projects.,"Egy háromlábú állvány, jellemzően kémiai feladatokhoz."
@@ -5718,7 +5718,7 @@ Items,BP_PaintTray_Description,"A used paint tray, looks used.","Egy használt f
 Items,BP_ToiletBrush_Description,"A used toilet brush, it's a bit smelly. Can cause illnesses on hit.","Egy használt WC-kefe, kicsit büdös. Ütéskor betegséget okozhat."
 Items,BP_Toothbrush_Description,A used toothbrush.,Egy használt fogkefe.
 Items,BP_Melee_PaintBrush_Description,"A used, long handled paint brush.","Egy használt, hosszú nyelű ecset."
-Items,BP_Charcoal_Description,A useful fuel for fires and furnaces. Could potentially be refined in a kiln.,Egy hasznos tüzelőanyag tüzekhez és kemencékhez. Akár kemencében is finomítható.
+Items,BP_Charcoal_Description,A useful fuel for fires and furnaces. Could potentially be refined in a kiln.,Egy hasznos tüzelőanyag tüzekhez és kemencékhez. Kemencében akár finomítható is.
 Items,BP_LockCode_Description,"A very advanced, code lock made specifically for doors. Much stronger than an enhanced lock. Cannot be lockpicked.\r\n\r\nCan be attached to doors and containers.","Egy nagyon fejlett, kifejezetten ajtókhoz készült kódzár. Sokkal erősebb egy megerősített zárnál. Nem törhető fel álkulccsal.\r\n\r\nAjtókra és tárolókra szerelhető."
 Items,BP_Saffron_Description,A very expensive spice.,Egy nagyon drága fűszer.
 Items,BP_Painkillers_Morphine_Description,A very strong painkiller.\r\n\r\nUsed to reduce pain and sickness. Addictive.,Egy nagyon erős fájdalomcsillapító.\r\n\r\nFájdalom és rosszullét csökkentésére. Függőséget okoz.
@@ -5758,7 +5758,7 @@ Items,BP_Magazine_AK_Name,AK Magazine - 30 Round,AK-tár - 30 töltényes
 Items,BP_LockKey_Variant3_Name,ATV Key,Quad kulcs
 Items,BP_Melee_Wrench_Name,Adjustable Wrench,Állítható csavarkulcs
 Items,BP_Antibiotic_Advanced_Name,Advanced Antibiotics,Fejlett antibiotikum
-Items,BP_AdvancedComponents_Name,Advanced Components,Fejlett komponensek
+Items,BP_AdvancedComponents_Name,Advanced Components,Fejlett elektronikai alkatrészek
 Items,BP_AdvancedTechParts_Name,Advanced Tech Scrap,Fejlett technikai hulladék
 Items,BP_AgedCheese_Name,Aged Cheese,Érlelt sajt
 Items,BP_Alewife_Name,Alewife,Alewife
@@ -5779,7 +5779,7 @@ Items,BP_Spider_Description,An 8-legged fuzzy friend.,"Egy 8 lábú, szőrös ba
 Items,BP_Ammo_AT4_Description,An 84mm explosive shell.,Egy 84 mm-es robbanótöltet.
 Items,BP_Magazine_AK_Description,An AK magazine. Holds 7.62mm Rounds.,Egy AK-tár. 7.62 mm-es töltényeket tartalmaz.
 Items,BP_SoccerBall_Description,An American soccer ball. Known as a football by most of the world.,Egy focilabda. A világ nagy részén »football« a neve.
-Items,BP_GameConsole_Description,An ExReality branded console. ,Egy ExReality márkájú konzol. 
+Items,BP_GameConsole_Description,An ExReality branded console. ,Egy ExReality márkájú játékkonzol. 
 Items,BP_GameController_Description,"An ExReality branded controller, used for the ExReality v2.0.","Egy ExReality márkájú kontroller, az ExReality v2.0-hoz."
 Items,BP_GameHandheld_Description,An ExReality branded handheld console.,Egy ExReality márkájú kézikonzol.
 Items,BP_MRE_Description,"An MRE, very filling.","Egy MRE (katonai csomagolt étel), nagyon laktató."
@@ -5826,11 +5826,11 @@ Items,BP_TVInverter_Description,An important component from a television.,Egy fo
 Items,BP_FridgeCompressor_Description,An important component needed when building a fridge.,"Egy fontos alkatrész, amely egy hűtő építéséhez kell."
 Items,BP_StoveHeatingElements_Description,An important component needed when building a stove.,"Egy fontos alkatrész, amely egy tűzhely építéséhez kell."
 Items,BP_BrakePad_Description,An important component needed when repairing a vehicle's brakes.,"Egy fontos alkatrész, ami szükséges egy jármű fékjeinek javításához."
-Items,BP_Melee_PickaxeImproved_Description,An improved pickaxe.\r\n\r\nCan be used in mining and is strong enough to break weak cave walls.\r\n\r\nHas a 50% chance to mine double the amount of ore a normal pickaxe would.,"Egy fejlesztett csákány.\r\n\r\nBányászathoz használható, és elég erős a gyenge barlangfalak áttöréséhez.\r\n\r\n50% eséllyel a normál csákány kétszeresét bányássza ki ércből."
+Items,BP_Melee_PickaxeImproved_Description,An improved pickaxe.\r\n\r\nCan be used in mining and is strong enough to break weak cave walls.\r\n\r\nHas a 50% chance to mine double the amount of ore a normal pickaxe would.,"Egy továbbfejlesztett csákány.\r\n\r\nBányászathoz használható, és elég erős a gyenge barlangfalak áttöréséhez.\r\n\r\n50% eséllyel a normál csákány kétszeresét bányássza ki ércből."
 Items,BP_WelderIndustrial_Description,An industrial welder. \r\n\r\nUseful in crafting. Requires tool battery to function.,Egy ipari hegesztő. \r\n\r\nHasznos a barkácsoláshoz. A működéséhez szerszámakkumulátor szükséges.
 Items,BP_Printer02_Description,An inkjet printer.,Egy tintasugaras nyomtató.
 Items,BP_IronIngot_Description,An iron ingot.\r\n\r\nUseful in crafting.,Egy vastömb.\r\n\r\nHasznos a barkácsoláshoz.
-Items,BP_RubbingAlcohol_Description,"An isopropyl alcohol bottle, usually has IPA in it.\r\n\r\nUseful for disinfecting.","Egy üveg izopropil-alkohol, általában IPA van benne.\r\n\r\nFertőtlenítésre hasznos."
+Items,BP_RubbingAlcohol_Description,"An isopropyl alcohol bottle, usually has IPA in it.\r\n\r\nUseful for disinfecting.","Egy üveg izopropil-alkohol, általában IPA (nem sör) van benne.\r\n\r\nFertőtlenítésre hasznos."
 Items,BP_Phone_Description,An office phone.,Egy irodai telefon.
 Items,BP_BathroomScale_Description,An old bathroom scale.,Egy régi fürdőszobai mérleg.
 Items,BP_Bible_Description,An old bible.,Egy régi biblia.
@@ -5936,9 +5936,9 @@ Items,BP_Meth_Description,Become the one who knocks with this central nervous sy
 Items,BP_RF_BedroomClintonSt_Name,Bedroom Key,Hálószobakulcs
 Items,BP_Beef_Name,Beef,Marhahús
 Items,BP_BrothBeef_Name,Beef Broth,Marha alaplé
-Items,BP_Enchilada_Name,Beef Enchilada,Marhás enchilada
+Items,BP_Enchilada_Name,Beef Enchilada,Marhahúsos enchilada
 Items,BP_FrozenBeefPatties_Name,Beef Patties,Marhapogácsa
-Items,BP_QuesadillaBeef_Name,Beef Quesadilla,Marhás quesadilla
+Items,BP_QuesadillaBeef_Name,Beef Quesadilla,Marhahúsos quesadilla
 Items,BP_BeefStew_Name,Beef Stew,Marhapörkölt
 Items,BP_BeefWellington_Name,Beef Wellington,Bélszín Wellington módra
 Items,BP_BeerBottle_Name,Beer Bottle,Sörösüveg
@@ -5960,7 +5960,7 @@ Items,BP_BlackCrappie_Name,Black Crappie,Black Crappie
 Items,BP_BlackGarlic_Name,Black Garlic,Fekete fokhagyma
 Items,BP_BlackchinShiner_Name,Blackchin Shiner,Blackchin Shiner
 Items,BP_BlacknoseShiner_Name,Blacknose Shiner,Blacknose Shiner
-Items,BP_Melee_CrystalDagger_Name,Bladed Crystal,Pengeéles kristály
+Items,BP_Melee_CrystalDagger_Name,Bladed Crystal,Éles kristálypenge
 Items,BP_BleachBottle_Name,Bleach Bottle,Fehérítős üveg
 Items,BP_BloodBag_Name,Blood Bag,Vérzsák
 Items,BP_BloodPressure01_Name,Blood Pressure Cuff,Vérnyomásmérő mandzsetta
@@ -6008,12 +6008,12 @@ Items,BP_Bow_Name,Bow,Íj
 Items,BP_Bowfin_Name,Bowfin,Bowfin
 Items,BP_CL_Head_BowlerHat_Name,Bowler Hat,Keménykalap
 Items,BP_CL_Shoes_BowlingShoes_Name,Bowling Shoes,Bowlingcipő
-Items,BP_FrozenWaffles_Name,Box of Waffles,Doboz gofri
-Items,BP_FrozenFish_Name,Boxed Fish,Dobozos hal
-Items,BP_CL_Head_BoxingGearHelmet_Name,Boxing Helmet,Box fejvédő
-Items,BP_CerealBox_Variant0_Name,Bran Flakes,Korpapehely
+Items,BP_FrozenWaffles_Name,Box of Waffles,Fagyasztott gofri
+Items,BP_FrozenFish_Name,Boxed Fish,Fagyasztott hal
+Items,BP_CL_Head_BoxingGearHelmet_Name,Boxing Helmet,Fejvédő
+Items,BP_CerealBox_Variant0_Name,Bran Flakes,Gabonapehely
 Items,BP_BrassyMinnow_Name,Brassy Minnow,Brassy Minnow
-Items,BP_RollBratWurst_Name,Bratwurst,Bratwurst
+Items,BP_RollBratWurst_Name,Bratwurst,Kolbász
 Items,BP_Melee_KnifeBread_Name,Bread Knife,Kenyérvágó kés
 Items,BP_BreadLoaf_Name,Bread Loaf,Vekni kenyér
 Items,BP_BreadSlice_Name,Bread Slice,Kenyérszelet
@@ -6037,7 +6037,7 @@ Items,BP_BunnyFeed_Name,Bunny Feed,Nyúltáp
 Items,BP_CL_Shoes_BunnySlippers_Name,Bunny Slippers,Nyuszipapucs
 Items,BP_BunsenTripod01_Name,Bunsen Burner Tripod,Bunsen-égő háromlábú állvány
 Items,BP_Burbot_Name,Burbot,Burbot
-Items,BP_Burncream_Name,Burncream,Égési krém
+Items,BP_Burncream_Name,Burncream,Égéselleni krém
 Items,BP_Butter_Name,Butter,Vaj
 Items,BP_Melee_KnifeButter_Name,Butter Knife,Vajazókés
 Items,BP_BoxedCrackers02_Name,Buttery Crackers,Vajas keksz
@@ -6091,7 +6091,7 @@ Items,BP_Chalk_Name,Chalk,Kréta
 Items,BP_ChannelCatfish_Name,Channel Catfish,Channel Catfish
 Items,BP_ChannelDarter_Name,Channel Darter,Channel Darter
 Items,BP_Charcoal_Name,Charcoal,Faszén
-Items,BP_CharcoalTabs_Name,Charcoal Tabs,Aktívszén-tabletta
+Items,BP_CharcoalTabs_Name,Charcoal Tabs,Széntabletta
 Items,BP_RefinedCharcoal_Description,Charcoal that's been refined in a kiln. A useful fuel for fires and furnaces. Burns much hotter than normal charcoal.,"Kemencében finomított faszén. Hasznos tüzelőanyag tüzekhez és kemencékhez. Sokkal forróbban ég, mint a normál faszén."
 Items,BP_Cheese_Name,Cheese,Sajt
 Items,BP_ChipBag02_Name,Cheese 'n Onion Chips,Sajtos-hagymás chips
@@ -6111,7 +6111,7 @@ Items,BP_BoxedFajitaChicken_Name,Chicken Fajita Kit,Csirkés fajita készlet
 Items,BP_ChickenFeed_Name,Chicken Feed,Csirketáp
 Items,BP_CannedChickenNoodleSoup_Name,Chicken Noodle Soup,Csirkés tésztaleves
 Items,BP_BoxedNoodles_Name,Chicken Noodles,Csirkés tészta
-Items,BP_ChickenParmesan_Name,Chicken Parmesan,Csirke parmezán módra
+Items,BP_ChickenParmesan_Name,Chicken Parmesan,Parmezános csirke
 Items,BP_QuesadillaChicken_Name,Chicken Quesadilla,Csirkés quesadilla
 Items,BP_ChipBag03_Variant0_Name,Chilli Corn Chips,Chilis kukoricachips
 Items,BP_BoxedBoomTarts_Variant0_Name,Chocolate Boom Tarts,Csokis Boom Tarts
@@ -6131,19 +6131,19 @@ Items,BP_CL_BulletproofVestCiv_Name,Civilian Bulletproof Vest,Civil golyóálló
 Items,BP_ClassicEscargot_Name,Classic Escargot,Klasszikus escargot
 Items,BP_Melee_ClawHammer_Name,Claw Hammer,Kalapács
 Items,BP_Melee_ClawSword_Name,Claw Sword,Kalapács-kard
-Items,BP_CleanerCasserole_Name,Cleaner Casserole,Tisztítós rakott étel
+Items,BP_CleanerCasserole_Name,Cleaner Casserole,Makacs zsíroldó
 Items,BP_CleaningWipes_Name,Cleaning Wipes,Tisztítókendő
 Items,BP_Melee_Cleaver_Name,Cleaver,Bárd
-Items,BP_FirstAidKit_Clinic_Name,Clinic Kit,Rendelői készlet
+Items,BP_FirstAidKit_Clinic_Name,Clinic Kit,Klinikai készlet
 Items,BP_Clock_Name,Clock,Óra
-Items,BP_ClothRope_Name,Cloth Rope,Szövetkötél
-Items,BP_ClothScrap_Name,Cloth Scrap,Szövethulladék
+Items,BP_ClothRope_Name,Cloth Rope,Vászonkötél
+Items,BP_ClothScrap_Name,Cloth Scrap,Textilhulladék
 Items,BP_Hanger_Name,Clothing Hanger,Ruhaakasztó
 Items,BP_CL_Face_ClownNose_Name,Clown Nose,Bohócorr
 Items,BP_Cocaine_Name,Cocaine,Kokain
 Items,BP_Coconut_Name,Coconut,Kókuszdió
 Items,BP_LockCode_Name,Code Lock,Kódzár
-Items,BP_CoffeeBag_Name,Coffee Bag,Kávészacskó
+Items,BP_CoffeeBag_Name,Coffee Bag,Kávés zacskó
 Items,BP_CoffeePot_Name,Coffee Pot,Kávéskanna
 Items,BP_Coke_Name,Coke,Koksz
 Items,BP_ColdMedicine_Name,Cold Medicine,Megfázás elleni gyógyszer
@@ -6155,11 +6155,11 @@ Items,BP_Melee_CombatShovel_Name,Combat Shovel,Harci lapát
 Items,BP_CL_BulletproofVestMilitary_Name,Combat Vest,Harci mellény
 Items,BP_Melee_PliersCombination_Name,Combination Pliers,Kombinált fogó
 Items,BP_ComicBook_Name,Comic Book,Képregény
-Items,BP_CommonCarp_Name,Common Carp,Common Carp
+Items,BP_CommonCarp_Name,Common Carp,Közönséges ponty
 Items,BP_CommonShiner_Name,Common Shiner,Common Shiner
-Items,BP_Macrobdelladecora_Description,Commonly known as a leech.,Köznapi nevén pióca.
+Items,BP_Macrobdelladecora_Description,Commonly known as a leech.,Hétköznapi nevén pióca.
 Items,BP_Compass_Name,Compass,Iránytű
-Items,BP_Components_Name,Components,Komponensek
+Items,BP_Components_Name,Components,Elektronikai alkatrészek
 Items,BP_Compost_Name,Compost,Komposzt
 Items,BP_Bandage_Compression_Name,Compression Bandage,Nyomókötés
 Items,BP_ConcreteBag_Name,Concrete Mix Bag,Szárazbeton
@@ -6334,7 +6334,7 @@ Items,BP_FishingHook_Name,Fishing Hook,Horgászhorog
 Items,BP_FishingLine_Name,Fishing Line,Horgászzsinór
 Items,BP_FishingReel_Name,Fishing Reel,Horgászorsó
 Items,BP_FishingRod_Name,Fishing Rod,Horgászbot
-Items,BP_Ammo_Flare_Name,Flare,Jelzőfény
+Items,BP_Ammo_Flare_Name,Flare,Jelzőrakéta
 Items,BP_Firearm_FlareGun_Name,Flare Gun,Jelzőpisztoly
 Items,BP_Flashlight_Name,Flashlight,Zseblámpa
 Items,BP_InsulatedFlask_ShortName,Flask,Lombik
@@ -6436,7 +6436,7 @@ Items,BP_HazelnutSpread_Name,Hazelnut Spread,Mogyorókrém
 Items,BP_NutsHazelnuts_Name,Hazelnuts,Mogyoró
 Items,BP_CL_HazmatSuit_Name,Hazmat Suit,Vegyvédelmi öltözet
 Items,BP_CL_Head_Headband_Name,Headband,Fejpánt
-Items,BP_CL_Head_HeadlightHelmet_Name,Headlamp,Fejlámpa
+Items,g,Headlamp,Fejlámpa
 Items,BP_HeavyBolt_Name,Heavy Bolts,Erős csavarok
 Items,BP_ToolBattery_HeavyDuty_Name,Heavy Duty Lithium Battery,Ipari lítium akkumulátor
 Items,BP_HeavyStaples_Tier3_Name,Heavy Staples,Ipari tűzőkapcsok
@@ -6492,7 +6492,7 @@ Items,BP_TradingBook_Description,Immediately gain 2 levels in the stat.,Azonnal 
 Items,BP_VitalityBook_Description,Immediately gain 2 levels in the stat.,Azonnal 2 szintet lépsz a képességben.
 Items,BP_WeaponHandlingBook_Description,Immediately gain 2 levels in the stat.,Azonnal 2 szintet lépsz a képességben.
 Items,BP_SodaCan_Variant4_Description,Imported Japanese soda. If only you could read Japanese.,Importált japán üdítő. Bárcsak tudnál japánul olvasni.
-Items,BP_Melee_PickaxeImproved_Name,Improved Pickaxe,Fejlesztett csákány
+Items,BP_Melee_PickaxeImproved_Name,Improved Pickaxe,Továbbejlesztett csákány
 Items,BP_ImpactDriver_Name,Industrial Driver,Ipari csavarbehajtó
 Items,BP_IndustrialDriverBitBox_Tier4_Name,Industrial Driver Bit,Ipari csavarozófej
 Items,BP_WelderIndustrial_Name,Industrial Welder,Ipari hegesztő
@@ -6608,7 +6608,7 @@ Items,BP_BoxedMacCheese_Name,Mac & Cheese,Sajtos makaróni
 Items,BP_Melee_Machete_Name,Machete,Machete
 Items,BP_Macrobdelladecora_Name,Macrobdella decora,Macrobdella decora
 Items,BP_MadagascarVanillaExtract_Name,Madagascar Vanilla Extract,Madagaszkári vaníliakivonat
-Items,BP_MiscMagazine_Name,Magazine,Tár
+Items,BP_MiscMagazine_Name,Magazine,Magazin
 Items,BP_MagicToyBall_Name,Magic Toy Ball,Varázslatos játéklabda
 Items,BP_CL_TrenchCoat_Description,"Makes you better at wielding (real) katanas, probably.",Valószínűleg jobbá tesz a (valódi) katanák forgatásában.
 Items,BP_Bandage_Makeshift_Name,Makeshift Bandage,Rögtönzött kötszer
@@ -6916,7 +6916,7 @@ Items,BP_RiceSnack_Name,Rice Snack,Rizses nasi
 Items,BP_RifleParts_Name,Rifle Parts,Puska alkatrészei
 Items,BP_Suppressor_Rifle_Name,Rifle Suppressor,Puska hangtompító
 Items,BP_RingStand01_Name,Ring Stand,Laborállvány
-Items,BP_CL_BulletproofVestRiot_Name,Riot Bulletproof Vest,Sorfal golyóálló mellény
+Items,BP_CL_BulletproofVestRiot_Name,Riot Bulletproof Vest,Rohamosztagos golyóálló mellény
 Items,BP_CL_Head_RiotHelmet_Name,Riot Helmet,Rohamrendőr sisak
 Items,BP_CL_RiotPants_Name,Riot Pants,Rohamrendőr nadrág
 Items,BP_CL_RiotShirt_Name,Riot Shirt,Rohamrendőr ing
@@ -7026,7 +7026,7 @@ Items,BP_Seeds_SweetPotato_ShortName,Seeds,Magok
 Items,BP_Seeds_Tomato_ShortName,Seeds,Magok
 Items,BP_SewingMachine_Name,Sewing Machine,Varrógép
 Items,BP_Needle_Name,Sewing Needle,Varrótű
-Items,BP_Shampoo_Name,Shampoo Bottle,Samponos üveg
+Items,BP_Shampoo_Name,Shampoo Bottle,Samponos flakon
 Items,BP_ShaveBrush_Name,Shave Brush,Borotvapamacs
 Items,BP_CL_BulletproofVestSheriff_Name,Sheriff Bulletproof Vest,Seriff golyóálló mellény
 Items,BP_CL_Head_SheriffHat_Name,Sheriff Hat,Seriffsapka
@@ -7195,7 +7195,7 @@ Items,BP_SquashHalf_Name,Squash Half,Fél tök
 Items,BP_Seeds_Squash_Name,Squash Seeds,Tökmag
 Items,BP_SquashSoup_Name,Squash Soup,Tökleves
 Items,BP_LockStandard_Name,Standard Lock,Normál zár
-Items,BP_StapleGun_Name,Staple Gun,Tűzőpisztoly
+Items,BP_StapleGun_Name,Staple Gun,Kárpitos tűzőgép
 Items,BP_Stapler_Name,Stapler,Tűzőgép
 Items,BP_CL_BulletproofVestStateTrooper_Name,State Trooper Bulletproof Vest,Állami rendőr golyóálló mellénye
 Items,BP_CL_Head_StateTrooperHat_Name,State Trooper Hat,Állami rendőr sapka
@@ -7459,7 +7459,7 @@ ItemType,IT_Misc_Name,Misc.,Egyéb
 ItemType,IT_Special_Name,Special,Különleges
 ItemType,IT_Tools_Name,Tools,Szerszámok
 ItemType,IT_Weapons_Name,Weapons,Fegyverek
-Journal,FishButton_Label,Fish,Hal
+Journal,FishButton_Label,Fish,Halak
 Journal,GroupButton_Label,Group,Csoport
 Journal,Title,Journal,Napló
 Journal,MapButton_Label,Map,Térkép
@@ -8161,13 +8161,13 @@ LockComponent,None,None,Nincs
 LockComponent,DoorLock_RemoveLock_OfflineProtection,"Offline protection is enabled and no owners are online, so you cannot pick the lock.","Az offline védelem be van kapcsolva, és egy tulajdonos sincs online, ezért nem tudod feltörni a zárat."
 LockComponent,Pick Lock,Pick Lock,Zár feltörése
 LockComponent,RemoveLock_Name,Remove Lock,Zár eltávolítása
-LockComponent,Lock_NoLockOnThis,There's no lock attached on this.,Nem lehet zárat szerelni erre.
+LockComponent,Lock_NoLockOnThis,There's no lock attached on this.,Nem lehet rá zárat szerelni.
 LockComponent,Unlock,Unlock,Feloldás
 LockComponent,RemoveLock_Desc,Unscrews the lock off of this.,Leveszi róla a zárat.
 LockComponent,CloneLock_Subtitle,Will use {Items}.,Ezt fogja használni: {Items}.
 LockComponent,DoorLock_RemoveLock_NotInUC,You are not associated with this base and cannot pick the lock.,"Nem tartozol ehhez a bázishoz, ezért nem törheted fel a zárat."
 LockComponent,CloneKey_Notification,You clone the key.,Lemásolod a kulcsot.
-LockComponent,DoorLock_RemoveLock_NotInVehicle,You need to be in the vehicle to remove this.,A járműben kell lenned ennek eltávolításához.
+LockComponent,DoorLock_RemoveLock_NotInVehicle,You need to be in the vehicle to remove this.,A járműben kell lenned az eltávolításához.
 LockComponent,CloneLock_MissingRequirement,You need {Quantity} {ItemName} to copy a key.,{Quantity} {ItemName} kell egy kulcs másolásához.
 LockComponent,DoorLock_PickLock_NotEnoughStat,You need {StatName} {StatLevel} to pick this.,{StatName} {StatLevel} kell ennek feltöréséhez.
 LockComponent,DoorLock_RemoveLock_NotEnoughStat,You need {StatName} {StatLevel} to remove this.,{StatName} {StatLevel} kell ennek eltávolításához.
@@ -8306,7 +8306,7 @@ Occupations,O_Courier_Desc,You delivered packages.,Csomagokat kézbesítettél.
 Occupations,O_Teacher_Desc,"You educate children and teens about important topics such as math, science, and English.","Gyerekeket és tiniket tanítasz fontos témákra, mint a matek, a természettudomány és az angol."
 Occupations,O_Thief_Desc,You got great discounts at stores.,Nagy kedvezményeket kaptál a boltokban.
 Occupations,O_ParkRanger_Desc,You guarded the environment.,Óvtad a környezetet.
-Occupations,O_Electrician_Desc,You repaired & installed electrical systems.,Javítottál és telepítettél elektromos rendszereket.
+Occupations,O_Electrician_Desc,You repaired & installed electrical systems.,Elektromos rendszereket javítottál és telepítettél.
 Occupations,O_Veteran_Desc,You served your country.,A hazádat szolgáltad.
 Occupations,O_DemolitionDerbyDriver_Desc,You slammed cars into other cars at the local fairgrounds.,Autókat csapattál más autókba a helyi vásártéren.
 Occupations,O_CollegeStudent_Desc,You traveled to the region from down-state to attend a local college.,"Az állam déli részéből érkeztél a régióba, hogy egy helyi főiskolára járj."
@@ -8329,18 +8329,18 @@ Occupations,O_Farmer_Desc,You worked on a farm that tended to crops and animals.
 Occupations,O_Mechanic_Desc,You worked on engines with your hands.,Motorokon dolgoztál a kezeddel.
 OneOffRPCComponent,Furnace_NoValidFuel,The fuel isn't flammable.,Az üzemanyag nem gyúlékony.
 OneOffRPCComponent,Furnace_NoValidIngredientFuel,The ingredients aren't flammable.,A hozzávalók nem gyúlékonyak.
-OneOffRPCComponent,Chair_CantExitFromWater,The water pressure is making it very hard to open the door. You'll need to keep trying!,A víznyomás miatt nagyon nehéz kinyitni az ajtót. Próbálkoznod kell tovább!
+OneOffRPCComponent,Chair_CantExitFromWater,The water pressure is making it very hard to open the door. You'll need to keep trying!,A víznyomás miatt nagyon nehéz kinyitni az ajtót. Próbálkozz tovább!
 OneOffRPCComponent,Furnace_NoFuelSource,There is no sound from the machine.,A gép nem ad ki hangot.
 OneOffRPCComponent,Furnace_NoFuel,There's no fuel to light.,Nincs meggyújtható üzemanyag.
 OneOffRPCComponent,Furnace_NoInventory,There's nothing to light.,Nincs mit meggyújtani.
 OneOffRPCComponent,Furnace_NoFireSource,You need a lighter to ignite this.,Ennek meggyújtásához öngyújtó kell.
 OnStatus,OffText,Off,Ki
 OnStatus,OnText,On,Be
-OnStatus,Label,Running,Futás
+OnStatus,Label,Running,Üzemállapot
 OreCrusher,FluidAcceptor_AddFuel_Tooltip,Add Fuel,Üzemanyag hozzáadása
 OreCrusher,PourOutButton_Label,Pour Out,Kiöntés
 OreCrusherWindow,Help_Desc,"Add ore to the top slot, and ensure gasoline is in the fluid slot. Turn it on, and the ore will be crushed into powder over time.","Tegyél ércet a felső helyre, és győződj meg róla, hogy benzin van a folyadékhelyen. Kapcsold be, és az érc idővel porrá zúzódik."
-OreCrusherWindow,Help_Title,Ore Crusher,Érczúzó
+OreCrusherWindow,Help_Title,Ore Crusher,Érc-zúzógép
 OreCrusherWindow,Recipes_Title,Recipes,Receptek
 OreCrusherWindow,Recipes_SearchBar_Placeholder,Search...,Keresés...
 Permissions,Permissions_CommandAccessDenied,You do not have access to this command.,Nincs jogosultságod ehhez a parancshoz.
@@ -8356,9 +8356,9 @@ Plant,PlantRemove_Dead,The plant is dead.,A növény elpusztult.
 Plant,Plant_Water,Water,Megöntöz
 Plant,Plant_WaterPrompt_Title,Water,Öntözés
 Plant,Plant_BadFluid,"You added non-water to the plant, damaging it.","Nem vizet adtál a növényhez, ezzel megkárosítva."
-Plant,Plant_Harvest_Seeds,"You harvest {Quantity} {Quantity}|plural(one=plant,other=plants). You also salvaged {NumSeeds} {NumSeeds}|plural(one=seed,other=seeds).","Leszüretelsz {Quantity} {Quantity}|plural(one=növényt,other=növényt). {NumSeeds} {NumSeeds}|plural(one=magot,other=magot) is nyertél."
-Plant,Plant_Harvest_Notification,"You harvest {Quantity} {Quantity}|plural(one=plant,other=plants). You didn't salvage any seeds.","Leszüretelsz {Quantity} {Quantity}|plural(one=növényt,other=növényt). Nem nyertél magot."
-Plant,Plant_NoFluidContainers,You have no containers to water this with.,"Nincs tárolód, amivel ezt megöntözhetnéd."
+Plant,Plant_Harvest_Seeds,"You harvest {Quantity} {Quantity}|plural(one=plant,other=plants). You also salvaged {NumSeeds} {NumSeeds}|plural(one=seed,other=seeds).","Leszüretelsz {Quantity} {Quantity}|plural(one=növényt,other=növényt). {NumSeeds} {NumSeeds}|plural(one=magot,other=magot) is találtál."
+Plant,Plant_Harvest_Notification,"You harvest {Quantity} {Quantity}|plural(one=plant,other=plants). You didn't salvage any seeds.","Leszüretelsz {Quantity} {Quantity}|plural(one=növényt,other=növényt). Magot nem találtál."
+Plant,Plant_NoFluidContainers,You have no containers to water this with.,"Nincs edényed, amivel ezt megöntözhetnéd."
 Plant,Plant_Remove,You remove and discard the plant.,Eltávolítod és eldobod a növényt.
 Plant,Plant_GoodFluid,You water the plant.,Megöntözöd a növényt.
 Plant,PlantRemove_Warning,You will not receive anything; the plant is not fully grown.,Nem kapsz semmit; a növény nem nőtt ki teljesen.
@@ -8373,7 +8373,7 @@ PlantDetails,Quality_EnvironmentalTolerance_Label,Environmental Tolerance,Körny
 PlantDetails,Growth_Label,Growth,Növekedés
 PlantDetails,Growth_Title,Growth,Növekedés
 PlantDetails,Quality_GrowthTime_Label,Growth Time,Növekedési idő
-PlantDetails,Health_Label,Health,Életerő
+PlantDetails,Health_Label,Health,Egészség
 PlantDetails,GrowingInstructions,"Once grown, use the plant to harvest it.","Ha kifejlődött, használd a növényt a leszüreteléséhez."
 PlantDetails,Quality_Quality_Label,Quality,Minőség
 PlantDetails,Quality_Title,Quality,Minőség
@@ -8382,7 +8382,7 @@ PlantDetails,PlantDeadText,"The plant is dead. Remove it and try again.\r\n\r\nP
 PlantDetails,FluidContents_Label,Water,Víz
 PlantDetails,Water_Label,Water,Víz
 PlantDetails,Quality_Yield_Label,Yield,Hozam
-PlanterComponent,Planter_AddAdditive,Add Additive,Adalék hozzáadása
+PlanterComponent,Planter_AddAdditive,Add Additive,Tápanyag hozzáadása
 PlanterComponent,Planter_AddDirt,Add Dirt,Föld hozzáadása
 PlanterComponent,FertilizerLevel_Awful,Awful,Szörnyű
 PlanterComponent,Planter_RemoveDirt_Subtitle,Current dirt quality is {Quality}.,A jelenlegi földminőség: {Quality}.
@@ -8397,7 +8397,7 @@ PlanterComponent,Planter_RemoveDirt,Remove Dirt,Föld eltávolítása
 PlanterComponent,FertilizerLevel_Standard,Standard,Normál
 PlanterComponent,Planter_RemoveDirt_HasPlants,You can't remove the dirt as there are crops growing right now.,"Nem távolíthatod el a földet, mert épp növények nőnek benne."
 PlanterComponent,Planter_NoAdditiveToAdd,You have no additives to use.,Nincs használható adalékod.
-PlanterComponent,Planter_NoDirtToAdd,"You have no dirt to use.\n\nFind dirt in the world,\nor hit the ground with a shovel or hoe to make some.","Nincs használható földed.\n\nTalálj földet a világban,\nvagy üss a földbe lapáttal vagy kapával, hogy szerezz."
+PlanterComponent,Planter_NoDirtToAdd,"You have no dirt to use.\n\nFind dirt in the world,\nor hit the ground with a shovel or hoe to make some.","Nincs használható földed.\n\nTalálj földet a világban,\nvagy üss földkupacra lapáttal vagy kapával, hogy szerezz."
 PlanterComponent,Planter_NoPlantsToAdd,You have no seeds to plant.,Nincs elültethető magod.
 PlanterComponent,Planter_RemovedDirt,You remove the dirt from the planter.,Eltávolítod a földet az ágyásból.
 PlayerGroupsComponent,GroupInviteNotification,You've been invited to join {GroupName} by {PlayerName}. Press {Key} to view.,{PlayerName} meghívott a(z) {GroupName} csoportba. Nyomd meg a(z) {Key} gombot a megtekintéshez.
@@ -8446,28 +8446,28 @@ Recipes,CR_HandGrenade_Name,"""Hand"" Grenade","""Kéz""-gránát"
 Recipes,CR_ElasticBandage_FlavorText,"A basic bandage.\r\n\r\nUsed to cover deep wounds, stop bleeding, and prevent infection. ","Egy egyszerű kötszer.\r\n\r\nMély sebek befedésére, vérzés elállítására és fertőzés megelőzésére. "
 Recipes,CR_Hammer_FlavorText,A basic hammer.,Egy egyszerű kalapács.
 Recipes,CR_Screwdriver_FlavorText,A basic screwdriver.,Egy egyszerű csavarhúzó.
-Recipes,CR_WalkieTalkieT1_FlavorText,A basic walkie talkie. \r\n\r\nAllows for cross-map communication within a certain range.,Egy egyszerű adóvevő. \r\n\r\nLehetővé teszi a térképen átívelő kommunikációt bizonyos hatótávon belül.
+Recipes,CR_WalkieTalkieT1_FlavorText,A basic walkie talkie. \r\n\r\nAllows for cross-map communication within a certain range.,Egy egyszerű adóvevő. \r\n\r\nLehetővé teszi a kommunikációt bizonyos hatótávon belül.
 Recipes,CR_Screws_FlavorText,A box of handmade screws.,Egy doboz kézzel készített csavar.
 Recipes,CR_Springs_FlavorText,A box of handmade springs.,Egy doboz kézzel készített rugó.
 Recipes,CR_HeavyBolts_FlavorText,"A box of strong, heavy bolts.","Egy doboz erős, nehéz csavar."
 Recipes,CR_BrokenBottle_FlavorText,A broken bottle. Great for bar fights or heated disagreements!,Egy törött üveg. Tökéletes kocsmai verekedésekhez vagy heves nézeteltérésekhez!
 Recipes,CR_RubberBundle_FlavorText,A bundle of rolled rubber that acts as a great insulator.,"Egy tekercs gumi, amely kiváló szigetelő."
 Recipes,CR_CopperWire_FlavorText,A bundle of usable copper wire.,Egy köteg használható rézhuzal.
-Recipes,CR_Capacitor_FlavorText,A capacitor typically used in advanced electrical-related recipes.,"Egy kondenzátor, jellemzően fejlettebb elektronikai receptekhez."
+Recipes,CR_Capacitor_FlavorText,A capacitor typically used in advanced electrical-related recipes.,"Egy kondenzátor, jellemzően fejlettebb elektronikai kapcsolásokhoz."
 Recipes,CR_CarFilter_FlavorText,A car filter.,Egy levegőszűrő.
 Recipes,CR_CarGasTank_FlavorText,A car's gas tank.,Egy autó üzemanyagtartálya.
 Recipes,CR_CookingDish_FlavorText,A ceramic oven dish.\r\n\r\nCan be used for cooking.,Egy kerámia sütőtál.\r\n\r\nFőzésre használható.
 Recipes,CR_CircularSawBlade_FlavorText,A circular saw blade. \r\n\r\nSpecifically made to fit into a powered cutting tool.,Egy körfűrészlap. \r\n\r\nKifejezetten gépi vágószerszámba illik.
-Recipes,CR_ClothRope_FlavorText,A cloth rope used in crafting.,"Egy szövetkötél, barkácsoláshoz."
-Recipes,CR_CarBrakeAssembly_FlavorText,A collection of brake parts for a car.,Egy gyűjteménynyi fékalkatrész egy autóhoz.
-Recipes,CR_Components_FlavorText,"A collection of refined electrical scrap, combined into useful components.","Finomított elektromos hulladék gyűjteménye, hasznos alkatrészekké összeállítva."
-Recipes,CR_Compass_FlavorText,"A compass, used to determine your direction.","Egy iránytű, az irányod meghatározásához."
+Recipes,CR_ClothRope_FlavorText,A cloth rope used in crafting.,"Egy vászonkötél, barkácsoláshoz."
+Recipes,CR_CarBrakeAssembly_FlavorText,A collection of brake parts for a car.,Egy garnitúra fékalkatrész autóhoz.
+Recipes,CR_Components_FlavorText,"A collection of refined electrical scrap, combined into useful components.","Válogatott elektromos hulladék gyűjtemény, hasznos alkatrészekké összeállítva."
+Recipes,CR_Compass_FlavorText,"A compass, used to determine your direction.","Egy iránytű, hogy tudd merre vagy arccal."
 Recipes,CR_CleaningWipes_FlavorText,A container of cleaning wipes. \r\n\r\nUsed to disinfect wounds.,Egy doboz tisztítókendő. \r\n\r\nSebek fertőtlenítésére.
-Recipes,RP_SteamedBunHotdog_FlavorText,A cooked hotdog placed within a steamed bun.,Egy megfőtt hotdog párolt zsemlében.
+Recipes,RP_SteamedBunHotdog_FlavorText,A cooked hotdog placed within a steamed bun.,Egy hotdog párolt zsemlében.
 Recipes,CR_Flashlight_FlavorText,A flashlight.,Egy zseblámpa.
 Recipes,CR_MetalBrackets_FlavorText,A foundational piece of most fortifications and other large projects.,A legtöbb erődítmény és egyéb nagy projekt alapeleme.
 Recipes,CR_HandGrenade_FlavorText,A fragmentation grenade with a zombie part strapped to it. Can cause infection.,"Egy repeszgránát, amelyre egy zombi-testrész van erősítve. Fertőzést okozhat."
-Recipes,CR_GrinderBlade_FlavorText,A grinder blade.\r\n\r\nSpecifically made to fit into an industrial cutting tool.,Egy csiszolókorong.\r\n\r\nKifejezetten ipari vágószerszámba illesztve használható.
+Recipes,CR_GrinderBlade_FlavorText,A grinder blade.\r\n\r\nSpecifically made to fit into an industrial cutting tool.,Egy csiszolókorong.\r\n\r\nKifejezetten ipari vágószerszámra szerelve használható.
 Recipes,CR_PlasticCasings_FlavorText,"A handful of plastic casings that are useful for insulation on smaller parts, particularly on electronics.","Egy maréknyi műanyag burkolat, amely kisebb alkatrészek, különösen elektronikák szigetelésére hasznos."
 Recipes,CR_GPS_FlavorText,A handheld GPS.\r\n\r\nAllows the user to see the names and distances of locations on their compass.,Egy kézi GPS.\r\n\r\nLehetővé teszi a helyek nevének és távolságának megjelenítését az iránytűn.
 Recipes,CR_CookingPan_FlavorText,"A heavy, cast iron pan.\r\n\r\nCan be used for cooking.","Egy nehéz, öntöttvas serpenyő.\r\n\r\nFőzésre használható."
@@ -8478,10 +8478,10 @@ Recipes,CR_Lens_FlavorText,A large lens used in various tools and devices.,"Egy 
 Recipes,CR_HeavyCutting_FlavorText,A large saw.,Egy nagy fűrész.
 Recipes,CR_FishingLine_FlavorText,A length of fishing line.,Egy darab horgászzsinór.
 Recipes,CR_WoodenSpear_FlavorText,"A lightweight, wooden spear.","Egy könnyű, fa lándzsa."
-Recipes,CR_WoodenSpearButterKnife_FlavorText,"A lightweight, wooden spear... with a butter knife attached!","Egy könnyű, fa lándzsa... egy rászerelt vajkéssel!"
-Recipes,CR_WoodenSpearCombatKnife_FlavorText,"A lightweight, wooden spear... with a combat knife attached!","Egy könnyű, fa lándzsa... egy rászerelt harci késsel!"
-Recipes,CR_WoodenSpearScissors_FlavorText,"A lightweight, wooden spear... with a pair of scissors attached!","Egy könnyű, fa lándzsa... egy rászerelt ollóval!"
-Recipes,CR_WoodenSpearScrewdriver_FlavorText,"A lightweight, wooden spear... with a screwdriver attached!","Egy könnyű, fa lándzsa... egy rászerelt csavarhúzóval!"
+Recipes,CR_WoodenSpearButterKnife_FlavorText,"A lightweight, wooden spear... with a butter knife attached!","Egy könnyű, fa lándzsa... vajkéssel!"
+Recipes,CR_WoodenSpearCombatKnife_FlavorText,"A lightweight, wooden spear... with a combat knife attached!","Egy könnyű, fa lándzsa... harci késsel!"
+Recipes,CR_WoodenSpearScissors_FlavorText,"A lightweight, wooden spear... with a pair of scissors attached!","Egy könnyű, fa lándzsa... ollóval!"
+Recipes,CR_WoodenSpearScrewdriver_FlavorText,"A lightweight, wooden spear... with a screwdriver attached!","Egy könnyű, fa lándzsa... csavarhúzóval!"
 Recipes,CR_Lockpick_FlavorText,A lockpick.\r\n\r\nCan be used to pick locks. Fragile!,Egy álkulcs.\r\n\r\nZárak feltörésére használható. Törékeny!
 Recipes,CR_MedicalSplint_FlavorText,A medical grade splint.\r\n\r\nUsed for treating sprained ankles or setting broken bones.,Egy orvosi minőségű sín.\r\n\r\nBokaficamok kezelésére vagy csonttörések rögzítésére.
 Recipes,CR_CookingPot_FlavorText,A metal sauce pot. \r\n\r\nCan be used for cooking.,Egy fém szószosfazék. \r\n\r\nFőzésre használható.
@@ -8519,7 +8519,7 @@ Recipes,CR_HeavyHammer_FlavorText,"A sledgehammer, but mini!","Egy bontókalapá
 Recipes,CR_Lighter_FlavorText,A small lighter.,Egy kis öngyújtó.
 Recipes,CR_Syringe_FlavorText,"A small vial with a needle.\r\n\r\nCan be filled with any fluid item, preferably needed medication.","Egy kis fiola tűvel.\r\n\r\nBármilyen folyékony tárggyal megtölthető, lehetőleg a szükséges gyógyszerrel."
 Recipes,RP_MichiganSauce_FlavorText,"A specialty in Plattsburgh, NY. This smooth meat sauce is typically served on top a hotdog in a steamed bun.",Plattsburgh (NY) specialitása. Ezt a sima húsos szószt jellemzően párolt zsemlébe tett hot dogra teszik.
-Recipes,CR_SpikedBaseballBat_FlavorText,A spiked baseball bat. Really packs a punch!,Egy szöges baseballütő. Komolyan üt!
+Recipes,CR_SpikedBaseballBat_FlavorText,A spiked baseball bat. Really packs a punch!,Egy szöges baseballütő. Komolyat üt!
 Recipes,CR_SpikedWoodenOar_FlavorText,A spiked wooden oar. The perfect way to accidentally sink your canoe!,"Egy szöges fa evező. Tökéletes módja annak, hogy véletlenül elsüllyeszd a kenudat!"
 Recipes,CR_SpikedPlank_FlavorText,A spiked wooden plank. Who needs building supplies anyway?,Egy szöges fadeszka. Kinek kell egyébként is építőanyag?
 Recipes,CR_ScrapMetalPipe_FlavorText,A sturdy scrap metal pipe.,Egy strapabíró fémhulladék cső.
@@ -8530,7 +8530,7 @@ Recipes,CR_WaterSkin_FlavorText,A water skin that can be used to store fluids. P
 Recipes,CR_Bow_FlavorText,A wooden bow that fires arrows.,"Egy fa íj, amely nyilakat lő ki."
 Recipes,CR_Plank_FlavorText,A wooden plank. ,Egy fadeszka. 
 Recipes,CR_PlankReinforced_FlavorText,A wooden plank. Reinforced with metal plating.,Egy fadeszka. Fémlemezzel megerősítve.
-Recipes,CR_AdvancedComponents_Name,Advanced Components,Fejlett komponensek
+Recipes,CR_AdvancedComponents_Name,Advanced Components,Fejlett elektronikai alkatrészek
 Recipes,CR_AluminumScrap_Name,Aluminum Scrap,Alumíniumhulladék
 Recipes,CR_Amplifier_Name,Amplifier,Erősítő
 Recipes,CR_EnhancedDoorLock_FlavorText,An advanced lock. \r\n\r\nCan be used to change door and container locks.\r\nCannot be lockpicked. Requires a key to unlock.,Egy fejlett zár. \r\n\r\nAjtó- és tárolózárak cseréjére használható.\r\nNem törhető fel álkulccsal. Kinyitásához kulcs kell.
@@ -8552,8 +8552,8 @@ Recipes,CR_BasicDriverBits_Name,Basic Driver Bit,Alap csavarozófej
 Recipes,CR_BasicStaples_Name,Basic Staples,Alap tűzőkapcsok
 Recipes,CR_BasicWeldingWire_Name,Basic Welding Wire,Egyszerű hegesztőhuzal
 Recipes,CR_BauxitePowder_Name,Bauxite Powder,Bauxitpor
-Recipes,RP_BoxedEnchilada_Name,Beef Enchilada,Marhás enchilada
-Recipes,RP_QuesadillaBeef_Name,Beef Quesadilla,Marhás quesadilla
+Recipes,RP_BoxedEnchilada_Name,Beef Enchilada,Marhahúsos enchilada
+Recipes,RP_QuesadillaBeef_Name,Beef Quesadilla,Marhahúsos quesadilla
 Recipes,RP_BeefStew_Name,Beef Stew,Marhapörkölt
 Recipes,RP_BeefWellington_Name,Beef Wellington,Bélszín Wellington módra
 Recipes,CR_Binoculars_Name,Binoculars,Távcső
@@ -8585,7 +8585,7 @@ Recipes,RP_CheeseFondue_Name,Cheese Fondue,Sajtfondü
 Recipes,RP_Pizza_Name,Cheese Pizza,Sajtos pizza
 Recipes,RP_ChickenCasserole_Name,Chicken Casserole,Csirkés rakott étel
 Recipes,RP_BoxedChickenFajita_Name,Chicken Fajita,Csirkés fajita
-Recipes,RP_ChickenParmesan_Name,Chicken Parmesan,Csirke parmezán módra
+Recipes,RP_ChickenParmesan_Name,Chicken Parmesan,Parmezános csirke
 Recipes,RP_QuesadillaChicken_Name,Chicken Quesadilla,Csirkés quesadilla
 Recipes,RP_CakeChocolate_Name,Chocolate Cake,Csokitorta
 Recipes,RP_CookieChocolateChip_Name,Chocolate Chip Cookie,Csokidarabos keksz
@@ -8604,7 +8604,7 @@ Recipes,RP_DripCoffee_Name,Coffee,Kávé
 Recipes,CR_CombatShovel_Name,Combat Shovel,Harci lapát
 Recipes,CR_BasicPliers_Name,Combination Pliers,Kombinált fogó
 Recipes,CR_Compass_Name,Compass,Iránytű
-Recipes,CR_Components_Name,Components,Komponensek
+Recipes,CR_Components_Name,Components,Elektronikai alkatrészek
 Recipes,CR_CompressionBandage_Name,Compression Bandage,Nyomókötés
 Recipes,CR_ConcretePaste_Name,Concrete Paste,Betonpaszta
 Recipes,RP_BoiledWater_FlavorText,Converts dirty water to potable (drinking) water.,A piszkos vizet iható (ivó)vízzé alakítja.
@@ -8654,7 +8654,7 @@ Recipes,RP_FoieGrasTempuraBites_Name,Foie Gras Tempura Bites,Libamájas tempura 
 Recipes,CR_WoodenSpearFork_FlavorText,For remotely operated meal interaction.,Távvezérelt étkezés-interakcióhoz.
 Recipes,CR_WoodenSpearKnife_FlavorText,For remotely operated meal separation.,Távvezérelt étel-szétválasztáshoz.
 Recipes,CR_WoodenSpearSpoon_FlavorText,For remotely operated meal sipping.,Távvezérelt étel-kortyoláshoz.
-Recipes,RP_Tea_FlavorText,For those bright mornings.,Azokra a fényes reggelekre.
+Recipes,RP_Tea_FlavorText,For those bright mornings.,Azokra a napfényes reggelekre.
 Recipes,RP_Coffee_FlavorText,For those dark mornings.,Azokra a sötét reggelekre.
 Recipes,RP_DripCoffee_FlavorText,For those dark mornings.,Azokra a sötét reggelekre.
 Recipes,CR_IndustrialStaples_Name,Framing Nail Pack,Szögbelövő szög
@@ -8928,11 +8928,11 @@ SelectedInventoryItem,DropButton_Label,Drop,Eldob
 SelectedInventoryItem,RenameButton_Label,Label,Címke
 SelectedInventoryItemWidget,Pin,Add to Quick Use,Hozzáadás a gyorshasználathoz
 SelectedInventoryItemWidget,LabelItem_Description,Enter a new name for the item.,Adj új nevet a tárgynak.
-SelectedInventoryItemWidget,Hold,Hold,Tartás
+SelectedInventoryItemWidget,Hold,Hold,Kézbe vesz
 SelectedInventoryItemWidget,LabelItem_Title,Label,Címke
 SelectedInventoryItemWidget,Put Away,Put Away,Elrak
 SelectedInventoryItemWidget,Unpin,Remove from Quick Use,Eltávolítás a gyorshasználatból
-SelectedInventoryItemWidget,Take and Hold,Take and Hold,Kézbe fog
+SelectedInventoryItemWidget,Take and Hold,Take and Hold,Kézbe vesz
 SelectedRepairItemWidget,RepairBench_NoRepair_SameQuality,This wouldn't do anything.,Ez nem csinálna semmit.
 SelectedRepairItemWidget,RepairBench_NoRepair_NoIngredient,You are missing required items to repair this.,Hiányoznak a szükséges tárgyak ennek a javításához.
 SelectedRepairItemWidget,RepairBench_NoRepair_NoStat,You are missing required stats to repair this.,Hiányoznak a szükséges tulajdonságok ennek a javításához.
@@ -9967,7 +9967,7 @@ Tutorial,LeavePromptTitle,Leave Tutorial,Oktatómód elhagyása
 Tutorial,Look Under Hood_StageInstructions,Let's check the condition. Look at the <B>hood of the car</> and open it up.,"Nézzük meg az állapotát. Nézz az <B>autó motorháztetőjére</>, és nyisd ki."
 Tutorial,Craft Door_StageInstructions,"Let's fortify the door. In the same way as you built a utility cabinet, select a Scrap Wood Door and build it on top of the existing door.\r\n\r\nIn VEIN, fortifications usually fortify existing building elements.","Erődítsük meg az ajtót. Ugyanúgy, ahogy a karbantartó szekrényt építetted, válassz egy Fahulladék ajtót, és építsd a meglévő ajtóra.\r\n\r\nA VEIN-ben az erődítések általában a meglévő épületelemeket erősítik meg."
 Tutorial,Drive Away_StageInstructions,"Let's get out of here.\r\n\r\nThe tutorial ends here, but you're welcome to play around with what you've done so far.","Tűnjünk el innen.\r\n\r\nAz oktatómód itt véget ér, de nyugodtan játssz azzal, amit eddig csináltál."
-Tutorial,Dismantle Furniture_StageInstructions,Looks like that did it. Now let's fortify our cabin.\r\n\r\nLook at some furniture and select Destroy to break it into parts.,"Úgy tűnik, ez sikerült. Most erődítsük meg a faházunkat.\r\n\r\nNézz egy bútorra, és válaszd a Megsemmisítést, hogy alkatrészekre bontsd."
+Tutorial,Dismantle Furniture_StageInstructions,Looks like that did it. Now let's fortify our cabin.\r\n\r\nLook at some furniture and select Destroy to break it into parts.,"Úgy tűnik, ez sikerült. Most erősítsük meg a faházunkat.\r\n\r\nNézz egy bútorra, és válaszd a Megsemmisítést, hogy alkatrészekre bontsd."
 Tutorial,Move Blinds Up_StageName,Move Blinds,Reluxa mozgatása
 Tutorial,Craft Nail Baseball Bat_StageInstructions,"Now open the workbench.\r\n\r\nMove the baseball bat, nails, and hammer from your inventory to the repair bench's inventory.\r\n\r\nSearch for ""spike"" in the recipe list and you should be able to craft a spiked baseball bat by selecting the recipe.\r\n\r\nWait for the crafting to finish, then take the nail baseball bat from the workbench into your inventory.","Most nyisd meg a munkapadot.\r\n\r\nMozgasd át a baseballütőt, a szögeket és a kalapácsot a készletedből a javítópad készletébe.\r\n\r\nKeress rá a „spike” szóra a receptlistában, és a recept kiválasztásával elkészíthetsz egy szöges baseballütőt.\r\n\r\nVárd meg, amíg a barkácsolás befejeződik, majd vedd ki a szöges baseballütőt a munkapadról a készletedbe."
 Tutorial,Get Baseball Bat_StageInstructions,"Now that we're defended, let's get offensive. Grab a <B>baseball bat</>.","Most, hogy védve vagyunk, támadjunk. Fogj egy <B>baseballütőt</>."
@@ -10165,7 +10165,7 @@ VehicleHeaterComponent,CarHeater_Cool,Currently Cool.,Jelenleg hűvös.
 VehicleHeaterComponent,CarHeater_Hot,Currently Hot.,Jelenleg forró.
 VehicleHeaterComponent,CarHeater_Off,Currently Off.,Jelenleg kikapcsolva.
 VehicleHeaterComponent,CarHeater_Warm,Currently Warm.,Jelenleg meleg.
-VehicleHeaterComponent,CarHeaterName,Heater,Fűtőtest
+VehicleHeaterComponent,CarHeaterName,Heater,Fűtés
 VehicleHeaterComponent,CarHeater_SetToCold,Set to Cold,Hidegre állítás
 VehicleHeaterComponent,CarHeater_SetToCool,Set to Cool,Hűvösre állítás
 VehicleHeaterComponent,CarHeater_SetToHot,Set to Hot,Forróra állítás
@@ -10187,7 +10187,7 @@ VehicleIgnitionComponent,Vehicle_CantStart_Underwater,The engine won't start und
 VehicleIgnitionComponent,Vehicle_Ignition_NoPower,The vehicle is unpowered.,A jármű nincs áram alatt.
 VehicleIgnitionComponent,Vehicle_CantStart_NoGas,"The vehicle lights are on, but the engine doesn't start.","A jármű lámpái égnek, de a motor nem indul be."
 VehicleIgnitionComponent,Vehicle_CantStart_NoEngine,"The vehicle lights are on, but there's no sound from the engine.","A jármű lámpái égnek, de a motor nem ad hangot."
-VehicleIgnitionComponent,Vehicle_Ignition_NoKey,There's no key in the ignition.,Nincs kulcs a gyújtásban.
+VehicleIgnitionComponent,Vehicle_Ignition_NoKey,There's no key in the ignition.,Nincs kulcs a gyújtáskapcsolóban.
 VehicleIgnitionComponent,Vehicle_CantHotwire_NoEngine,There's no sound from the engine.,A motor nem ad hangot.
 VehicleIgnitionComponent,Vehicle_Ignition_TurnOff,Turn Off,Kikapcsol
 VehicleIgnitionComponent,Vehicle_Ignition_TurnOn,Turn On,Bekapcsol
@@ -10505,12 +10505,12 @@ Water,WaterVolume_SludgeWater,Sludge Water,Iszapos víz
 Water,WaterVolume_SpringWater,Spring Water,Forrásvíz
 Water,WaterVolume_SwampWater,Swamp Water,Mocsárvíz
 Water,WaterVolume_Water,Water,Víz
-WaterFilterItem,FilterFluid_NoEffect,This probably won't do anything.,Ez valószínűleg nem csinál semmit.
+WaterFilterItem,FilterFluid_NoEffect,This probably won't do anything.,Valószínűleg nem csinál semmit.
 WaterFilterItem,FilterFluid,You pour the fluid through the filter.,Átöntöd a folyadékot a szűrőn.
 WaterSourceComponent,WaterSource_DrainUseLabel,Drain Container,Tároló leeresztése
 WaterSourceComponent,WaterSource_Drink_UseOption,Drink,Ivás
-WaterSourceComponent,WaterSource_FillContainer_UseOption,Fill Container,Tároló feltöltése
-WaterSourceComponent,WaterSource_StoreUseLabel,Fill Container,Tároló feltöltése
+WaterSourceComponent,WaterSource_FillContainer_UseOption,Fill Container,Edény megtöltése
+WaterSourceComponent,WaterSource_StoreUseLabel,Fill Container,Edény megtöltése
 WaterSourceComponent,WaterSource_RequiresPower,It appears to be unpowered.,"Úgy tűnik, nincs áram alatt."
 WaterSourceComponent,WaterSource_NoPossibleUse,Nothing comes out.,Semmi sem jön belőle.
 WaterSourceComponent,WaterSource_NoWater,Nothing comes out.,Semmi sem jön belőle.

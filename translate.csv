@@ -2048,7 +2048,7 @@ AdminMenu,CurrentXP_Label,Current XP,Jelenlegi XP
 AdminMenu,HordeSize_Deadly,Deadly,Halálos
 AdminMenu,Target_DestroyForever_Button_Label,Destroy Forever,Végleges megsemmisítés
 AdminMenu,TargetButton_Label,Developer Tools,Fejlesztői eszközök
-AdminMenu,WeatherPreset_Drizzle_Label,Drizzle,Szitálás
+AdminMenu,WeatherPreset_Drizzle_Label,Drizzle,Esős
 AdminMenu,PermissionZones_SelectedZone_NameTooltip,Enter a name...,Add meg a nevet...
 AdminMenu,PermissionZones_SelectedZone_NumericInputPlaceholder,Enter a number...,Add meg a számot...
 AdminMenu,SendTextToEveryone_Placeholder,Enter text to send to everyone...,"Írj szöveget, amit mindenkinek elküldesz..."
@@ -2788,7 +2788,7 @@ Conditions,C_Sick_Name_85.000000,Has a Severe Fever,Súlyosan lázas
 Conditions,C_Stimulated_Name_65.000000,Heart Palpitations,Szívdobogásérzés
 Conditions,C_Cocaine_Name_60.000000,High,Betépve
 Conditions,C_Meth_Name_60.000000,High,Betépve
-Conditions,C_Stoned_Name_0.000000,High,Betépve
+Conditions,C_Stoned_Name_0.000000,High,Beállva
 Conditions,C_HighBloodSugar_Name,High Blood Sugar,Magas vércukor
 Conditions,C_HighBloodSugar_Name_0.010000,High Blood Sugar,Magas vércukor
 Conditions,C_Stoned_Name_50.000000,Highly Stoned,Erősen beszívva
@@ -3948,7 +3948,7 @@ Furniture,ClothBench,Cloth Bench,Kárpitozott pad
 Furniture,ClothesLine,Clothes Line,Ruhaszárító kötél
 Furniture,CoffeeTable,Coffee Table,Dohányzóasztal
 Furniture,CoffeeTablew/Drawers,Coffee Table w/ Drawers,Fiókos dohányzóasztal
-Furniture,CoinMachine,Coin Machine (Work in Progress),Érmeautomata (Fejlesztés alatt)
+Furniture,CoinMachine,Coin Machine (Work in Progress),Játékautomata (Fejlesztés alatt)
 Furniture,CommissaryStorage,Commissary Storage,Commissary Storage
 Furniture,ConcretePipe,Concrete Pipe,Betoncső
 Furniture,ConstellationPoster,Constellation Poster,Csillagkép-poszter
@@ -4547,7 +4547,7 @@ GasContainerItem,Container is empty.,Container is empty.,A tároló üres.
 GasContainerItem,Empty,Empty,Kiürít
 GasContainerItem,RefillFromGasTank,Refill From Gas Tank,Feltöltés az üzemanyagtartályból
 GasContainerItem,Smell,Smell,Megszagol
-GasContainerItem,SupplyToGasTank,Supply To Gas Tank,Töltés az üzemanyagtartályba
+GasContainerItem,SupplyToGasTank,Supply To Gas Tank,Töltés az tartályba
 GasContainerItem,SupplyToGasTank_NothingToAdd,There's nothing more to add.,Nincs mit hozzáadni.
 GasContainerItem,RefillFromGasTank_NoSource,There's nothing to refill this from.,Nincs miből újratölteni ezt.
 GasContainerItem,RefillFromGasTank_NothingToTake,There's nothing to take.,Nincs mit elvenni.
@@ -5186,8 +5186,8 @@ Items,BP_Cucumber_Description,A cucumber.,Egy uborka.
 Items,BP_DartBoard_Description,A dartboard.,Egy darts tábla.
 Items,BP_Bird_Description,A dead bird.,Egy döglött madár.
 Items,BP_Tracker_Description,A device that shows up on your compass when you're near.,"Egy eszköz, amely megjelenik az iránytűdön, ha a közelében vagy."
-Items,BP_Gore_Arm_Description,A disembodied arm.,Egy levált kar.
-Items,BP_Gore_Foot_Description,A disembodied leg.,Egy levált láb.
+Items,BP_Gore_Arm_Description,A disembodied arm.,Egy levágott kar.
+Items,BP_Gore_Foot_Description,A disembodied leg.,Egy levágott láb.
 Items,BP_CL_Face_DustMask_Description,A dust mask.,Egy pormaszk.
 Items,BP_CL_Tuxedo_Description,A fancy tuxedo jacket for special occasions.,Egy elegáns szmokingkabát különleges alkalmakra.
 Items,BP_FoieGras_Description,A fattened duck liver. A French delicacy.,Egy hizlalt kacsamáj. Francia ínyencség.
@@ -8389,7 +8389,7 @@ PlanterComponent,Planter_RemoveDirt_Subtitle,Current dirt quality is {Quality}.,
 PlanterComponent,FertilizerLevel_Excellent,Excellent,Kiváló
 PlanterComponent,Planter_HasBloodmeal,Has bloodmeal added.,Vérliszt hozzáadva.
 PlanterComponent,Planter_HasBonemeal,Has bonemeal added.,Csontliszt hozzáadva.
-PlanterComponent,FertilizerLevel_High,High,Betépve
+PlanterComponent,FertilizerLevel_High,High,Magas
 PlanterComponent,FertilizerLevel_Low,Low,Alacsony
 PlanterComponent,FertilizerLevel_None,None,Nincs
 PlanterComponent,Planter_PlantSeeds,Plant Seeds,Magok elültetése
@@ -9126,7 +9126,7 @@ Settings,Gameplay_DateFormat_Reasonable,dd/mm/yyyy,nn/hh/éééé
 Settings,Gameplay_DateFormat_American,mm/dd/yyyy,hh/nn/éééé
 Settings,Audio_PushToTalkDelay_SettingLabel,{Sec} seconds,{Sec} másodperc
 SettingsUserWidget,Setting_Custom,Custom,Egyéni
-SettingsUserWidget,Setting_High,High,Betépve
+SettingsUserWidget,Setting_High,High,Magas
 SettingsUserWidget,Setting_Low,Low,Alacsony
 SettingsUserWidget,Setting_Medium,Medium,Közepes
 SettingsUserWidget,Setting_Off,Off,Ki
@@ -9805,7 +9805,7 @@ Thermostat,NoCoolLabel,This building has no way to cool itself.,Ez az épület n
 Thermostat,NoHeatLabel,This building has no way to heat itself.,Ez az épület nem tudja fűteni magát.
 TimeComponent,Seconds,{Seconds}s,{Seconds} mp
 TireAirPumpStation,TirePump_Name,Air Pump,Kompresszor
-TireAirPumpStation,TireAirPump_RefillGasTank,Refill Gas Tank,Üzemanyagtartály feltöltése
+TireAirPumpStation,TireAirPump_RefillGasTank,Refill Gas Tank,Levegő tartály feltöltése
 TireAirPumpStation,RefillTire,Refill Tire,Gumiabroncs felfújása
 TireAirPumpStation,TireAirPump_RefillGasTank_Subtitle,Refill a gas container item in your inventory with air.,Feltölt levegővel egy palackot.
 TireAirPumpStation,RefillTire_NoPower,The power doesn't seem to be on.,"Úgy tűnik, nincs áram."
@@ -10157,7 +10157,7 @@ VehicleGasTankComponent,Vehicle_GasTank_Locked,The vehicle is locked. Unlock it 
 VehicleGasTankComponent,Vehicle_GasTank_NotInstalled,There is no gas tank installed in the vehicle.,Nincs üzemanyagtartály beszerelve a járműbe.
 VehicleGasTankComponent,FluidTank_AlreadyFull,This is already full.,Ez már tele van.
 VehicleGasTankComponent,FillGasTank_CantMix,You can't mix the fluid in this with the gas tank contents.,Nem keverheted össze ennek a folyadékát az üzemanyagtartály tartalmával.
-VehicleGasTankComponent,Vehicle_FillGasTank_Result,You fill up the tank. The tank is around {Percent} full now.,Feltöltöd a tartályt. A tartály most kb. {Percent}-ig tele van.
+VehicleGasTankComponent,Vehicle_FillGasTank_Result,You fill up the tank. The tank is around {Percent} full now.,Feltöltöd a tartályt. A tartály most kb. {Percent}-ig van tele.
 VehicleGasTankComponent,FillGasTank_NoContainer,You have nothing to fill from.,Nincs miből töltened.
 VehicleGasTankComponent,Siphon_NoContainer,You have nothing to siphon into.,Nincs mibe leszívnod.
 VehicleHeaterComponent,CarHeater_Cold,Currently Cold.,Jelenleg hideg.
@@ -10255,7 +10255,7 @@ VeinAnimalCharacter,PetAnimal,You pet the animal.,Megsimogatod az állatot.
 VeinBaseCharacter,CheckConscious_UseOption,Check,Ellenőrzés
 VeinBaseCharacter,CheckConscious_Dead,Dead.,Halott.
 VeinBaseCharacter,Destroy_UseOption,Destroy,Megsemmisít
-VeinBaseCharacter,DragBody_UseOption,Drag,Húzás
+VeinBaseCharacter,DragBody_UseOption,Drag,Elhúz
 VeinBaseCharacter,ExamineCorpse_UseOption,Examine Corpse,Holttest megvizsgálása
 VeinBaseCharacter,Animal_ProcessCorpse_UseOption,Process,Feldolgoz
 VeinBaseCharacter,CheckConscious_Unconscious,"Unconscious, but still breathing.","Eszméletlen, de még lélegzik."
@@ -10541,7 +10541,7 @@ WeatherReadoutUserWidget,WeatherGauge_WindDirection_E,East,Kelet
 WeatherReadoutUserWidget,WeatherGauge_WindForce_5,Extremely Windy,Rendkívül szeles
 WeatherReadoutUserWidget,WeatherGauge_Fog_100,Foggy,Ködös
 WeatherReadoutUserWidget,WeatherGauge_Precipitation_100,Heavy,Nehéz
-WeatherReadoutUserWidget,WeatherGauge_Pressure_1100,High,Betépve
+WeatherReadoutUserWidget,WeatherGauge_Pressure_1100,High,Magas
 WeatherReadoutUserWidget,WeatherGauge_Humidity_80,Humid,Párás
 WeatherReadoutUserWidget,WeatherGauge_Precipitation_33,Light,Könnyű
 WeatherReadoutUserWidget,WeatherGauge_Pressure_950,Low,Alacsony

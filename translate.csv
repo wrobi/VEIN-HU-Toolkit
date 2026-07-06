@@ -751,9 +751,9 @@
 ,199000CD41F2ADE4AF05F9A193E4571F,Immediately,Azonnal
 ,FC24F78D44D0AC451D90369662BA60A6,Impossible,Lehetetlen
 ,70AE53FE46CF99BA773D25BBFA876FA2,Improved Arrow,Továbbfejlesztett nyílvessző
-,0DA9A5B846F8389AEACD9CB7440E1E99,Improved Iron Arrow,Továbbfejlesztett vas nyílvessző
-,48AC287D41B398DA69B67EAF4CB64B9A,Improved Iron Arrow,Továbbfejlesztett vas nyílvessző
-,956A25304AAD8CF362C496BDBC7FBC77,Improved Iron Arrow,Továbbfejlesztett vas nyílvessző
+,0DA9A5B846F8389AEACD9CB7440E1E99,Improved Iron Arrow,Továbbfejlesztett vashegyű nyílvessző
+,48AC287D41B398DA69B67EAF4CB64B9A,Improved Iron Arrow,Továbbfejlesztett vashegyű nyílvessző
+,956A25304AAD8CF362C496BDBC7FBC77,Improved Iron Arrow,Továbbfejlesztett vashegyű nyílvessző
 ,90525A5744005E167E92F7967D1D5251,"In your inventory, there is a tab to show all recently acquired items. It shows all items obtained within the last 5 minutes.","A készletedben van egy fül, amely a nemrég szerzett tárgyakat mutatja. Minden tárgyat megjelenít, amit az elmúlt 5 percben szereztél."
 ,197DFCAB444A8A484126648C29893E8E,Increases tiredness.,Növeli a fáradtságot.
 ,E75289C14369DBB701623781DF600C81,Industrial Gas Range,Ipari gáztűzhely
@@ -785,7 +785,7 @@
 ,83BFABFF4689287F75A505841193032E,Inventory,Készlet
 ,A49FE0254C154CB80406B4A6B7487FF9,Inventory,Készlet
 ,AEAE2935424F3A823ED069AE0B13369C,Inventory,Készlet
-,13CA886C4130EEB600591E9F95E8699D,Iron Arrow,Vas nyílvessző
+,13CA886C4130EEB600591E9F95E8699D,Iron Arrow,Vashegyű nyílvessző
 ,3674B6C048A6CAAEDDD44286E2BD1E82,Irreparable Saw Machine,Javíthatatlan fűrészgép
 ,897649A145A7DB2DFB0208806EE8F1D0,Island Dr,Island Dr
 ,7F714D654BA95218FAA4F7841F71BDA7,Item,Tárgy
@@ -837,7 +837,7 @@
 ,8A643A814850C44D9F0781A4B2720244,Light Control (Block B Workshop),Világításvezérlés (B blokk műhely)
 ,B14BBAC546100DD442AAE5BADF53B8A5,Light Control (Block B),Világításvezérlés (B blokk)
 ,33E739914B72DA97C42F77A85104C6B2,Light Control (Block C),Világításvezérlés (C blokk)
-,F6A550F441D94A200BF87E8E0F55E814,"Light Control (Block D, Honor Block)","Világításvezérlés (D blokk, kitüntetettek blokkja)"
+,F6A550F441D94A200BF87E8E0F55E814,"Light Control (Block D, Honor Block)","Világításvezérlés (D blokk, kiváltságosak blokkja)"
 ,245A3B954A1F6BA33F01E0A783DAB8AE,Light Control (Cafeteria),Világításvezérlés (Étkezde)
 ,84E7D8724F6590BD93264FBC29542102,"Light Control (East Hallway, Lower)","Világításvezérlés (Keleti folyosó, alsó)"
 ,0AFE9CE04EBAEEE30F2B59B8C36D7C0E,"Light Control (East Hallway, Upper)","Világításvezérlés (Keleti folyosó, felső)"
@@ -985,8 +985,8 @@
 ,70FDA6564BBBDDBF0C0A429AA68B9E59,Mountainview Rd,Mountainview Rd
 ,FD59941443B6641EE993DC956932B5BA,Mountainview Rd,Mountainview Rd
 ,BE0D304B451DDCA460F5648728529084,Mounted Blue Marlin,Falra szerelt kék marlin
-,250A84D14C09008AB5A33B8A40CDC87A,Mounted Deer Head,Falra szerelt szarvasfej
-,51D6357C4749E6724AAE7E876A1F133D,Mounted Deer Head,Falra szerelt szarvasfej
+,250A84D14C09008AB5A33B8A40CDC87A,Mounted Deer Head,Fali szarvas trófea
+,51D6357C4749E6724AAE7E876A1F133D,Mounted Deer Head,Fali szarvas trófea
 ,2864366340727D17DC067D8156193218,Mounted Fish Plaque,Falra szerelt halplakett
 ,21A1CCAC4EA6D3388358EF9E42F043AA,Move Backward,Mozgás hátra
 ,F787415E45C3CCF3D8ADE5B545C1243C,Move Backward,Mozgás hátra
@@ -1086,7 +1086,7 @@
 ,766EC1ED4C4EAEA1ACC4C7BC7F725938,Old Rail Rd Bed,Old Rail Rd Bed
 ,97B2E35044B1CD0E1B20C394AF7CA5F3,Old Rail Rd Bed,Old Rail Rd Bed
 ,16F7A0A2472FB64240DF6CB040C5A9B9,Old Remains,Régi maradványok
-,8FB469484A41B5F4523F6980B5D72FF5,OpacityMask,ÁtlátszóságiMaszk
+,8FB469484A41B5F4523F6980B5D72FF5,OpacityMask,Átlátszósági maszk
 ,A5B283B4404BBDCC6B4333B154C29491,Open,Megnyitás
 ,A64334A749C0E3FE8D85749FC8A795C0,Open,Megnyitás
 ,CDE17A694B0C89E96214B3A8E1628EF0,Open,Megnyitás
@@ -1160,24 +1160,24 @@
 ,04FB41414F900A8ECC565D97AE73431D,Plank Rd,Plank Rd
 ,5B13158648B3585EF802E7865B5481A1,Plank Rd,Plank Rd
 ,A6EECB634B9D2B9CC31E4C92D71396CE,Plank Rd,Plank Rd
-,061DA10D43E5A2964BC25DAD981D8CA8,Planter (Large),Ágyás (Nagy)
-,081EE0BA42DA2DAD03A27CBBB4768EC1,Planter (Large),Ágyás (Nagy)
-,8CFB533E4705B343FDABF388564878E3,Planter (Large),Ágyás (Nagy)
-,A6B999CF49BDF3484D920CB5E702E0AF,Planter (Large),Ágyás (Nagy)
-,0F86EB4A4404D1943EE2068BB6B396DB,Planter (Medium),Ágyás (Közepes)
-,56C640454E9F1EBEBA24A3A2A13546CD,Planter (Medium),Ágyás (Közepes)
-,F9D896D14BAE912A2425AA92E470B85D,Planter (Medium),Ágyás (Közepes)
-,FAC48E2B4A93ECEBCBC7FB8A04FCBA9C,Planter (Medium),Ágyás (Közepes)
-,C025E6D8411B7C4E50AF6F90E2E1FA6F,"Planter (Medium, Single)","Ágyás (Közepes, egyes)"
-,E03CEC184FC00B949BEE0CA83376D6B9,"Planter (Medium, Single)","Ágyás (Közepes, egyes)"
-,0026ED94417DB44FEE180186CF37B46D,Planter (Small),Ágyás (Kicsi)
-,195DFD644438DD52B05144BCA91CF0F0,Planter (Small),Ágyás (Kicsi)
-,7C3338F744836187EA277B8C8DA91856,Planter (Small),Ágyás (Kicsi)
-,F7B7C52A4BEF336324EA959708D8EDA4,Planter (Small),Ágyás (Kicsi)
-,3CD19B8145218129B7AF40BFCC4DDFCA,"Planter (Small, Single)","Ágyás (Kicsi, egyes)"
-,8C95E604494384018507C591E9DB0F67,"Planter (Small, Single)","Ágyás (Kicsi, egyes)"
-,93522DF0477BCD7C15042C82D9F51899,"Planter (Small, Single)","Ágyás (Kicsi, egyes)"
-,A2AFC51346A2EAA3DB99E98688041020,"Planter (Small, Single)","Ágyás (Kicsi, egyes)"
+,061DA10D43E5A2964BC25DAD981D8CA8,Planter (Large),Ültetőláda (Nagy)
+,081EE0BA42DA2DAD03A27CBBB4768EC1,Planter (Large),Ültetőláda (Nagy)
+,8CFB533E4705B343FDABF388564878E3,Planter (Large),Ültetőláda (Nagy)
+,A6B999CF49BDF3484D920CB5E702E0AF,Planter (Large),Ültetőláda (Nagy)
+,0F86EB4A4404D1943EE2068BB6B396DB,Planter (Medium),Ültetőláda (Közepes)
+,56C640454E9F1EBEBA24A3A2A13546CD,Planter (Medium),Ültetőláda (Közepes)
+,F9D896D14BAE912A2425AA92E470B85D,Planter (Medium),Ültetőláda (Közepes)
+,FAC48E2B4A93ECEBCBC7FB8A04FCBA9C,Planter (Medium),Ültetőláda (Közepes)
+,C025E6D8411B7C4E50AF6F90E2E1FA6F,"Planter (Medium, Single)","Ültetőláda (Közepes, egyes)"
+,E03CEC184FC00B949BEE0CA83376D6B9,"Planter (Medium, Single)","Ültetőláda (Közepes, egyes)"
+,0026ED94417DB44FEE180186CF37B46D,Planter (Small),Ültetőláda (Kicsi)
+,195DFD644438DD52B05144BCA91CF0F0,Planter (Small),Ültetőláda (Kicsi)
+,7C3338F744836187EA277B8C8DA91856,Planter (Small),Ültetőláda (Kicsi)
+,F7B7C52A4BEF336324EA959708D8EDA4,Planter (Small),Ültetőláda (Kicsi)
+,3CD19B8145218129B7AF40BFCC4DDFCA,"Planter (Small, Single)","Ültető cserép (Kicsi, egyes)"
+,8C95E604494384018507C591E9DB0F67,"Planter (Small, Single)","Ültető cserép (Kicsi, egyes)"
+,93522DF0477BCD7C15042C82D9F51899,"Planter (Small, Single)","Ültető cserép (Kicsi, egyes)"
+,A2AFC51346A2EAA3DB99E98688041020,"Planter (Small, Single)","Ültető cserép (Kicsi, egyes)"
 ,8097E41D410959AB101A23B20C1A10F5,Plastic Folding Chair,Műanyag összecsukható szék
 ,B92389A4495E56E036D563ADAAB97F09,Play,Játék
 ,138BA3E14CB2EEDEEE0834A5FF39E36D,Play (Advanced),Játék (Haladó)
@@ -1356,8 +1356,8 @@
 ,C82206394C049D02192CA88E4E7E08C0,Sanitize Wound,Seb fertőtlenítése
 ,A00FE3324D869ACCBA88E2A7694BBB2D,Saranac St,Saranac St
 ,E7A0FE074710B6D7E3C8ED9F7D808DBD,Saranac St,Saranac St
-,71C0691345DFF2F983E425A6C3601106,Saranac Substation Switch,Saranac Substation Switch
-,97EB0D894378DEF325E61BA276111653,Saranac Substation Switch,Saranac Substation Switch
+,71C0691345DFF2F983E425A6C3601106,Saranac Substation Switch,Saranac Alállomás kapcsoló
+,97EB0D894378DEF325E61BA276111653,Saranac Substation Switch,Saranac Alállomás kapcsoló
 ,2B07DDEA417B6DE14ED2DF93CE2F3288,Scavenge,Guberál
 ,3E0827A34DF5595287B548B25C3CAC98,Scavenge,Guberál
 ,ADE106C4409D75CD2FB60ABE02E08AEE,Scavenge,Guberál
@@ -1705,9 +1705,9 @@
 ,57BA038E4459F0E7987C89B75CB6FFCD,Trailer 1,Előzetes 1
 ,B27DE67B42A370E469C637AE36A05B61,Treat Injury,Sérülés kezelése
 ,AF7FAB6B4D22092CB3534088819581C3,Treated,Kezelve
-,2B3086B041718FFC00BB1BA5008C76DA,Truck,Teherautó
-,68706E004C121F54A5370CADFB58051F,Truck,Teherautó
-,6C295B9B48F40D617EEACF8354C279DC,Truck,Teherautó
+,2B3086B041718FFC00BB1BA5008C76DA,Truck,Teherautó 1
+,68706E004C121F54A5370CADFB58051F,Truck,Teherautó 2
+,6C295B9B48F40D617EEACF8354C279DC,Truck,Lakóautó
 ,1E94E686440831E093CD109CA2065831,Truck Bed,Plató
 ,85CC1BD8430D9F2D0B7529B6887836B8,Truck Bed,Plató
 ,171E150D4A004DAA17B0FBB250CFA16C,Turn Off,Kikapcsol
@@ -4004,18 +4004,18 @@ Furniture,DumpedFootlocker,Dumped Footlocker,Kidobott felszerelésláda
 Furniture,DumpedMilitaryCrate,Dumped Military Crate,Kidobott katonai láda
 Furniture,Dumpster,Dumpster,Szemeteskonténer
 Furniture,ElectricGuitar,Electric Guitar,Elektromos gitár
-Furniture,EmployeeLocker,Employee Locker,Alkalmazotti szekrény
+Furniture,EmployeeLocker,Employee Locker,Dolgozói szekrény
 Furniture,EmptyCalculatorCase,Empty Calculator Case,Üres számológéptok
 Furniture,BeerTaps_Empty_Action,Empty Keg,Üres hordó
 Furniture,ExaminationTable,Examination Table,Vizsgálóasztal
 Furniture,ExitSign,Exit Sign,Kijárat tábla
 Furniture,ExplosivesBox,Explosives Box,Robbanóanyag-doboz
-Furniture,EyeWashStation,Eye Wash Station,Szemmosó állomás
+Furniture,EyeWashStation,Eye Wash Station,Szemmosó állomás?
 Furniture,FakeFruitBowl,Fake Fruit Bowl,Viaszgyümölcs tál
 Furniture,FancyPantry,Fancy Pantry,Díszes tálalószekrény
 Furniture,FancySideTable,Fancy Side Table,Díszes kisasztal
 Furniture,FancyWardrobe,Fancy Wardrobe,Díszes ruhásszekrény
-Furniture,FarmTrough,Farm Trough,Itatóvályú
+Furniture,FarmTrough,Farm Trough,Vályú
 Furniture,FilingCabinet,Filing Cabinet,Iratszekrény
 Furniture,Sink_Store_Action,Fill Sink,Mosdó feltöltése
 Furniture,FireBlanketBox,Fire Blanket Box,Tűzoltó pokróc doboza
@@ -4029,7 +4029,7 @@ Furniture,FishTable,Fish Table,Halpucoló asztal
 Furniture,FlatbedCart,Flatbed Cart,Platós kézikocsi
 Furniture,FloorBuffer,Floor Buffer,Padlófényesítő gép
 Furniture,FloorMat,Floor Mat,Padlószőnyeg
-Furniture,FloorTom,Floor Tom,Álló tom
+Furniture,FloorTom,Floor Tom,Álló tam
 Furniture,FlowerPot,Flower Pot,Virágcserép
 Furniture,FluidBarrel,Fluid Barrel,Hordó
 Furniture,FluorescentLight,Fluorescent Light,Fénycső
@@ -4097,11 +4097,11 @@ Furniture,LeakyPlasticPool,Leaky Plastic Pool,Lyukas műanyag medence
 Furniture,LeakyPool,Leaky Pool,Lyukas medence
 Furniture,LeatherSofa,Leather Sofa,Bőrkanapé
 Furniture,LimestoneBench,Limestone Bench,Mészkő pad
-Furniture,LimestoneBrickPile,Limestone Brick Pile,Mészkőtégla-halom
+Furniture,LimestoneBrickPile,Limestone Brick Pile,Téglarakás
 Furniture,LimestoneVase,Limestone Vase,Mészkő váza
 Furniture,LobbyChairs,Lobby Chairs,Előcsarnoki székek
 Furniture,LogBench,Log Bench,Rönkpad
-Furniture,LogStorage,Log Storage,Rönkraktár
+Furniture,LogStorage,Log Storage,Rönktároló
 Furniture,LongCarpet,Long Carpet,Hosszú szőnyeg
 Furniture,LongChemistryCounter,Long Chemistry Counter,Hosszú kémiapult
 Furniture,LongSteelKitchenCabinet,Long Steel Kitchen Cabinet,Hosszú acél konyhaszekrény
@@ -5855,7 +5855,7 @@ Items,BP_AntiDepressants_Name,Antidepressants,Antidepresszánsok
 Items,BP_AntineoplasticMedication_Name,Antineoplastic Medication,Daganatellenes gyógyszer
 Items,BP_Apple_Name,Apple,Alma
 Items,BP_BoxedOatmealApple_Name,Apple Oatmeal,Almás zabkása
-Items,BP_Seeds_Apple_Name,Apple Seeds,Almamag
+Items,BP_Seeds_Apple_Name,Apple Seeds,Almafa
 Items,BP_AppleSlice_Name,Apple Slice,Almaszelet
 Items,BP_AgilityMag_Description,Applies a temporary XP boost for 30 minutes.,30 percre ideiglenes XP-növelést ad.
 Items,BP_ConstructionMag_Description,Applies a temporary XP boost for 30 minutes.,30 percre ideiglenes XP-növelést ad.
@@ -6501,7 +6501,7 @@ Items,BP_InsulatedCanteen_Name,Insulated Canteen,Hőszigetelt kulacs
 Items,BP_InsulatedFlask_Name,Insulated Flask,Hőszigetelt flaska
 Items,BP_Insulin_Name,Insulin,Inzulin
 Items,BP_IowaDarter_Name,Iowa Darter,Iowa Darter
-Items,BP_Arrow_Iron_Name,Iron Arrow,Vas nyílvessző
+Items,BP_Arrow_Iron_Name,Iron Arrow,Vashegyű nyílvessző
 Items,BP_IronIngot_Name,Iron Ingot,Vastömb
 Items,BP_IronScrap_Name,Iron Scrap,Vashulladék
 Items,BP_RubbingAlcohol_Name,Isopropyl Alcohol,Izopropil-alkohol
@@ -7089,7 +7089,7 @@ Items,BP_Zombrin_Description,"Sold for a limited time online from a highly reput
 Items,BP_SolderingIron_Name,Soldering Iron,Forrasztópáka
 Items,BP_BlackGarlic_Description,Some aged black garlic.,Egy kis érlelt fekete fokhagyma.
 Items,BP_AluminumScrap_Description,Some aluminum. ,Egy kis alumínium. 
-Items,BP_Seeds_Apple_Description,Some apple seeds.,Egy kis almamag.
+Items,BP_Seeds_Apple_Description,Some apple seeds.,Egy kis almafa.
 Items,BP_Seeds_Artichoke_Description,Some artichoke seeds.,Egy kis articsókamag.
 Items,BP_Quiche_Description,Some baked food.,Egy kis sült étel.
 Items,BP_Takoyaki_Description,"Some balls of takoyaki, each containing a bite of octopus and topped with bonito flakes and mayo.","Néhány gombóc takoyaki, mindegyikben egy falat polippal, tetején bonitópehellyel és majonézzel."
@@ -7917,9 +7917,9 @@ LocationMarkers,dowpond_Name,Dow Pond,Dow Pond
 LocationMarkers,dowpondlookout_Name,Dow Pond Lookout,Dow Pond kilátó
 LocationMarkers,duckbillbakery_Name,Duck Bill Bakery,Duck Bill pékség
 LocationMarkers,duckbillswamp_Name,Duck Bill Swamp,Duck Bill mocsár
-LocationMarkers,dumpsite2a_Name,Dump Site 2A,Dump Site 2A
-LocationMarkers,dumpsite2b_Name,Dump Site 2B,Dump Site 2B
-LocationMarkers,dumpsite2c_Name,Dump Site 2C,Dump Site 2C
+LocationMarkers,dumpsite2a_Name,Dump Site 2A,2A lerakóhely
+LocationMarkers,dumpsite2b_Name,Dump Site 2B,2B lerakóhely
+LocationMarkers,dumpsite2c_Name,Dump Site 2C,2C lerakóhely
 LocationMarkers,duncanmountaincabins_Name,Duncan Mountain Cabins,Duncan Mountain faházak
 LocationMarkers,duncanmountainlookout_Name,Duncan Mountain Lookout,Duncan Mountain kilátó
 LocationMarkers,elsinorecemetery_Name,Elsinore Cemetery,Elsinore temető
@@ -8003,7 +8003,7 @@ LocationMarkers,maplemart192_Name,Maple Mart #192,Maple Mart #192
 LocationMarkers,maplemart192_Description,Maple Mart locations were a staple of the region before the pandemic. This Redford location was commonly used by travelers from Plattsburgh driving to the town of Saranac Lake.,A Maple Mart üzletek a régió alapkövei voltak a járvány előtt. Ezt a redfordi üzletet gyakran használták a Plattsburghból Saranac Lake városába utazók.
 LocationMarkers,marconasbunnyshelter_Name,Marcona's Bunny Shelter,Marcona nyúlmenhelye
 LocationMarkers,martysbaittackle_Name,Marty's Bait & Tackle,Marty csali- és horgászboltja
-LocationMarkers,massdumpsitea1_Name,Mass Dump Site A1,Mass Dump Site A1
+LocationMarkers,massdumpsitea1_Name,Mass Dump Site A1,A1 tömeges lerakóhely
 LocationMarkers,mccollomsny_Name,"Mccolloms, NY","Mccolloms, NY"
 LocationMarkers,meachamgunsandmore_Name,Meacham Gun's & More,Meacham fegyverbolt
 LocationMarkers,meachamlakecampgrounds_Name,Meacham Lake Campgrounds,Meacham Lake kemping
@@ -8702,7 +8702,7 @@ Recipes,RP_CleanerCasserole_FlavorText,Hopefully your mom didn't make this...,Re
 Recipes,RP_HotChocolate_Name,Hot Chocolate,Forró csoki
 Recipes,CR_IndustrialDriverBits_Name,Industrial Driver Bit,Ipari csavarozófej
 Recipes,CR_IndustrialWeldingWire_Name,Industrial Welding Wire,Ipari hegesztőhuzal
-Recipes,CR_Arrow_Iron_Name,Iron Arrow,Vas nyílvessző
+Recipes,CR_Arrow_Iron_Name,Iron Arrow,Vashegyű nyílvessző
 Recipes,CR_IronScrap_Name,Iron Scrap,Vashulladék
 Recipes,RP_Jambalaya_Name,Jambalaya,Jambalaya
 Recipes,CR_Kindling_Name,Kindling,Gyújtós
@@ -9271,7 +9271,7 @@ ST_Furniture,SteelFridge,Steel Fridge,Hűtőszekrény
 ST_Furniture,TV,TV,TV
 ST_Furniture,TobaccoShelf,Tobacco Shelf,Dohánypolc
 ST_Furniture,Toilet,Toilet,WC
-ST_Furniture,TowelWarmer,Towel Warmer,Törölközőszárító
+ST_Furniture,TowelWarmer,Towel Warmer,Törölköző tároló
 ST_Furniture,Bathtub,Tub,Kád
 ST_Furniture,Urinal,Urinal,Piszoár
 ST_Furniture,VendingMachine,Vending Machine,Automata
@@ -10095,7 +10095,7 @@ Uniquenesses,U_Nomad_Name,Nomad,Nomád
 Uniquenesses,U_Pale_Name,Pale,Sápadt
 Uniquenesses,U_PeanutAllergy_Name,Peanut Allergy,Mogyoróallergia
 Uniquenesses,U_Sleepwalker_Name,Sleepwalker,Alvajáró
-Uniquenesses,U_BloodLust_Desc,The only way to reduce stress is killing things.,"A stressz csökkentésének egyetlen módja, ha ölsz."
+Uniquenesses,U_BloodLust_Desc,The only way to reduce stress is killing things.,b
 Uniquenesses,U_Unvaccinated_Name,Unvaccinated,Oltatlan
 Uniquenesses,U_Vegan_Name,Vegan,Vegán
 Uniquenesses,U_Vegetarian_Name,Vegetarian,Vegetáriánus

@@ -232,7 +232,7 @@
 ,BEB949E84846C015676F03854FBE5DDE,Bouck St,Bouck St
 ,D2DD0A324BE7CE6805114C8FA4E39173,Bouck St,Bouck St
 ,DF3EA1564E462AA46DE67792239D54ED,Bouck St,Bouck St
-,0346E0FF418C144251B1CC893C18600F,Box,Doboz
+,0346E0FF418C144251B1CC893C18600F,Box,Raktér
 ,6341C78F413C3C8D33C4E1A0120F3893,Box,Doboz
 ,3FC21F4A42A0AA36B667DE965ABEEAA6,Bucks Corners Rd,Bucks Corners Rd
 ,4E78FEA54D41D9B9CD841FB24FA121E2,Bucks Corners Rd,Bucks Corners Rd
@@ -3268,7 +3268,7 @@ DamageTypes,FireworkExplosion_DamageTypeName,Firework Explosion,Tűzijáték-rob
 DamageTypes,Default__DT_Flare_C_ResistanceLabel,Flare Resistance,Jelzőfény-ellenállás
 DamageTypes,FrozenFood_DamageTypeName,Frozen Food,Fagyasztott élelmiszer
 DamageTypes,FrozenFood_ResistanceLabel,Frozen Food Resistance,Fagyasztott étel-ellenállás
-DamageTypes,HeavyBlunt_ResistanceLabel,Heavy Blunt Resistance,Nehéz ütődés-ellenállás
+DamageTypes,HeavyBlunt_ResistanceLabel,Heavy Blunt Resistance,Erős ütődés-ellenállás
 DamageTypes,Default__DT_Explosion_High_C_ResistanceLabel,High Explosion Resistance,Erős robbanás-ellenállás
 DamageTypes,Default__DT_Crushed_C_ResistanceLabel,High Velocity Impact Resistance,Nagy sebességű becsapódás-ellenállás
 DamageTypes,Default__DT_VelocityImpact_C_ResistanceLabel,High Velocity Impact Resistance,Nagy sebességű becsapódás-ellenállás
@@ -4067,7 +4067,7 @@ Furniture,HospitalBed,Hospital Bed,Kórházi ágy
 Furniture,HoursSign,Hours Sign,Nyitvatartás tábla
 Furniture,HymnBoard,Hymn Board,Zsoltártábla
 Furniture,IceCreamFreezer,Ice Cream Freezer,Fagylaltos mélyhűtő
-Furniture,IceMachine,Ice Machine,Jégkészítő gép
+Furniture,IceMachine,Ice Machine,Fagyasztószekrény
 Furniture,IndustrialToolChest,Industrial Tool Chest,Ipari szerszámosláda
 Furniture,InflatablePoolBall,Inflatable Pool Ball,Felfújható strandlabda
 Furniture,InflatablePoolMattress,Inflatable Pool Mattress,Felfújható gumimatrac
@@ -4572,7 +4572,7 @@ GasPort,Description,An extension plug. Used to extend the range of wiring for ga
 GasTank,GasTank_ExamineText,Contains {Contents},Tartalom: {Contents}
 GasTank,GasTank_ExamineText_Whitelist,Contains {Contents}\nWorks with {ValidGases}.,Tartalom: {Contents}\nEzekkel működik: {ValidGases}.
 GasTank,GasTank_SmellText,Smell,Szag
-GlassComponent,GlassCover,Cover,Fedezék
+GlassComponent,GlassCover,Cover,Letakar
 GlassComponent,Glass,Glass,Üveg
 GlassComponent,GlassRepair,Repair,Javít
 GlassComponent,GlassRepair_Subtitle,Repair using a {ItemName}.,Javítás a következővel: {ItemName}.
@@ -6008,8 +6008,8 @@ Items,BP_Bow_Name,Bow,Íj
 Items,BP_Bowfin_Name,Bowfin,Bowfin
 Items,BP_CL_Head_BowlerHat_Name,Bowler Hat,Keménykalap
 Items,BP_CL_Shoes_BowlingShoes_Name,Bowling Shoes,Bowlingcipő
-Items,BP_FrozenWaffles_Name,Box of Waffles,Fagyasztott gofri
-Items,BP_FrozenFish_Name,Boxed Fish,Fagyasztott hal
+Items,BP_FrozenWaffles_Name,Box of Waffles,Gofri
+Items,BP_FrozenFish_Name,Boxed Fish,Halrudacska
 Items,BP_CL_Head_BoxingGearHelmet_Name,Boxing Helmet,Fejvédő
 Items,BP_CerealBox_Variant0_Name,Bran Flakes,Gabonapehely
 Items,BP_BrassyMinnow_Name,Brassy Minnow,Brassy Minnow
@@ -7824,7 +7824,7 @@ LocationMarkers,abandonedfarmstead_Name,Abandoned Farmstead,Elhagyatott tanya
 LocationMarkers,abandonedgravesite_Name,Abandoned Grave Site,Elhagyatott sírhely
 LocationMarkers,adirondackguardianshipwreck_Name,Adirondack Guardian Shipwreck,Adirondack Guardian hajóroncs
 LocationMarkers,agathasplantshop_Name,Agatha's Plant Shop,Agatha növényboltja
-LocationMarkers,alexanderridgecabins_Name,Alexander Ridge Cabins,Alexander Ridge Cabins
+LocationMarkers,alexanderridgecabins_Name,Alexander Ridge Cabins,Alexander Ridge faházak
 LocationMarkers,alissasappleorchard_Name,Alissa's Apple Orchard,Alissa almáskertje
 LocationMarkers,ambientenergypowerhouse_Name,Ambient Energy Powerhouse,Ambient Energy erőmű
 LocationMarkers,americanlegionpost0607_Name,American Legion Post #0607,American Legion Post #0607
@@ -7851,148 +7851,148 @@ LocationMarkers,splitrockcave_Description,An underwater cave with something insi
 LocationMarkers,forgottenshipwreck_Description,An unreported shipwreck that's been here for an unknown amount of time.,"Egy bejelentetlen hajóroncs, amely ki tudja, mióta van itt."
 LocationMarkers,anvilgas_Name,Anvil Gas,Anvil gáz
 LocationMarkers,armory_Name,Armory,Fegyvertár
-LocationMarkers,averillminesnorth_Name,Averill Mines North,Averill Mines North
-LocationMarkers,averillminessouth_Name,Averill Mines South,Averill Mines South
-LocationMarkers,averillridgeresort_Name,Averill Ridge Resort,Averill Ridge Resort
-LocationMarkers,backwoodsselfstorage_Name,Backwoods Self Storage,Backwoods Self Storage
-LocationMarkers,badgerheightsresort_Name,Badger Heights Resort,Badger Heights Resort
-LocationMarkers,barberloggingcamp_Name,Barber Logging Camp,Barber Logging Camp
+LocationMarkers,averillminesnorth_Name,Averill Mines North,Averill bánya (északi)
+LocationMarkers,averillminessouth_Name,Averill Mines South,Averill bánya (déli)
+LocationMarkers,averillridgeresort_Name,Averill Ridge Resort,Averill Ridge üdülő
+LocationMarkers,backwoodsselfstorage_Name,Backwoods Self Storage,Backwoods önkiszolgáló raktár
+LocationMarkers,badgerheightsresort_Name,Badger Heights Resort,Badger Heights üdülő
+LocationMarkers,barberloggingcamp_Name,Barber Logging Camp,Barber favágótábor
 LocationMarkers,barnespond_Name,Barnes Pond,Barnes Pond
 LocationMarkers,bowenhillhydroelectricdam_Description,"Being one of the only of its kind in the region, this hydroelectric dam supplies power to many surrounding towns and villages.","Mivel a maga nemében szinte egyedülálló a régióban, ez a vízerőmű-gát számos környező várost és falut lát el árammal."
-LocationMarkers,belmontmine_Name,Belmont Mine,Belmont Mine
+LocationMarkers,belmontmine_Name,Belmont Mine,Belmont bánya
 LocationMarkers,bignedsfishshack_Name,Big Ned's Fish Shack,Big Ned halbüféje
-LocationMarkers,birchhillgokartraceway_Name,Birch Hill Go-Kart Raceway,Birch Hill Go-Kart Raceway
+LocationMarkers,birchhillgokartraceway_Name,Birch Hill Go-Kart Raceway,Birch Hill gokartpálya
 LocationMarkers,blakefarm_Name,Blake Farm,Blake Farm
-LocationMarkers,blakefarmstorage_Name,Blake Farm Storage,Blake Farm Storage
-LocationMarkers,bowenhillhydroelectricdam_Name,Bowen Hill Hydroelectric Dam (WIP),Bowen Hill Hydroelectric Dam (WIP)
+LocationMarkers,blakefarmstorage_Name,Blake Farm Storage,Blake farm raktár
+LocationMarkers,bowenhillhydroelectricdam_Name,Bowen Hill Hydroelectric Dam (WIP),Bowen Hill vízerőmű-gát (WIP)
 LocationMarkers,bowenhillpark_Name,Bowen Hill Park,Bowen Hill Park
 LocationMarkers,branspharmacy_Name,Bran's Pharmacy,Bran gyógyszertára
-LocationMarkers,bridgehillsbarngrill_Name,Bridge Hills Bar n' Grill,Bridge Hills Bar n' Grill
+LocationMarkers,bridgehillsbarngrill_Name,Bridge Hills Bar n' Grill,Bridge Hills bár és grill
 LocationMarkers,buckspond_Name,Buck's Pond,Buck's Pond
 LocationMarkers,calicofarm_Name,Calico Farm,Calico Farm
 LocationMarkers,parsonsknobcampgrounds_Description,Campgrounds on a cliff overlooking Lyon Mountain. Watch your step.,"Kemping egy sziklán, kilátással Lyon Mountainre. Vigyázz, hová lépsz."
-LocationMarkers,catamountcampsupplies_Name,Catamount Camp Supplies,Catamount Camp Supplies
+LocationMarkers,catamountcampsupplies_Name,Catamount Camp Supplies,Catamount kempingbolt
 LocationMarkers,champlainfarm_Name,Champlain Farm,Champlain Farm
-LocationMarkers,chazyhighlandscabins_Name,Chazy Highlands Cabins,Chazy Highlands Cabins
-LocationMarkers,chazylakebeach_Name,Chazy Lake Beach,Chazy Lake Beach
-LocationMarkers,chazylakeboatlanch_Name,Chazy Lake Boat Launch,Chazy Lake Boat Launch
+LocationMarkers,chazyhighlandscabins_Name,Chazy Highlands Cabins,Chazy Highlands faházak
+LocationMarkers,chazylakebeach_Name,Chazy Lake Beach,Chazy Lake strand
+LocationMarkers,chazylakeboatlanch_Name,Chazy Lake Boat Launch,Chazy Lake csónakkikötő
 LocationMarkers,chazylakedairyfarm_Name,Chazy Lake Dairy Farm,Chazy Lake Dairy Farm
 LocationMarkers,chazylakelookout_Name,Chazy Lake Lookout,Chazy Lake Kilátó
-LocationMarkers,cherryhillairpark_Name,Cherry Hill Airpark,Cherry Hill Airpark
+LocationMarkers,cherryhillairpark_Name,Cherry Hill Airpark,Cherry Hill repülőtér
 LocationMarkers,cherrylandfarm_Name,Cherryland Farm,Cherryland Farm
-LocationMarkers,clarkhillacres_Name,Clark Hill Acres,Clark Hill Acres
-LocationMarkers,clintoncorrectionalfacility_Name,Clinton Correctional Facility,Clinton Correctional Facility
-LocationMarkers,clintoncorrectionalstorage_Name,Clinton Correctional Storage,Clinton Correctional Storage
-LocationMarkers,coldbrookcaven_Name,Cold Brook Cavern,Cold Brook Cavern
+LocationMarkers,clarkhillacres_Name,Clark Hill Acres,Clark Hill birtok
+LocationMarkers,clintoncorrectionalfacility_Name,Clinton Correctional Facility,Clinton fegyintézet
+LocationMarkers,clintoncorrectionalstorage_Name,Clinton Correctional Storage,Clinton fegyintézeti raktár
+LocationMarkers,coldbrookcaven_Name,Cold Brook Cavern,Cold Brook barlang
 LocationMarkers,conditiongarage_Name,Conditions Garage,Képességek garázsa
-LocationMarkers,cornersbrookcampgrounds_Name,Corners Brook Campgrounds,Corners Brook Campgrounds
-LocationMarkers,countrysidefreshfoodspantry_Name,Countryside Fresh Foods Pantry,Countryside Fresh Foods Pantry
+LocationMarkers,cornersbrookcampgrounds_Name,Corners Brook Campgrounds,Corners Brook kemping
+LocationMarkers,countrysidefreshfoodspantry_Name,Countryside Fresh Foods Pantry,Countryside Fresh Foods éléskamra
 LocationMarkers,craftinghut_Name,Crafting Hut (WIP),Barkácskunyhó (WIP)
-LocationMarkers,cranberrycamps_Name,Cranberry Camps,Cranberry Camps
-LocationMarkers,cranberrymountainlookout_Name,Cranberry Mountain Lookout,Cranberry Mountain Lookout
+LocationMarkers,cranberrycamps_Name,Cranberry Camps,Cranberry kemping
+LocationMarkers,cranberrymountainlookout_Name,Cranberry Mountain Lookout,Cranberry Mountain kilátó
 LocationMarkers,daigneaupond_Name,Daigneau Pond,Daigneau Pond
 LocationMarkers,danspark_Name,Dan's Park,Dan parkja
-LocationMarkers,dannemoracommunityandcourtcenter_Name,Dannemora Community & Court Center,Dannemora Community & Court Center
-LocationMarkers,dannemorafiredept_Name,Dannemora Fire Dept.,Dannemora Fire Dept.
-LocationMarkers,dannemorahighschool_Name,Dannemora High School,Dannemora High School
-LocationMarkers,dannemoralookout_Name,Dannemora Lookout,Dannemora Lookout
-LocationMarkers,dannemorapowersubstationddm01_Name,Dannemora Power Substation D-DM-01,Dannemora Power Substation D-DM-01
-LocationMarkers,dannemoratowngarage_Name,Dannemora Town Garage,Dannemora Town Garage
-LocationMarkers,dannemorawastewaterplant_Name,Dannemora Wastewater Plant,Dannemora Wastewater Plant
-LocationMarkers,darkwoodscabin_Name,Dark Woods Cabin,Dark Woods Cabin
+LocationMarkers,dannemoracommunityandcourtcenter_Name,Dannemora Community & Court Center,Dannemora közösségi és bírósági központ
+LocationMarkers,dannemorafiredept_Name,Dannemora Fire Dept.,Dannemora tűzoltóság
+LocationMarkers,dannemorahighschool_Name,Dannemora High School,Dannemora gimnázium
+LocationMarkers,dannemoralookout_Name,Dannemora Lookout,Dannemora kilátó
+LocationMarkers,dannemorapowersubstationddm01_Name,Dannemora Power Substation D-DM-01,Dannemora alállomás D-DM-01
+LocationMarkers,dannemoratowngarage_Name,Dannemora Town Garage,Dannemora városi garázs
+LocationMarkers,dannemorawastewaterplant_Name,Dannemora Wastewater Plant,Dannemora szennyvíztelep
+LocationMarkers,darkwoodscabin_Name,Dark Woods Cabin,Dark Woods faház
 LocationMarkers,davidsautoparts_Name,David's Auto Parts,David autóalkatrész-boltja
 LocationMarkers,deadairdepths_Name,Dead Air Depths,Dead Air Depths
 LocationMarkers,deadendsmotel_Name,Dead Ends Motel,Dead Ends Motel
-LocationMarkers,debarforestlumbermill_Name,Debar Forest Lumbermill,Debar Forest Lumbermill
-LocationMarkers,debarforestlumbermillstorage_Name,Debar Forest Lumbermill Storage,Debar Forest Lumbermill Storage
+LocationMarkers,debarforestlumbermill_Name,Debar Forest Lumbermill,Debar Forest fűrésztelep
+LocationMarkers,debarforestlumbermillstorage_Name,Debar Forest Lumbermill Storage,Debar Forest fűrésztelep raktár
 LocationMarkers,defensebarn_Name,Defense Barn,Védelmi pajta
-LocationMarkers,devilsgrotto_Name,Devil's Grotto,Devil's Grotto
-LocationMarkers,dismalswampcave_Name,Dismal Swamp Cave,Dismal Swamp Cave
+LocationMarkers,devilsgrotto_Name,Devil's Grotto,Ördög barlangja
+LocationMarkers,dismalswampcave_Name,Dismal Swamp Cave,Dismal Swamp barlang
 LocationMarkers,saranacpowersubstationDS02_Description,"Distribution substations, like this one, control electricity around a certain region.","Az elosztó-alállomások, mint ez is, egy adott régió áramellátását vezérlik."
 LocationMarkers,saranacpowersubstationrf01_Description,"Distribution substations, like this one, control electricity around a certain region.","Az elosztó-alállomások, mint ez is, egy adott régió áramellátását vezérlik."
 LocationMarkers,westwoodsubstation_Description,"Distribution substations, like this one, control electricity around a certain region.","Az elosztó-alállomások, mint ez is, egy adott régió áramellátását vezérlik."
 LocationMarkers,massdumpsitea1_Description,Do you really want to be near this many bodies?,Tényleg ennyi holttest közelében akarsz lenni?
-LocationMarkers,docklinkllcbuilding_Name,Docklink LLC. Building,Docklink LLC. Building
+LocationMarkers,docklinkllcbuilding_Name,Docklink LLC. Building,Docklink LLC épület
 LocationMarkers,dowpond_Name,Dow Pond,Dow Pond
-LocationMarkers,dowpondlookout_Name,Dow Pond Lookout,Dow Pond Lookout
-LocationMarkers,duckbillbakery_Name,Duck Bill Bakery,Duck Bill Bakery
-LocationMarkers,duckbillswamp_Name,Duck Bill Swamp,Duck Bill Swamp
+LocationMarkers,dowpondlookout_Name,Dow Pond Lookout,Dow Pond kilátó
+LocationMarkers,duckbillbakery_Name,Duck Bill Bakery,Duck Bill pékség
+LocationMarkers,duckbillswamp_Name,Duck Bill Swamp,Duck Bill mocsár
 LocationMarkers,dumpsite2a_Name,Dump Site 2A,Dump Site 2A
 LocationMarkers,dumpsite2b_Name,Dump Site 2B,Dump Site 2B
 LocationMarkers,dumpsite2c_Name,Dump Site 2C,Dump Site 2C
-LocationMarkers,duncanmountaincabins_Name,Duncan Mountain Cabins,Duncan Mountain Cabins
-LocationMarkers,duncanmountainlookout_Name,Duncan Mountain Lookout,Duncan Mountain Lookout
-LocationMarkers,elsinorecemetery_Name,Elsinore Cemetery,Elsinore Cemetery
-LocationMarkers,elsinorewastetransferstation_Name,Elsinore Waste Transfer Station,Elsinore Waste Transfer Station
+LocationMarkers,duncanmountaincabins_Name,Duncan Mountain Cabins,Duncan Mountain faházak
+LocationMarkers,duncanmountainlookout_Name,Duncan Mountain Lookout,Duncan Mountain kilátó
+LocationMarkers,elsinorecemetery_Name,Elsinore Cemetery,Elsinore temető
+LocationMarkers,elsinorewastetransferstation_Name,Elsinore Waste Transfer Station,Elsinore hulladékátrakó állomás
 LocationMarkers,elsinoreny_Name,"Elsinore, NY","Elsinore, NY"
 LocationMarkers,evergreenfarms_Name,Evergreen Farms,Evergreen Farms
-LocationMarkers,fairbanksswamp_Name,Fairbanks Swamp,Fairbanks Swamp
+LocationMarkers,fairbanksswamp_Name,Fairbanks Swamp,Fairbanks mocsár
 LocationMarkers,farmsubstation_Name,Farm Distribution Substation,Farm elosztó-alállomás
 LocationMarkers,fauvepark_Name,Fauve Park,Fauve Park
 LocationMarkers,firingrange_Name,Firing Range,Lőtér
-LocationMarkers,flecherpointresort_Name,Flecher Point Resort,Flecher Point Resort
+LocationMarkers,flecherpointresort_Name,Flecher Point Resort,Flecher Point üdülő
 LocationMarkers,floodedquarry_Name,Flooded Quarry,Elárasztott kőbánya
 LocationMarkers,forestdalefarm_Name,Forestdale Farm,Forestdale Farm
-LocationMarkers,forestmerelakecampgrounds_Name,Forestmere Lake Campgrounds,Forestmere Lake Campgrounds
+LocationMarkers,forestmerelakecampgrounds_Name,Forestmere Lake Campgrounds,Forestmere Lake kemping
 LocationMarkers,forgottenshipwreck_Name,Forgotten Shipwreck,Elfeledett hajóroncs
-LocationMarkers,frankshardwareemporium_Name,Frank's Hardware Emporium,Frank's Hardware Emporium
+LocationMarkers,frankshardwareemporium_Name,Frank's Hardware Emporium,Frank vasáruboltja
 LocationMarkers,franklinfallsfarm_Name,Franklin Falls Farm,Franklin Falls Farm
-LocationMarkers,gabrielsmemoriallibrary_Name,Gabriels Memorial Library,Gabriels Memorial Library
-LocationMarkers,gabrielsminimart_Name,Gabriels Mini Mart,Gabriels Mini Mart
-LocationMarkers,ganongcentennialhouse_Name,Ganong Centennial House,Ganong Centennial House
+LocationMarkers,gabrielsmemoriallibrary_Name,Gabriels Memorial Library,Gabriels emlékkönyvtár
+LocationMarkers,gabrielsminimart_Name,Gabriels Mini Mart,Gabriels kisbolt
+LocationMarkers,ganongcentennialhouse_Name,Ganong Centennial House,Ganong centenáriumi ház
 LocationMarkers,garonoahpark_Name,Garonoah Park,Garonoah Park
-LocationMarkers,generalservicesoffice_Name,General Services Office,General Services Office
-LocationMarkers,goodtimeslocaldepot_Name,Good Times Local Depot,Good Times Local Depot
+LocationMarkers,generalservicesoffice_Name,General Services Office,Általános szolgáltatási hivatal
+LocationMarkers,goodtimeslocaldepot_Name,Good Times Local Depot,Good Times helyi raktár
 LocationMarkers,grasspond_Name,Grass Pond,Grass Pond
-LocationMarkers,greencanyonmine_Name,Green Canyon Mine,Green Canyon Mine
-LocationMarkers,greenvalleymarket_Name,Green Valley Market,Green Valley Market
+LocationMarkers,greencanyonmine_Name,Green Canyon Mine,Green Canyon bánya
+LocationMarkers,greenvalleymarket_Name,Green Valley Market,Green Valley bolt
 LocationMarkers,greenhouse_Name,Greenhouse (WIP),Üvegház (WIP)
-LocationMarkers,greyselectricrepair_Name,Grey's Electric Repair,Grey's Electric Repair
-LocationMarkers,hankhecklerlawoffice_Name,Hank Heckler Law Office,Hank Heckler Law Office
-LocationMarkers,haystackcave_Name,Haystack Cave,Haystack Cave
+LocationMarkers,greyselectricrepair_Name,Grey's Electric Repair,Grey villanyszerelő műhelye
+LocationMarkers,hankhecklerlawoffice_Name,Hank Heckler Law Office,Hank Heckler ügyvédi irodája
+LocationMarkers,haystackcave_Name,Haystack Cave,Haystack barlang
 LocationMarkers,hiddenswamp_Name,Hidden Swamp,Rejtett mocsár
 LocationMarkers,highnoonplaza_Name,High Noon Plaza,High Noon Plaza
 LocationMarkers,clintoncorrectionalfacility_Description,"High walls, high security. Not the worst place to be in a zombie apocalypse.","Magas falak, magas biztonság. Nem a legrosszabb hely egy zombiapokalipszisben."
-LocationMarkers,highlandsswamp_Name,Highlands Swamp,Highlands Swamp
+LocationMarkers,highlandsswamp_Name,Highlands Swamp,Highlands mocsár
 LocationMarkers,mapledreamshomestead_Description,Home sweet home. This house can be used to try out fortifications & other construction.,"Otthon, édes otthon. Ez a ház erődítések és egyéb építmények kipróbálására használható."
 LocationMarkers,horseheadpoint_Name,Horsehead Point,Horsehead Point
 LocationMarkers,hunterslab_Name,Hunter's Lab,Hunter's Lab
-LocationMarkers,ironoreresort_Name,Iron Ore Resort,Iron Ore Resort
+LocationMarkers,ironoreresort_Name,Iron Ore Resort,Iron Ore üdülő
 LocationMarkers,ironpond_Name,Iron Pond,Iron Pond
-LocationMarkers,isaacsonsconstructionyard_Name,Isaac & Sons Construction Yard,Isaac & Sons Construction Yard
-LocationMarkers,isaacsonsmainoffice_Name,Isaac & Sons Main Office,Isaac & Sons Main Office
+LocationMarkers,isaacsonsconstructionyard_Name,Isaac & Sons Construction Yard,Isaac & Sons építőtelep
+LocationMarkers,isaacsonsmainoffice_Name,Isaac & Sons Main Office,Isaac & Sons központi iroda
 LocationMarkers,isolatedcabin_Name,Isolated Cabin,Elszigetelt faház
-LocationMarkers,johnsonmtnlookout_Name,Johnson Mtn. Lookout,Johnson Mtn. Lookout
-LocationMarkers,joshssmallenginerepair_Name,Josh's Small Engine Repair,Josh's Small Engine Repair
+LocationMarkers,johnsonmtnlookout_Name,Johnson Mtn. Lookout,Johnson Mtn. kilátó
+LocationMarkers,joshssmallenginerepair_Name,Josh's Small Engine Repair,Josh kisgépjavító műhelye
 LocationMarkers,pondsidecabin_Description,Just a cabin.,Csak egy faház.
-LocationMarkers,khwtrustdannemorabranch_Name,KHW Trust Dannemora Branch,KHW Trust Dannemora Branch
+LocationMarkers,khwtrustdannemorabranch_Name,KHW Trust Dannemora Branch,KHW Trust dannemorai fiók
 LocationMarkers,keegansdecent_Name,Keegan's Decent,Keegan's Decent
-LocationMarkers,kingshollowmineseast_Name,Kings Hollow Mines East,Kings Hollow Mines East
-LocationMarkers,kingshollowmineswest_Name,Kings Hollow Mines West,Kings Hollow Mines West
-LocationMarkers,kleennowwarehouse_Name,KleenNow Warehouse,KleenNow Warehouse
+LocationMarkers,kingshollowmineseast_Name,Kings Hollow Mines East,Kings Hollow bánya (keleti)
+LocationMarkers,kingshollowmineswest_Name,Kings Hollow Mines West,Kings Hollow bánya (nyugati)
+LocationMarkers,kleennowwarehouse_Name,KleenNow Warehouse,KleenNow raktár
 LocationMarkers,kleennowwarehouse_Description,KleenNow was a local business that offered cleaning services to businesses in the region. This warehouse served as their storage and main office.,"A KleenNow egy helyi vállalkozás volt, amely takarítási szolgáltatásokat kínált a régió cégeinek. Ez a raktár szolgált a raktáruk és központi irodájuk gyanánt."
-LocationMarkers,klinesarcheryandbait_Name,Kline's Archery & Bait,Kline's Archery & Bait
-LocationMarkers,lakesidecampgrounds_Name,Lakeside Campgrounds,Lakeside Campgrounds
-LocationMarkers,lakesidegunshoprange_Name,Lakeside Gun Shop & Range,Lakeside Gun Shop & Range
+LocationMarkers,klinesarcheryandbait_Name,Kline's Archery & Bait,Kline íjász- és csalibolt
+LocationMarkers,lakesidecampgrounds_Name,Lakeside Campgrounds,Lakeside kemping
+LocationMarkers,lakesidegunshoprange_Name,Lakeside Gun Shop & Range,Lakeside fegyverbolt és lőtér
 LocationMarkers,taylorrealtymainoffice_Description,Looking to buy a home in the mid 2030s? It's a bit too late for that.,Otthont keresel a 2030-as évek közepén? Ahhoz kicsit késő.
 LocationMarkers,uh60greyeaglecrashsite_Description,Looks like the pilot lost control.,"Úgy tűnik, a pilóta elvesztette az irányítást."
-LocationMarkers,loonlakeboatlaunch_Name,Loon Lake Boat Launch,Loon Lake Boat Launch
-LocationMarkers,loonlakecampground_Name,Loon Lake Campground,Loon Lake Campground
-LocationMarkers,loonlakegolfcourse_Name,Loon Lake Golf Course,Loon Lake Golf Course
-LocationMarkers,loonlakemarket_Name,Loon Lake Market,Loon Lake Market
-LocationMarkers,loonmines_Name,Loon Mines,Loon Mines
-LocationMarkers,lopcaveeast_Name,Lop Cave East,Lop Cave East
-LocationMarkers,lopcavewest_Name,Lop Cave West,Lop Cave West
+LocationMarkers,loonlakeboatlaunch_Name,Loon Lake Boat Launch,Loon Lake csónakkikötő
+LocationMarkers,loonlakecampground_Name,Loon Lake Campground,Loon Lake kemping
+LocationMarkers,loonlakegolfcourse_Name,Loon Lake Golf Course,Loon Lake golfpálya
+LocationMarkers,loonlakemarket_Name,Loon Lake Market,Loon Lake bolt
+LocationMarkers,loonmines_Name,Loon Mines,Loon bánya
+LocationMarkers,lopcaveeast_Name,Lop Cave East,Lop barlang (keleti)
+LocationMarkers,lopcavewest_Name,Lop Cave West,Lop barlang (nyugati)
 LocationMarkers,loppond_Name,Lop Pond,Lop Pond
-LocationMarkers,lyonmountainlookout_Name,Lyon Mountain Lookout,Lyon Mountain Lookout
-LocationMarkers,lyonmountainpeak_Name,Lyon Mountain Peak,Lyon Mountain Peak
-LocationMarkers,lyonmountainpowersubstationdlm01_Name,Lyon Mountain Power Substation D-LM-01,Lyon Mountain Power Substation D-LM-01
-LocationMarkers,lyonmtnbaseballfield_Name,Lyon Mtn. Baseball Field,Lyon Mtn. Baseball Field
-LocationMarkers,lyonmtnfiredepartment_Name,Lyon Mtn. Fire Department,Lyon Mtn. Fire Department
-LocationMarkers,lyonmtnmuseum_Name,Lyon Mtn. Museum,Lyon Mtn. Museum
-LocationMarkers,lyonmtnpostoffice_Name,Lyon Mtn. Post Office,Lyon Mtn. Post Office
-LocationMarkers,lyonmtnquarantinecenter_Name,Lyon Mtn. Quarantine Center,Lyon Mtn. Quarantine Center
-LocationMarkers,madchickacres_Name,Madchick Acres,Madchick Acres
+LocationMarkers,lyonmountainlookout_Name,Lyon Mountain Lookout,Lyon Mountain kilátó
+LocationMarkers,lyonmountainpeak_Name,Lyon Mountain Peak,Lyon Mountain csúcs
+LocationMarkers,lyonmountainpowersubstationdlm01_Name,Lyon Mountain Power Substation D-LM-01,Lyon Mountain alállomás D-LM-01
+LocationMarkers,lyonmtnbaseballfield_Name,Lyon Mtn. Baseball Field,Lyon Mtn. baseballpálya
+LocationMarkers,lyonmtnfiredepartment_Name,Lyon Mtn. Fire Department,Lyon Mtn. tűzoltóság
+LocationMarkers,lyonmtnmuseum_Name,Lyon Mtn. Museum,Lyon Mtn. múzeum
+LocationMarkers,lyonmtnpostoffice_Name,Lyon Mtn. Post Office,Lyon Mtn. posta
+LocationMarkers,lyonmtnquarantinecenter_Name,Lyon Mtn. Quarantine Center,Lyon Mtn. karanténközpont
+LocationMarkers,madchickacres_Name,Madchick Acres,Madchick birtok
 LocationMarkers,saranacpowersubstationmsrf06_Description,"Main substations, like this one, control electricity around a much larger region and typically encompasses at least two or more towns.","A fő alállomások, mint ez is, egy jóval nagyobb régió áramellátását vezérlik, és jellemzően legalább két vagy több várost fognak át."
 LocationMarkers,theapex_Description,Make sure you have a light.,"Győződj meg róla, hogy van nálad fényforrás."
 LocationMarkers,mapledreamspond_Name,Maple Dreams Pond (WIP),Maple Dreams Pond (WIP)
@@ -8001,78 +8001,78 @@ LocationMarkers,maplemart103_Name,Maple Mart #103,Maple Mart #103
 LocationMarkers,maplemart152_Name,Maple Mart #152,Maple Mart #152
 LocationMarkers,maplemart192_Name,Maple Mart #192,Maple Mart #192
 LocationMarkers,maplemart192_Description,Maple Mart locations were a staple of the region before the pandemic. This Redford location was commonly used by travelers from Plattsburgh driving to the town of Saranac Lake.,A Maple Mart üzletek a régió alapkövei voltak a járvány előtt. Ezt a redfordi üzletet gyakran használták a Plattsburghból Saranac Lake városába utazók.
-LocationMarkers,marconasbunnyshelter_Name,Marcona's Bunny Shelter,Marcona's Bunny Shelter
-LocationMarkers,martysbaittackle_Name,Marty's Bait & Tackle,Marty's Bait & Tackle
+LocationMarkers,marconasbunnyshelter_Name,Marcona's Bunny Shelter,Marcona nyúlmenhelye
+LocationMarkers,martysbaittackle_Name,Marty's Bait & Tackle,Marty csali- és horgászboltja
 LocationMarkers,massdumpsitea1_Name,Mass Dump Site A1,Mass Dump Site A1
 LocationMarkers,mccollomsny_Name,"Mccolloms, NY","Mccolloms, NY"
-LocationMarkers,meachamgunsandmore_Name,Meacham Gun's & More,Meacham Gun's & More
-LocationMarkers,meachamlakecampgrounds_Name,Meacham Lake Campgrounds,Meacham Lake Campgrounds
+LocationMarkers,meachamgunsandmore_Name,Meacham Gun's & More,Meacham fegyverbolt
+LocationMarkers,meachamlakecampgrounds_Name,Meacham Lake Campgrounds,Meacham Lake kemping
 LocationMarkers,meachampark_Name,Meacham Park,Meacham Park
-LocationMarkers,meachamstorageandrepair_Name,Meacham Storage & Repair,Meacham Storage & Repair
+LocationMarkers,meachamstorageandrepair_Name,Meacham Storage & Repair,Meacham raktár és javítás
 LocationMarkers,medicalsupplydepot_Name,Medical Supply Depot,Orvosi ellátóraktár
-LocationMarkers,millno3_Name,Mill No. 3,Mill No. 3
+LocationMarkers,millno3_Name,Mill No. 3,3. sz. malom
 LocationMarkers,mudpond_Name,Mud Pond,Mud Pond
-LocationMarkers,mudpondmotors_Name,Mud Pond Motors,Mud Pond Motors
-LocationMarkers,nysdepartmentoftransportation_Name,NYS Department of Transportation,NYS Department of Transportation
-LocationMarkers,noreasternlookout_Name,Noreastern Lookout,Noreastern Lookout
-LocationMarkers,noreasternrailwreckage_Name,Noreastern Rail Wreckage,Noreastern Rail Wreckage
-LocationMarkers,northstarestates_Name,Northstar Estates,Northstar Estates
-LocationMarkers,oldcranberrynook_Name,Old Cranberry Nook,Old Cranberry Nook
-LocationMarkers,onchiotagrotto_Name,Onchiota Grotto,Onchiota Grotto
+LocationMarkers,mudpondmotors_Name,Mud Pond Motors,Mud Pond autószerviz
+LocationMarkers,nysdepartmentoftransportation_Name,NYS Department of Transportation,NYS Közlekedési Hivatal
+LocationMarkers,noreasternlookout_Name,Noreastern Lookout,Noreastern kilátó
+LocationMarkers,noreasternrailwreckage_Name,Noreastern Rail Wreckage,Noreastern vasúti roncs
+LocationMarkers,northstarestates_Name,Northstar Estates,Northstar lakópark
+LocationMarkers,oldcranberrynook_Name,Old Cranberry Nook,Régi Cranberry zug
+LocationMarkers,onchiotagrotto_Name,Onchiota Grotto,Onchiota barlang
 LocationMarkers,saranachavencemetary_Description,One of the largest cemetery's in the region.,A régió egyik legnagyobb temetője.
 LocationMarkers,dumpsite2a_Description,One of the sites bodies were to be sent to.,"Egy a helyek közül, ahová a holttesteket küldeni kellett."
-LocationMarkers,osgoodrivercabins_Name,Osgood River Cabins,Osgood River Cabins
+LocationMarkers,osgoodrivercabins_Name,Osgood River Cabins,Osgood River faházak
 LocationMarkers,outpostalpha_Name,Outpost Alpha,Outpost Alpha
-LocationMarkers,parsonsknobcampgrounds_Name,Parsons Knob Campgrounds,Parsons Knob Campgrounds
-LocationMarkers,petesbarbershop_Name,Pete's Barber Shop,Pete's Barber Shop
+LocationMarkers,parsonsknobcampgrounds_Name,Parsons Knob Campgrounds,Parsons Knob kemping
+LocationMarkers,petesbarbershop_Name,Pete's Barber Shop,Pete borbélyüzlete
 LocationMarkers,phillipspark_Name,Phillips Park,Phillips Park
-LocationMarkers,pinegroveassistedliving_Name,Pinegrove Assisted Living,Pinegrove Assisted Living
+LocationMarkers,pinegroveassistedliving_Name,Pinegrove Assisted Living,Pinegrove gondozóotthon
 LocationMarkers,pondsidecabin_Name,Pond-side Cabin,Tóparti faház
 LocationMarkers,poormansfolly_Name,Poor Man's Folly,Poor Man's Folly
-LocationMarkers,powerlineserviceshed24r_Name,Power Line Service Shed 2-4R,Power Line Service Shed 2-4R
-LocationMarkers,powerlineserviceshed25e_Name,Power Line Service Shed 2-5E,Power Line Service Shed 2-5E
-LocationMarkers,powerlineserviceshed39lm_Name,Power Line Service Shed 3-9LM,Power Line Service Shed 3-9LM
-LocationMarkers,powerlineserviceshed71ch_Name,Power Line Service Shed 7-1CH,Power Line Service Shed 7-1CH
+LocationMarkers,powerlineserviceshed24r_Name,Power Line Service Shed 2-4R,Villanyvezeték-fészer 2-4R
+LocationMarkers,powerlineserviceshed25e_Name,Power Line Service Shed 2-5E,Villanyvezeték-fészer 2-5E
+LocationMarkers,powerlineserviceshed39lm_Name,Power Line Service Shed 3-9LM,Villanyvezeték-fészer 3-9LM
+LocationMarkers,powerlineserviceshed71ch_Name,Power Line Service Shed 7-1CH,Villanyvezeték-fészer 7-1CH
 LocationMarkers,prosperitypark_Name,Prosperity Park,Prosperity Park
 LocationMarkers,publicwaterspring_Name,Public Water Spring,Nyilvános vízforrás
-LocationMarkers,purrfectpawspetgrooming_Name,Purrfect Paws Pet Grooming,Purrfect Paws Pet Grooming
-LocationMarkers,rainbowlakepostoffice_Name,Rainbow Lake Post Office,Rainbow Lake Post Office
-LocationMarkers,redfordfd_Name,Redford Fire Department,Redford Fire Department
-LocationMarkers,redfordpostoffice_Name,Redford Post Office,Redford Post Office
+LocationMarkers,purrfectpawspetgrooming_Name,Purrfect Paws Pet Grooming,Purrfect Paws kisállatkozmetika
+LocationMarkers,rainbowlakepostoffice_Name,Rainbow Lake Post Office,Rainbow Lake posta
+LocationMarkers,redfordfd_Name,Redford Fire Department,Redford tűzoltóság
+LocationMarkers,redfordpostoffice_Name,Redford Post Office,Redford posta
 LocationMarkers,redfordfd_Description,Redford's only volunteer fire department in the area. ,A környék egyetlen önkéntes tűzoltósága Redfordban. 
 LocationMarkers,stjohnsholychurch_Description,Residents of Redford would occassionally attend services here. ,Redford lakói időnként istentiszteletre jártak ide. 
 LocationMarkers,ricelake_Name,Rice Lake,Rice Lake
-LocationMarkers,ricksconstruction_Name,Rick's Construction,Rick's Construction
-LocationMarkers,rookscavern_Name,Rook's Cavern,Rook's Cavern
-LocationMarkers,ruraldollar_Name,Rural Dollar,Rural Dollar
-LocationMarkers,rustinpiecesjunkyard_Name,Rustin' Pieces Junkyard,Rustin' Pieces Junkyard
+LocationMarkers,ricksconstruction_Name,Rick's Construction,Rick építőipari vállalkozása
+LocationMarkers,rookscavern_Name,Rook's Cavern,Rook barlangja
+LocationMarkers,ruraldollar_Name,Rural Dollar,Rural Dollar diszkont
+LocationMarkers,rustinpiecesjunkyard_Name,Rustin' Pieces Junkyard,Rustin' Pieces roncstelep
 LocationMarkers,sschaumontshipwreck_Name,SS Chaumont Shipwreck,SS Chaumont hajóroncs
 LocationMarkers,sssenecashipwreck_Name,SS Seneca Shipwreck,SS Seneca hajóroncs
 LocationMarkers,sammysdannemora_Name,Sammy's - Dannemora,Sammy's - Dannemora
 LocationMarkers,sammysrainbowlake_Name,Sammy's - Rainbow Lake,Sammy's - Rainbow Lake
 LocationMarkers,santaclarashipwreck_Name,Santa Clara Shipwreck,Santa Clara hajóroncs
 LocationMarkers,santinospizzaredhots_Name,Santino's Pizza & Red Hots,Santino's Pizza & Red Hots
-LocationMarkers,saranaccave_Name,Saranac Cave,Saranac Cave
-LocationMarkers,saranaccentralschool_Name,Saranac Central School,Saranac Central School
-LocationMarkers,saranaccourthouse_Name,Saranac Courthouse,Saranac Courthouse
-LocationMarkers,saranacfiredepartment_Name,Saranac Fire Department,Saranac Fire Department
-LocationMarkers,saranachavencemetary_Name,Saranac Haven Cemetery,Saranac Haven Cemetery
-LocationMarkers,saranachollowbridge_Name,Saranac Hollow Historic Bridge,Saranac Hollow Historic Bridge
-LocationMarkers,saranacpowersubstationrf01_Name,Saranac Power Substation D-RF-01,Saranac Power Substation D-RF-01
-LocationMarkers,saranacpowersubstationDS02_Name,Saranac Power Substation D-S-02,Saranac Power Substation D-S-02
-LocationMarkers,westwoodsubstation_Name,Saranac Power Substation D-WW-01,Saranac Power Substation D-WW-01
-LocationMarkers,saranacpowersubstationmsrf06_Name,Saranac Power Substation M-SRF-06,Saranac Power Substation M-SRF-06
-LocationMarkers,saranacschoolbusgarage_Name,Saranac School Bus Garage,Saranac School Bus Garage
-LocationMarkers,saranacchurch_Name,Saranac Sunrise Methodist Church,Saranac Sunrise Methodist Church
-LocationMarkers,saranactowngarage_Name,Saranac Town Garage,Saranac Town Garage
-LocationMarkers,saranactownhall_Name,Saranac Town Hall,Saranac Town Hall
-LocationMarkers,seinecave_Name,Seine Cave,Seine Cave
-LocationMarkers,seinemountainlookout_Name,Seine Mountain Lookout,Seine Mountain Lookout
-LocationMarkers,silverlakeoverlook_Name,Silver Lake Overlook,Silver Lake Overlook
-LocationMarkers,smithkillmine_Name,Smithkill Mine,Smithkill Mine
+LocationMarkers,saranaccave_Name,Saranac Cave,Saranac barlang
+LocationMarkers,saranaccentralschool_Name,Saranac Central School,Saranac központi iskola
+LocationMarkers,saranaccourthouse_Name,Saranac Courthouse,Saranac bíróság
+LocationMarkers,saranacfiredepartment_Name,Saranac Fire Department,Saranac tűzoltóság
+LocationMarkers,saranachavencemetary_Name,Saranac Haven Cemetery,Saranac Haven temető
+LocationMarkers,saranachollowbridge_Name,Saranac Hollow Historic Bridge,Saranac Hollow történelmi híd
+LocationMarkers,saranacpowersubstationrf01_Name,Saranac Power Substation D-RF-01,Saranac alállomás D-RF-01
+LocationMarkers,saranacpowersubstationDS02_Name,Saranac Power Substation D-S-02,Saranac alállomás D-S-02
+LocationMarkers,westwoodsubstation_Name,Saranac Power Substation D-WW-01,Saranac alállomás D-WW-01
+LocationMarkers,saranacpowersubstationmsrf06_Name,Saranac Power Substation M-SRF-06,Saranac alállomás M-SRF-06
+LocationMarkers,saranacschoolbusgarage_Name,Saranac School Bus Garage,Saranac iskolabusz-garázs
+LocationMarkers,saranacchurch_Name,Saranac Sunrise Methodist Church,Saranac Sunrise metodista templom
+LocationMarkers,saranactowngarage_Name,Saranac Town Garage,Saranac városi garázs
+LocationMarkers,saranactownhall_Name,Saranac Town Hall,Saranac városháza
+LocationMarkers,seinecave_Name,Seine Cave,Seine barlang
+LocationMarkers,seinemountainlookout_Name,Seine Mountain Lookout,Seine Mountain kilátó
+LocationMarkers,silverlakeoverlook_Name,Silver Lake Overlook,Silver Lake kilátó
+LocationMarkers,smithkillmine_Name,Smithkill Mine,Smithkill bánya
 LocationMarkers,snowdropfarms_Name,Snowdrop Farms,Snowdrop Farms
-LocationMarkers,snowdropfarmswarehouse_Name,Snowdrop Farms Warehouse,Snowdrop Farms Warehouse
-LocationMarkers,solsticeranch_Name,Solstice Ranch,Solstice Ranch
+LocationMarkers,snowdropfarmswarehouse_Name,Snowdrop Farms Warehouse,Snowdrop Farms raktár
+LocationMarkers,solsticeranch_Name,Solstice Ranch,Solstice tanya
 LocationMarkers,loonmines_Description,Some abandoned mines near the town of Loon Lake.,Néhány elhagyatott bánya Loon Lake városa közelében.
 LocationMarkers,chazyhighlandscabins_Description,Some cabins in a campground.,Néhány faház egy kempingben.
 LocationMarkers,alexanderridgecabins_Description,Some cabins on top of a mountain.,Néhány faház egy hegy tetején.
@@ -8080,22 +8080,22 @@ LocationMarkers,ricksconstruction_Description,Some construction warehouses.,Néh
 LocationMarkers,backwoodsselfstorage_Description,Some self storage units.,Néhány önkiszolgáló raktáregység.
 LocationMarkers,noreasternrailwreckage_Description,Something deadly happened here.,Valami halálos történt itt.
 LocationMarkers,lyonmtnquarantinecenter_Description,Something went horribly wrong here.,Valami szörnyen félresikerült itt.
-LocationMarkers,splitrockcave_Name,Split Rock Cave,Split Rock Cave
-LocationMarkers,squarepondkayakrentals_Name,Square Pond Kayak Rentals,Square Pond Kayak Rentals
-LocationMarkers,stabelardchurch_Name,St. Abelard's Church,St. Abelard's Church
-LocationMarkers,stjohnsholychurch_Name,St. John's Holy Church,St. John's Holy Church
-LocationMarkers,stjohnsmemorialcemetary_Name,St. John's Memorial Cemetery,St. John's Memorial Cemetery
-LocationMarkers,stpeterscemetary_Name,St. Peter's Cemetary,St. Peter's Cemetary
-LocationMarkers,stpetershouseofprayer_Name,St. Peter's House of Prayer,St. Peter's House of Prayer
+LocationMarkers,splitrockcave_Name,Split Rock Cave,Split Rock barlang
+LocationMarkers,squarepondkayakrentals_Name,Square Pond Kayak Rentals,Square Pond kajakkölcsönző
+LocationMarkers,stabelardchurch_Name,St. Abelard's Church,St. Abelard temploma
+LocationMarkers,stjohnsholychurch_Name,St. John's Holy Church,St. John's szent templom
+LocationMarkers,stjohnsmemorialcemetary_Name,St. John's Memorial Cemetery,St. John's emléktemető
+LocationMarkers,stpeterscemetary_Name,St. Peter's Cemetary,St. Peter's temető
+LocationMarkers,stpetershouseofprayer_Name,St. Peter's House of Prayer,St. Peter imaháza
 LocationMarkers,standish_Name,Standish,Standish
-LocationMarkers,standishicecreamstand_Name,Standish Ice Cream Stand,Standish Ice Cream Stand
-LocationMarkers,standishswamp_Name,Standish Swamp,Standish Swamp
+LocationMarkers,standishicecreamstand_Name,Standish Ice Cream Stand,Standish fagyizó
+LocationMarkers,standishswamp_Name,Standish Swamp,Standish mocsár
 LocationMarkers,sugarbushny_Name,"Sugarbush, NY","Sugarbush, NY"
-LocationMarkers,summerhavenmobilehomes_Name,Summer Haven Mobile Homes,Summer Haven Mobile Homes
+LocationMarkers,summerhavenmobilehomes_Name,Summer Haven Mobile Homes,Summer Haven lakókocsipark
 LocationMarkers,sunkenseaplane_Name,Sunken Seaplane,Elsüllyedt vízirepülő
 LocationMarkers,sunsetpond_Name,Sunset Pond,Sunset Pond
-LocationMarkers,sunsetresort_Name,Sunset Resort,Sunset Resort
-LocationMarkers,taylorrealtymainoffice_Name,Taylor Realty Main Office,Taylor Realty Main Office
+LocationMarkers,sunsetresort_Name,Sunset Resort,Sunset üdülő
+LocationMarkers,taylorrealtymainoffice_Name,Taylor Realty Main Office,Taylor Realty központi iroda
 LocationMarkers,theapex_Name,The Apex,The Apex
 LocationMarkers,dannemorafiredept_Description,The Dannemora fire department.,A dannemorai tűzoltóság.
 LocationMarkers,thedollhouse_Name,The Doll House,The Doll House
@@ -8120,26 +8120,26 @@ LocationMarkers,valleyveterinaryclinic_Description,This local veterinary clinic 
 LocationMarkers,anytimebroadcaststation_Description,This radio station broadcasts as 93.4 Anytime Radio.,Ez a rádióállomás 93.4 Anytime Rádióként sugároz.
 LocationMarkers,champlainfarm_Description,"This small, hilltop farm would exclusively grow corn before the pandemic. The corn stalks that remain in the fields are dead and dry. ","Ez a kis, dombtetői farm a járvány előtt kizárólag kukoricát termesztett. A mezőkön maradt kukoricaszárak elszáradtak és holtak. "
 LocationMarkers,rustinpiecesjunkyard_Description,"Though this may not look like a junkyard, many vehicles were scrapped here for parts and metals.","Bár lehet, hogy nem néz ki roncstelepnek, sok járművet bontottak itt szét alkatrészekért és fémekért."
-LocationMarkers,tonygunqueusedcars_Name,Tony Gunque Used Cars,Tony Gunque Used Cars
+LocationMarkers,tonygunqueusedcars_Name,Tony Gunque Used Cars,Tony Gunque használtautó-kereskedés
 LocationMarkers,uh60greyeaglecrashsite_Name,UH-60 Grey Eagle Crash Site,UH-60 Grey Eagle lezuhanás helye
 LocationMarkers,underconstruction02_Name,Under Construction! (WIP),Építés alatt! (WIP)
-LocationMarkers,unionfallsresort_Name,Union Falls Resort,Union Falls Resort
+LocationMarkers,unionfallsresort_Name,Union Falls Resort,Union Falls üdülő
 LocationMarkers,unionfallsny_Name,"Union Falls, NY","Union Falls, NY"
-LocationMarkers,unnamedminesnorth_Name,Unnamed Mines North,Unnamed Mines North
-LocationMarkers,unnamedminessouth_Name,Unnamed Mines South,Unnamed Mines South
-LocationMarkers,valleyveterinaryclinic_Name,Valley Veterinary Clinic,Valley Veterinary Clinic
+LocationMarkers,unnamedminesnorth_Name,Unnamed Mines North,Névtelen bánya (északi)
+LocationMarkers,unnamedminessouth_Name,Unnamed Mines South,Névtelen bánya (déli)
+LocationMarkers,valleyveterinaryclinic_Name,Valley Veterinary Clinic,Valley állatorvosi rendelő
 LocationMarkers,vehiclehub_Name,Vehicle Hub,Jármű-központ
-LocationMarkers,wplttvweatherstation_Name,WPLT-TV Weather Station,WPLT-TV Weather Station
-LocationMarkers,waltandsonslogging_Name,Walt & Son's Logging,Walt & Son's Logging
+LocationMarkers,wplttvweatherstation_Name,WPLT-TV Weather Station,WPLT-TV meteorológiai állomás
+LocationMarkers,waltandsonslogging_Name,Walt & Son's Logging,Walt és fia fakitermelés
 LocationMarkers,wardnerpark_Name,Wardner Park,Wardner Park
-LocationMarkers,wastewaterplanta7_Name,Wastewater Plant A7,Wastewater Plant A7
-LocationMarkers,werrenrathisland_Name,Werrenrath Island,Werrenrath Island
-LocationMarkers,westwoodgetaway_Name,Westwood Getaway,Westwood Getaway
+LocationMarkers,wastewaterplanta7_Name,Wastewater Plant A7,Szennyvíztelep A7
+LocationMarkers,werrenrathisland_Name,Werrenrath Island,Werrenrath sziget
+LocationMarkers,westwoodgetaway_Name,Westwood Getaway,Westwood pihenő
 LocationMarkers,stjohnsmemorialcemetary_Description,Where many of Redford's residents would eventually rest.,Ahol Redford sok lakója végül nyugalomra lelt.
 LocationMarkers,abandonedfarmstead_Description,Whoever worked here is gone now.,"Aki itt dolgozott, már nincs itt."
 LocationMarkers,wildflowerfarm_Name,Wildflower Farm,Wildflower Farm
 LocationMarkers,wolfden_Name,Wolf Den,Farkasbarlang
-LocationMarkers,woodruffcampgrounds_Name,Woodruff Campgrounds,Woodruff Campgrounds
+LocationMarkers,woodruffcampgrounds_Name,Woodruff Campgrounds,Woodruff kemping
 LocationMarkers,lyonmountainpeak_Description,You can see it all from here.,Innen mindent belátsz.
 LocationMarkers,deadairdepths_Description,You're not going to last long if you stay down here.,"Nem bírod sokáig, ha idelent maradsz."
 LocationSuggestionComponent,LocationSuggestions_Examine,Examine,Megvizsgál
@@ -8614,7 +8614,7 @@ Recipes,RP_CannedCorn_Name,Cooked Canned Corn,Főtt konzerv kukorica
 Recipes,RP_CookedCannedHerring_Name,Cooked Canned Herring,Főtt konzerv hering
 Recipes,RP_CannedPeas_Name,Cooked Canned Peas,Főtt konzerv borsó
 Recipes,RP_CookedCannedTuna_Name,Cooked Canned Tuna,Főtt konzerv tonhal
-Recipes,RP_CookedFrozenFries_Name,Cooked Frozen Fries,Sült fagyasztott krumpli
+Recipes,RP_CookedFrozenFries_Name,Cooked Frozen Fries,Sült hasábburgonya
 Recipes,RP_OatmealMaple_Name,Cooked Maple Oatmeal,Főtt juharos zabkása
 Recipes,RP_OatmealOriginal_Name,Cooked Original Oatmeal,Főtt eredeti zabkása
 Recipes,RP_Pasta_Name,Cooked Pasta,Főtt tészta
@@ -8813,14 +8813,14 @@ Recipes,RP_PotatoesAuGratin_FlavorText,"Thinly sliced potatoes in a cheesy, crea
 Recipes,RP_TomatoSoup_Name,Tomato Soup,Paradicsomleves
 Recipes,CR_TraumaBandage_Name,Trauma Bandage,Traumakötszer
 Recipes,CR_Binoculars_FlavorText,Useful for looking out to far off places.,Hasznos távoli helyek kémleléséhez.
-Recipes,RP_VeggieFat_Name,Vegetable Fat,Növényi zsír
+Recipes,RP_VeggieFat_Name,Vegetable Fat,Növényi zsiradék
 Recipes,RP_VegetableStirFry_Name,Vegetable Stir Fry,Zöldséges wok
 Recipes,RP_Vichyssoise_Name,Vichyssoise,Vichyssoise
 Recipes,RP_CookedFrozenWaffles_Name,Waffles,Gofri
 Recipes,CR_WalkieTalkieT1_Name,Walkie Talkie V1,Adóvevő V1
 Recipes,RP_HotChocolate_FlavorText,Warmth for the winter.,Melegség a télre.
 Recipes,CR_WaterSkin_Name,Water Skin,Kulacs
-Recipes,RP_WhiteTruffleWagyu_Name,White Truffle Wagyu,Fehérszarvasgombás wagyu
+Recipes,RP_WhiteTruffleWagyu_Name,White Truffle Wagyu,Szarvasgombás wagyu
 Recipes,CR_Plank_Name,Wooden Plank,Fadeszka
 Recipes,CR_WoodenRod_Name,Wooden Rod,Farúd
 Recipes,CR_WoodenSpear_Name,Wooden Spear,Fa dárda
@@ -8940,19 +8940,19 @@ SelectedRepairItemWidget,RepairBench_NoRepair_NoTool,You are missing required to
 SelectedSchematicItemWidget,SchematicBench_NoDecode_NoStat,You are missing required stats to decode this.,Hiányoznak a szükséges statisztikák ennek megfejtéséhez.
 ServerBrowser,AllButton_Label,All,Mind
 ServerBrowser,CustomSettings_Header,Custom Settings,Egyéni beállítások
-ServerBrowser,Header_Dedicated,Dedicated,Elkötelezett
+ServerBrowser,Header_Dedicated,Dedicated,Dedikált
 ServerBrowser,DirectConnectButton_Label,Direct Connect,Közvetlen csatlakozás
 ServerBrowser,FavoritesButton_Label,Favorites,Kedvencek
 ServerBrowser,HiddenButton_Label,Hidden,Rejtett
 ServerBrowser,HideEmpty_Label,Hide Empty,Üresek elrejtése
 ServerBrowser,HideFull_Label,Hide Full,Teltek elrejtése
-ServerBrowser,HidePassworded_Label,Hide Passworded,Jelszavasok elrejtése
+ServerBrowser,HidePassworded_Label,Hide Passworded,Jelszóvédettek elrejtése
 ServerBrowser,IncludeDifferentVersions_Label,Include Different Versions,Eltérő verziók megjelenítése
 ServerBrowser,JoinButton,Join,Csatlakozás
 ServerBrowser,Header_Map,Map,Térkép
 ServerBrowser,Header_Name,Name,Név
 ServerBrowser,PasswordEntry_Placeholder,Password...,Jelszó...
-ServerBrowser,Header_HasPassword,Passworded,Jelszavas
+ServerBrowser,Header_HasPassword,Passworded,Jelszóvédett
 ServerBrowser,Header_Ping,Ping,Ping
 ServerBrowser,Header_Players,Players,Játékosok
 ServerBrowser,RefreshButton_Label,Refresh,Frissít
@@ -8978,7 +8978,7 @@ Settings,AutosaveInterval_5minutes,5 minutes,5 perc
 Settings,Video_AdvancedRenderingFeatures_Label,"Advanced Rendering Features (Lumen, Nanite)","Fejlett renderelési funkciók (Lumen, Nanite)"
 Settings,Gameplay_AllowRemoteVideos_Label,Allow Remote Videos,Távoli videók engedélyezése
 Settings,Gameplay_AllowSelfHarm_Label,Allow Self-Harm,Önbántalmazás engedélyezése
-Settings,Gameplay_QuickDismantle_Desc,"Alt-click inventory items to dismantle them instantly. Be careful, as alt-tabbing out of the game may make your alt key stuck in-game until you press it again.","Alt-kattints a készlet tárgyaira az azonnali szétszereléshez. Vigyázz, mert ha Alt+Tab-bal kilépsz a játékból, az Alt billentyű beragadhat a játékban, amíg újra meg nem nyomod."
+Settings,Gameplay_QuickDismantle_Desc,"Alt-click inventory items to dismantle them instantly. Be careful, as alt-tabbing out of the game may make your alt key stuck in-game until you press it again.","Alt+kattintás a készlet tárgyaira az azonnali szétszereléshez. Vigyázz, mert ha Alt+Tab-bal kilépsz a játékból, az Alt billentyű beragadhat a játékban, amíg újra meg nem nyomod."
 Settings,Gameplay_1PADS_Label,Always Go First-Person In ADS,Mindig belső nézet célzáskor (ADS)
 Settings,Gameplay_AlwaysShowHotbar_Label,Always Show Hotbar,Gyorssáv mindig látszik
 Settings,Video_AntiAliasing_Label,Anti-Aliasing,Élsimítás
@@ -9004,7 +9004,7 @@ Settings,UpscalingMethod_DLSS,DLSS,DLSS
 Settings,Gameplay_DateFormat_Label,Date Format,Dátumformátum
 Settings,Video_Gamma_Desc,Default is 2.2.,"Alapértelmezett: 2,2."
 Settings,Video_DistanceFieldAmbientOcclusion_Label,Distance Field Ambient Occlusion,Distance Field környezeti takarás
-Settings,Gameplay_DistanceUnits_Label,Distance Units,Távolságmértékegység
+Settings,Gameplay_DistanceUnits_Label,Distance Units,Távolság mértékegység
 Settings,Audio_Effects_Label,Effects,Hatások
 Settings,Gameplay_EnableDeveloperConsole_Label,Enable Developer Console With ~,Fejlesztői konzol engedélyezése a ~ billentyűvel
 Settings,Video_AdvancedRenderingFeatures_Desc2,Extreme performance cost.,Extrém teljesítményigény.
@@ -9274,7 +9274,7 @@ ST_Furniture,Toilet,Toilet,WC
 ST_Furniture,TowelWarmer,Towel Warmer,Törölközőszárító
 ST_Furniture,Bathtub,Tub,Kád
 ST_Furniture,Urinal,Urinal,Piszoár
-ST_Furniture,VendingMachine,Vending Machine,Italautomata
+ST_Furniture,VendingMachine,Vending Machine,Automata
 ST_Furniture,VideoProjector,Video Projector,Projektor
 ST_Furniture,WallPictureFrame,Wall Picture Frame,Falikép
 ST_Furniture,WashingMachine,Washing Machine,Mosógép
@@ -9371,7 +9371,7 @@ ST_Vehicles,BackSeat,Back Seat,Hátsó ülés
 ST_Vehicles,DriverSeat,Driver Seat,Vezetőülés
 ST_Vehicles,Engine,Engine,Motor
 ST_Vehicles,EnterVehicle,Enter,Beszáll
-ST_Vehicles,ExitVehicle,Exit,Kilép
+ST_Vehicles,ExitVehicle,Exit,Kiszáll
 ST_Vehicles,PassengerSeat,Passenger Seat,Utasülés
 ST_Vehicles,PilotSeat,Pilot Seat,Pilótaülés
 ST_Vein,JunctionBox,Junction Box,Elosztódoboz
@@ -9384,7 +9384,7 @@ ST_Workbenches,Stove_ClockName,Clock,Óra
 ST_Workbenches,CoffeeMachine_Name,Coffee Machine,Kávéfőző
 ST_Workbenches,CompostBin_Name,Compost Bin,Komposztáló
 ST_Workbenches,DeepFryer_Name,Deep Fryer (WIP),Olajsütő (WIP)
-ST_Workbenches,DieselPump_Name,Diesel Pump,Dízelkút
+ST_Workbenches,DieselPump_Name,Diesel Pump,Gázolaj pumpa
 ST_Workbenches,ElectricStove_Name,Electric Stove,Elektromos tűzhely
 ST_Workbenches,FabricationWorkbench_Name,Fabrication Workbench,Gyártó munkapad
 ST_Workbenches,Fireplace_Name,Fireplace,Kandalló
@@ -10175,7 +10175,7 @@ VehicleHoodComponent,Hood,Hood,Motorháztető
 VehicleHoodComponent,Locked,Locked.,Zárva.
 VehicleHoodComponent,Open,Open,Felnyit
 VehicleHoodComponent,Vehicle_CantOpenHoodWhileMoving,This vehicle has to be stopped first.,Ezt a járművet előbb meg kell állítani.
-VehicleHUD,TankLabel,Tank,Tartály
+VehicleHUD,TankLabel,Tank,Tank
 VehicleIgnitionComponent,Vehicle_Ignition_Hotwire,Hotwire,Összedrótozás
 VehicleIgnitionComponent,Vehicle_Ignition_Hotwired,Hotwired.,Összedrótozva.
 VehicleIgnitionComponent,Vehicle_Ignition,Ignition,Gyújtás
